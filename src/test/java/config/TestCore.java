@@ -63,9 +63,9 @@ public class TestCore extends GlobalDriver{
         loadPropertiesFile();
         System.out.println("Loading Properties");
         /* to run in local */
-        StartWebDriverBrowser(Repository.getProperty("browser"));
+        //StartWebDriverBrowser(Repository.getProperty("browser"));
         /* to run in remote(VM's/Grid)*/
-        //StartRemoteWebDriverBrowser(Repository.getProperty("browser"));
+        StartRemoteWebDriverBrowser(Repository.getProperty("browser"));
         implicitewait(15000);
         driver.get(Repository.getProperty("url"));
     }
