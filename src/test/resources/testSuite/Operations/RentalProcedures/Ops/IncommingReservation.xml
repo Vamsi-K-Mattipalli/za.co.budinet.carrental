@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="INCOMING RESERVATION" parallel="methods">
+    <test name="TCIR01">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.IncommingReservation.TCIR01"/>
+        </classes>
+    </test>
+    <test name="TCIR02">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.IncommingReservation.TCIR02"/>
+        </classes>
+    </test>
+    <test name="TCIR03">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.IncommingReservation.TCIR03"/>
+        </classes>
+    </test>
+    <test name="TCIR04">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.IncommingReservation.TCIR04"/>
+        </classes>
+    </test>
+    <test name="TCIR05">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.IncommingReservation.TCIR05"/>
+        </classes>
+    </test>
+    <test name="TCIR06">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.IncommingReservation.TCIR06"/>
+        </classes>
+    </test>
+</suite>

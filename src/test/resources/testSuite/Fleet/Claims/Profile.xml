@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CLAIMS PROFILE">
+    <test name="TC001_To verify that a User is able to open Budinet  Page">
+        <classes>
+            <class name="TestCases.Fleet.Claims.Profile.TCFC001"/>
+        </classes>
+    </test>
+    <test name="TC002_To verify that profile history is displayed successfully">
+        <classes>
+            <class name="TestCases.Fleet.Claims.Profile.TCFC002"/>
+        </classes>
+    </test>
+    <test name="TCFC003_To verify that user  is able to load  claim">
+        <classes>
+            <class name="TestCases.Fleet.Claims.Profile.TCFC003"/>
+        </classes>
+    </test>
+    <test name="TCFC004_To verify that profile is modified  displayed successfully ">
+        <classes>
+            <class name="TestCases.Fleet.Claims.Profile.TCFC004"/>
+        </classes>
+    </test>
+    <test name="TCFC005_To verify that user can open history tab successfully">
+        <classes>
+            <class name="TestCases.Fleet.Claims.Profile.TCFC005"/>
+        </classes>
+    </test>
+   </suite> <!-- Suite -->

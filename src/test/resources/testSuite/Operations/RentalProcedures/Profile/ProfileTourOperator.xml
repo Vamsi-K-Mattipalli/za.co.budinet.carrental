@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RESERVATIONS TOUR OPERATOR">
+    <test name="TC001_ Verify the contents of the Rental Agreement screen">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC001"/>
+        </classes>
+    </test>
+    <test name="TC002_Make a Reservation for Individual Renter by not changing any of the default quotation fields- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC002"/>
+        </classes>
+    </test>
+    <test name="TC003_Make a Reservation for Individual Renter by not changing any of the default quotation fields- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC003"/>
+        </classes>
+    </test>
+    <test name="TC004_Make a Reservation for Individual Renter by changing Title New -Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC004"/>
+        </classes>
+    </test>
+    <test name="TC005_Make a Reservation for Individual Renter by changing Initials -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC005"/>
+        </classes>
+    </test>
+    <test name="TC006_Make a Reservation for Individual Renter by changing Surname -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC006"/>
+        </classes>
+    </test>
+    <test name="TC007_Make a Reservation for Individual Renter by changing First Names -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC007"/>
+        </classes>
+    </test>
+    <test name="TC008_Make a Reservation for Individual Renter by changing Pickup Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC008"/>
+        </classes>
+    </test>
+    <test name="TC009_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC009"/>
+        </classes>
+    </test>
+    <test name="TC010_Make a Reservation for Individual Renter by changing Pickup Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC010"/>
+        </classes>
+    </test>
+    <test name="TC011_Make a Reservation for Individual Renter by changing Due Back Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC011"/>
+        </classes>
+    </test>
+    <test name="TC012_Make a Reservation for Individual Renter by changing Due Back Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC012"/>
+        </classes>
+
+    </test>
+    <test name="TC013_Make a Reservation for Individual Renter by changing Due Back Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC013"/>
+        </classes>
+
+    </test>
+    <test name="TC014_Make a Reservation for Individual Renter by changing Vehicle Group -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC014"/>
+        </classes>
+
+    </test>
+    <test name="TC015_Make a Reservation for Individual Renter by changing Pickup Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC015"/>
+        </classes>
+
+    </test>
+    <test name="TC016_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC016"/>
+        </classes>
+
+    </test>
+    <test name="TC017_Make a Reservation for Individual Renter by changing Pickup Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC017"/>
+        </classes>
+
+    </test>
+    <test name="TC018_Make a Reservation for Individual Renter by changing Due Back Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC018"/>
+        </classes>
+
+    </test>
+    <test name="TC019_Make a Reservation for Individual Renter by changing Due Back Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC019"/>
+        </classes>
+
+    </test>
+    <test name="TC020_Make a Reservation for Individual Renter by changing Due Back Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC020"/>
+        </classes>
+
+    </test>
+    <test name="TC021_Make a Reservation for Individual Renter by changing Vehicle Group -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC021"/>
+        </classes>
+
+    </test>
+    <test name="TC022_Make a Reservation for Individual Renter by changing Pickup Date-  Using Date Picker to select Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC022"/>
+        </classes>
+
+    </test>
+    <test name="TC023_Make a Reservation for Individual Renter by changing Pickup Date -  Using Date Picker to select Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC023"/>
+        </classes>
+
+    </test>
+    <test name="TC024_Make a Reservation for an Existing Individual Renter that is flagged as Blacklisted by not changing any of the default quotation fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC024"/>
+        </classes>
+
+    </test>
+    <test name="TC025_Make a Reservation for an Existing Individual Renter by Checking if the Vehicle is Fully booked">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC025"/>
+        </classes>
+
+    </test>
+    <test name="TC026_Make a Reservation for an Existing Individual Renter by  Overriding Fully Booked">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC026"/>
+        </classes>
+
+    </test>
+    <test name="TC027_Make a Reservation for an Existing Individual Renter by  Overriding Branch Time">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC027"/>
+        </classes>
+
+    </test>
+    <test name="TC028_View One way Fee on a Reservation screen">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC028"/>
+        </classes>
+
+    </test>
+    <test name="TC029_Make a Reservation for Individual Renter without Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC029"/>
+        </classes>
+
+    </test>
+    <test name="TC030_Make a Reservation for Individual Renter without Tel No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC030"/>
+        </classes>
+
+    </test>
+    <test name="TC031_Select Cell No on ID Type and  do not capture  Cell Number on Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC031"/>
+        </classes>
+
+    </test>
+    <test name="TC032_Make a Reservation for Individual Renter without Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC032"/>
+        </classes>
+
+    </test>
+    <test name="TC033_Verify the contents of the Core">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC033"/>
+        </classes>
+
+    </test>
+    <test name="TC034_Verify the Buttons of the Core  ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC034"/>
+        </classes>
+
+    </test>
+    <test name="TC035_Verify the functionality of Key Fields Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC035"/>
+        </classes>
+
+    </test>
+    <test name="TC036_Verify the functionality of Agents Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC036"/>
+        </classes>
+
+    </test>
+    <test name="TC037_Verify the functionality of View Damages Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC037"/>
+        </classes>
+
+    </test>
+    <test name="TC038_Verify the functionality of New RA Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC038"/>
+        </classes>
+
+    </test>
+    <test name="TC039_Verify the functionality of Print RA Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC039"/>
+        </classes>
+
+    </test>
+    <test name="TC040_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC040"/>
+        </classes>
+
+    </test>
+    <test name="TC041_Verify the functionality of Cancel Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC041"/>
+        </classes>
+
+    </test>
+    <test name="TC042_Verify the functionality of Allocate Etolls Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC042"/>
+        </classes>
+
+    </test>
+    <test name="TC43_Verify the functionality of SMS Notification Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC043"/>
+        </classes>
+
+    </test>
+    <test name="TC044_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC044"/>
+        </classes>
+
+    </test>
+    <test name="TC045_Make a Reservation for Individual Renter by capturing incorrect ID number- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC045"/>
+        </classes>
+
+    </test>
+    <test name="TC046_Make a Reservation for Individual Renter by capturing ID number that has 14 digits- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC046"/>
+        </classes>
+
+    </test>
+    <test name="TC047_Make a Reservation for Individual Renter by capturing ID number that has less than 13 digits -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC047"/>
+        </classes>
+
+    </test>
+    <test name="TC048_Make a Reservation for Individual Renter by capturing incorrect ID number- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC048"/>
+        </classes>
+
+    </test>
+    <test name="TC049_Make a Reservation for Individual Renter by capturing  ID number that has 14 characters- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC049"/>
+        </classes>
+
+    </test>
+    <test name="TC050_Make a Reservation for Individual Renter by capturing  ID number that has less than 13 digits- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC050"/>
+        </classes>
+    </test>
+    <test name="TC051_Make a Reservation for Individual Renter by capturing valid  ID number and selecting Retrieve Renter Defaults">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC051"/>
+        </classes>
+    </test>
+    <test name="TC052_Make a Reservation for Individual Renter by selecting Passport as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC052"/>
+        </classes>
+    </test>
+    <test name="TC053_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC053"/>
+        </classes>
+    </test>
+    <test name="TC054_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC054"/>
+        </classes>
+    </test>
+    <test name="TC055_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC055"/>
+        </classes>
+    </test>
+    <test name="TC056_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC056"/>
+        </classes>
+    </test>
+    <test name="TC057_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC057"/>
+        </classes>
+    </test>
+    <test name="TC058_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC058"/>
+        </classes>
+    </test>
+    <test name="TC059_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC059"/>
+        </classes>
+    </test>
+    <test name="TC060_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC060"/>
+        </classes>
+    </test>
+    <test name="TC061_Perform a Identifying Surname Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC061"/>
+        </classes>
+    </test>
+    <test name="TC062_Perform Pickup Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC062"/>
+        </classes>
+    </test>
+    <test name="TC063_Perform Due Back Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC063"/>
+        </classes>
+    </test>
+    <test name="TC064_Perform Due Back Branch Lookup without selecting Due Back or Pickup Branch">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC064"/>
+        </classes>
+    </test>
+    <test name="TC065_Perform IATA No. Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC065"/>
+        </classes>
+    </test>
+    <test name="TC066_Perform Customer Account Name Lookup without capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC066"/>
+        </classes>
+    </test>
+    <test name="TC067_Perform Customer Account Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC067"/>
+        </classes>
+    </test>
+    <test name="TC068_Perform Referral Account Number Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC068"/>
+        </classes>
+    </test>
+    <test name="TC069_Perform Referral Account Number Lookup by capturing invalid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC069"/>
+        </classes>
+    </test>
+    <test name="TC070_Perform Referral Account Number Lookup by capturing Valid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC070"/>
+        </classes>
+    </test>
+    <test name="TC071_Perform Referral Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC071"/>
+        </classes>
+    </test>
+    <test name="TC072_Perform Referral Name Lookup by capturing invalid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC072"/>
+        </classes>
+    </test>
+    <test name="TC073_Perform Referral Name Lookup by capturing Valid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC073"/>
+        </classes>
+    </test>
+    <test name="TC074_Perform Referral Name Lookup by capturing Valid Referral Account Number and Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC074"/>
+        </classes>
+    </test>
+    <test name="TC075_Perform Referral Name Lookup by not capturing Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC075"/>
+        </classes>
+    </test>
+    <test name="TC076_Perform Referral Name Lookup by capturing invalid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC076"/>
+        </classes>
+    </test>
+    <test name="TC077_Perform Referral Name Lookup by capturing valid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC077"/>
+        </classes>
+    </test>
+    <test name="TC078_Reset Customer Details">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC078"/>
+        </classes>
+    </test>
+    <test name="TC079_Retrieve Customer Defaults without capturing any Customer Details fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC079"/>
+        </classes>
+    </test>
+    <test name="TC080_Retrieve Customer Defaults by capturing Customer Account No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC080"/>
+        </classes>
+    </test>
+    <test name="TC081_Retrieve Customer Defaults by capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC081"/>
+        </classes>
+    </test>
+    <test name="TC082_Perform Reserved Rate Lookup without capturing rate fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC082"/>
+        </classes>
+    </test>
+    <test name="TC083_Perform Reserved Rate Lookup by capturing Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC083"/>
+        </classes>
+    </test>
+    <test name="TC084_Perform Reserved Rate Lookup by capturing invalid Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC084"/>
+        </classes>
+    </test>
+    <test name="TC085_Calculate Credit  Card Auth when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC085"/>
+        </classes>
+    </test>
+    <test name="TC086_Calculate Credit  Card Auth and do not  select STD or SUPER when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC086"/>
+        </classes>
+    </test>
+    <test name="TC087_Calculate Credit  Card Auth and do not capture Reserved Rate when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC087"/>
+        </classes>
+    </test>
+    <test name="TC088_Select Pickup branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC088"/>
+        </classes>
+    </test>
+    <test name="TC089_Select Due Back branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC089"/>
+        </classes>
+    </test>
+    <test name="TC090_Make Reservation with same Details of existing Reservation and  Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC090"/>
+        </classes>
+    </test>
+    <test name="TC091_Make Reservation using same Details of existing Reservation and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC091"/>
+        </classes>
+    </test>
+    <test name="TC092_Make Reservation using same Details of existing Reservation and change and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC092"/>
+        </classes>
+    </test>
+    <test name="TC093_Make Reservation and do not capture Flight No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC093"/>
+        </classes>
+    </test>
+    <test name="TC094_Select Internationaly and capture Local Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC094"/>
+        </classes>
+    </test>
+    <test name="TC095_Select Local and capture International Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC095"/>
+        </classes>
+    </test>
+    <test name="TC096_Make Reservation and add SCDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC096"/>
+        </classes>
+    </test>
+    <test name="TC097_Make Reservation and add CDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC097"/>
+        </classes>
+    </test>
+    <test name="TC098_Make Reservation and add TLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC098"/>
+        </classes>
+    </test>
+    <test name="TC99_Make Reservation and add STLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC099"/>
+        </classes>
+    </test>
+    <test name="TC100_Select CDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC100"/>
+        </classes>
+    </test>
+    <test name="TC101_Select CDW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC101"/>
+        </classes>
+    </test>
+    <test name="TC102_Select TLW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC102"/>
+        </classes>
+    </test>
+    <test name="TC103_Select TLW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC103"/>
+        </classes>
+    </test>
+    <test name="TC104_Select TLW and CDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC104"/>
+        </classes>
+    </test>
+    <test name="TC105_Select SCDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC105"/>
+        </classes>
+    </test>
+    <test name="TC106_Select Vehicle Assist  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC106"/>
+        </classes>
+    </test>
+    <test name="TC107_Select Vehicle Assist  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC107"/>
+        </classes>
+    </test>
+    <test name="TC108_Select Tyre Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC108"/>
+        </classes>
+    </test>
+    <test name="TC109_Select Tyre Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC109"/>
+        </classes>
+    </test>
+    <test name="TC110_Select Tyre Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC110"/>
+        </classes>
+    </test>
+    <test name="TC111_Select Hail Damage Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC111"/>
+        </classes>
+    </test>
+    <test name="TC112_Select Hail Damage Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC112"/>
+        </classes>
+    </test>
+    <test name="TC113_Select Hail Damage Waiver  with standard Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC113"/>
+        </classes>
+    </test>
+    <test name="TC114_Select Glass Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC114"/>
+        </classes>
+    </test>
+    <test name="TC115_Select Glass Waiver  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC115"/>
+        </classes>
+    </test>
+    <test name="TC116_Select Glass Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC116"/>
+        </classes>
+    </test>
+    <test name="TC117_Select Additional Drives and  do not capture number of Additional Driver's when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC117"/>
+        </classes>
+    </test>
+    <test name="TC118_Make a Reservation selecting Credit Card as Payment Method.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC118"/>
+        </classes>
+    </test>
+    <test name="TC119_Make a Reservation selecting Credit Card as Payment Method without selecting Card Type.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC119"/>
+        </classes>
+    </test>
+    <test name="TC120_Make a Reservation selecting Credit Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC120"/>
+        </classes>
+    </test>
+    <test name="TC121_Make a Reservation selecting Bidvest Card as Payment Method">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC121"/>
+        </classes>
+    </test>
+    <test name="TC122_Make a Reservation selecting Bidvest Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC122"/>
+        </classes>
+    </test>
+    <test name="TC123_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC123"/>
+        </classes>
+    </test>
+    <test name="TC124_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC124"/>
+        </classes>
+    </test>
+    <test name="TC125_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC125"/>
+        </classes>
+    </test>
+    <test name="TC126_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC126"/>
+        </classes>
+    </test>
+    <test name="TC127_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC127"/>
+        </classes>
+    </test>
+    <test name="TC128_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC128"/>
+        </classes>
+    </test>
+    <test name="TC129_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC129"/>
+        </classes>
+    </test>
+    <test name="TC130_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC130"/>
+        </classes>
+    </test>
+    <test name="TC131_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC131"/>
+        </classes>
+    </test>
+    <test name="TC132_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC132"/>
+        </classes>
+    </test>
+    <test name="TC133_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC133"/>
+        </classes>
+    </test>
+    <test name="TC134_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC134"/>
+        </classes>
+    </test>
+    <test name="TC135_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC135"/>
+        </classes>
+    </test>
+    <test name="TC136_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC136"/>
+        </classes>
+    </test>
+    <test name="TC137_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC137"/>
+        </classes>
+    </test>
+    <test name="TC138_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC138"/>
+        </classes>
+    </test>
+    <test name="TC139_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC139"/>
+        </classes>
+    </test>
+    <test name="TC140_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC140"/>
+        </classes>
+    </test>
+    <test name="TC141_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC141"/>
+        </classes>
+    </test>
+    <test name="TC142_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC142"/>
+        </classes>
+    </test>
+    <test name="TC143_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TourOperator.TC143"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

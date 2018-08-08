@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FINANCIAL INVOICE PRINT">
+    <test name="TCDRENQ01">
+      <!--  <classes>
+            <class name="TestCases.Debtors.Financial.InvoicePrint.TCINP001"/>
+        </classes>-->
+    </test>
+</suite>

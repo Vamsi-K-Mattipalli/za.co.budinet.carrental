@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QOUTATION PROFILE TRAVEL AGENT">
+    <test name="TCTAT01_ Verify the contents of the Rental Agreement screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTATTAT001"/>
+        </classes>
+    </test>
+    <test name="TCTAT02_Make a Reservation for Individual Renter by not changing any of the default quotation fields- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT002"/>
+        </classes>
+    </test>
+    <test name="TCTAT03_Make a Reservation for Individual Renter by not changing any of the default quotation fields- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT003"/>
+        </classes>
+    </test>
+    <test name="TCTAT04_Make a Reservation for Individual Renter by changing Title New -Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT004"/>
+        </classes>
+    </test>
+    <test name="TCTAT05_Make a Reservation for Individual Renter by changing Initials -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT005"/>
+        </classes>
+    </test>
+    <test name="TCTAT06_Make a Reservation for Individual Renter by changing Surname -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT006"/>
+        </classes>
+    </test>
+    <test name="TCTAT07_Make a Reservation for Individual Renter by changing First Names -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT007"/>
+        </classes>
+    </test>
+    <test name="TCTAT08_Make a Reservation for Individual Renter by changing Pickup Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT008"/>
+        </classes>
+    </test>
+    <test name="TCTAT09_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT009"/>
+        </classes>
+    </test>
+    <test name="TCTAT10_Make a Reservation for Individual Renter by changing Pickup Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT010"/>
+        </classes>
+    </test>
+    <test name="TCTAT11_Make a Reservation for Individual Renter by changing Due Back Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT011"/>
+        </classes>
+    </test>
+    <test name="TCTAT12_Make a Reservation for Individual Renter by changing Due Back Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT012"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT13_Make a Reservation for Individual Renter by changing Due Back Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT013"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT14_Make a Reservation for Individual Renter by changing Vehicle Group -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT014"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT15_Make a Reservation for Individual Renter by changing Pickup Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT015"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT16_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT016"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT17_Make a Reservation for Individual Renter by changing Pickup Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT017"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT18_Make a Reservation for Individual Renter by changing Due Back Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT018"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT19_Make a Reservation for Individual Renter by changing Due Back Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT019"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT20_Make a Reservation for Individual Renter by changing Due Back Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT020"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT21_Make a Reservation for Individual Renter by changing Vehicle Group -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT021"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT22_Make a Reservation for Individual Renter by changing Pickup Date-  Using Date Picker to select Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT022"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT23_Make a Reservation for Individual Renter by changing Pickup Date -  Using Date Picker to select Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT023"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT24_Make a Reservation for an Existing Individual Renter that is flagged as Blacklisted by not changing any of the default quotation fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT024"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT25_Make a Reservation for an Existing Individual Renter by Checking if the Vehicle is Fully booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT025"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT26_Make a Reservation for an Existing Individual Renter by  Overriding Fully Booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT026"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT27_Make a Reservation for an Existing Individual Renter by  Overriding Branch Time">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT027"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT28_View One way Fee on a Reservation screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT028"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT29_Make a Reservation for Individual Renter without Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT029"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT30_Make a Reservation for Individual Renter without Tel No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT030"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT31_Select Cell No on ID Type and  do not capture  Cell Number on Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT031"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT32_Make a Reservation for Individual Renter without Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT032"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT33_Verify the contents of the Core">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT033"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT34_Verify the Buttons of the Core  ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT034"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT35_Verify the functionality of Key Fields Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT035"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT36_Verify the functionality of Agents Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT036"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT37_Verify the functionality of View Damages Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT037"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT38_Verify the functionality of New RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT038"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT39_Verify the functionality of Print RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT039"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT40_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT040"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT41_Verify the functionality of Cancel Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT041"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT42_Verify the functionality of Allocate Etolls Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT042"/>
+        </classes>
+
+    </test>
+    <test name="TC43_Verify the functionality of SMS Notification Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT043"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT44_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT044"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT45_Make a Reservation for Individual Renter by capturing incorrect ID number- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT045"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT46_Make a Reservation for Individual Renter by capturing ID number that has 14 digits- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT046"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT47_Make a Reservation for Individual Renter by capturing ID number that has less than 13 digits -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT047"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT48_Make a Reservation for Individual Renter by capturing incorrect ID number- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT048"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT49_Make a Reservation for Individual Renter by capturing  ID number that has 14 characters- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT049"/>
+        </classes>
+
+    </test>
+    <test name="TCTAT50_Make a Reservation for Individual Renter by capturing  ID number that has less than 13 digits- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT050"/>
+        </classes>
+    </test>
+    <test name="TCTAT51_Make a Reservation for Individual Renter by capturing valid  ID number and selecting Retrieve Renter Defaults">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT051"/>
+        </classes>
+    </test>
+    <test name="TCTAT52_Make a Reservation for Individual Renter by selecting Passport as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT052"/>
+        </classes>
+    </test>
+    <test name="TCTAT53_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT053"/>
+        </classes>
+    </test>
+    <test name="TCTAT54_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT054"/>
+        </classes>
+    </test>
+    <test name="TCTAT55_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT055"/>
+        </classes>
+    </test>
+    <test name="TCTAT56_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT056"/>
+        </classes>
+    </test>
+    <test name="TCTAT57_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT057"/>
+        </classes>
+    </test>
+    <test name="TCTAT58_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT058"/>
+        </classes>
+    </test>
+    <test name="TCTAT59_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT059"/>
+        </classes>
+    </test>
+    <test name="TCTAT60_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT060"/>
+        </classes>
+    </test>
+    <test name="TCTAT61_Perform a Identifying Surname Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT061"/>
+        </classes>
+    </test>
+    <test name="TCTAT62_Perform Pickup Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT062"/>
+        </classes>
+    </test>
+    <test name="TCTAT63_Perform Due Back Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT063"/>
+        </classes>
+    </test>
+    <test name="TCTAT64_Perform Due Back Branch Lookup without selecting Due Back or Pickup Branch">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT064"/>
+        </classes>
+    </test>
+    <test name="TCTAT65_Perform IATA No. Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT065"/>
+        </classes>
+    </test>
+    <test name="TCTAT66_Perform Customer Account Name Lookup without capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT066"/>
+        </classes>
+    </test>
+    <test name="TCTAT67_Perform Customer Account Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT067"/>
+        </classes>
+    </test>
+    <test name="TCTAT68_Perform Referral Account Number Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT068"/>
+        </classes>
+    </test>
+    <test name="TCTAT69_Perform Referral Account Number Lookup by capturing invalid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT069"/>
+        </classes>
+    </test>
+    <test name="TCTAT70_Perform Referral Account Number Lookup by capturing Valid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT070"/>
+        </classes>
+    </test>
+    <test name="TCTAT71_Perform Referral Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT071"/>
+        </classes>
+    </test>
+    <test name="TCTAT72_Perform Referral Name Lookup by capturing invalid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT072"/>
+        </classes>
+    </test>
+    <test name="TCTAT73_Perform Referral Name Lookup by capturing Valid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT073"/>
+        </classes>
+    </test>
+    <test name="TCTAT74_Perform Referral Name Lookup by capturing Valid Referral Account Number and Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT074"/>
+        </classes>
+    </test>
+    <test name="TCTAT75_Perform Referral Name Lookup by not capturing Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT075"/>
+        </classes>
+    </test>
+    <test name="TCTAT76_Perform Referral Name Lookup by capturing invalid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT076"/>
+        </classes>
+    </test>
+    <test name="TCTAT77_Perform Referral Name Lookup by capturing valid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT077"/>
+        </classes>
+    </test>
+    <test name="TCTAT78_Reset Customer Details">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT078"/>
+        </classes>
+    </test>
+    <test name="TCTAT79_Retrieve Customer Defaults without capturing any Customer Details fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT079"/>
+        </classes>
+    </test>
+    <test name="TCTAT80_Retrieve Customer Defaults by capturing Customer Account No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT080"/>
+        </classes>
+    </test>
+    <test name="TCTAT81_Retrieve Customer Defaults by capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT081"/>
+        </classes>
+    </test>
+    <test name="TCTAT82_Perform Reserved Rate Lookup without capturing rate fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT082"/>
+        </classes>
+    </test>
+    <test name="TCTAT83_Perform Reserved Rate Lookup by capturing Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT083"/>
+        </classes>
+    </test>
+    <test name="TCTAT84_Perform Reserved Rate Lookup by capturing invalid Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT084"/>
+        </classes>
+    </test>
+    <test name="TCTAT85_Calculate Credit  Card Auth when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT085"/>
+        </classes>
+    </test>
+    <test name="TCTAT86_Calculate Credit  Card Auth and do not  select STD or SUPER when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT086"/>
+        </classes>
+    </test>
+    <test name="TCTAT87_Calculate Credit  Card Auth and do not capture Reserved Rate when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT087"/>
+        </classes>
+    </test>
+    <test name="TCTAT88_Select Pickup branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT088"/>
+        </classes>
+    </test>
+    <test name="TCTAT89_Select Due Back branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT089"/>
+        </classes>
+    </test>
+    <test name="TCTAT90_Make Reservation with same Details of existing Reservation and  Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT090"/>
+        </classes>
+    </test>
+    <test name="TCTAT91_Make Reservation using same Details of existing Reservation and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT091"/>
+        </classes>
+    </test>
+    <test name="TCTAT92_Make Reservation using same Details of existing Reservation and change and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT092"/>
+        </classes>
+    </test>
+    <test name="TCTAT93_Make Reservation and do not capture Flight No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT093"/>
+        </classes>
+    </test>
+    <test name="TCTAT94_Select Internationaly and capture Local Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT094"/>
+        </classes>
+    </test>
+    <test name="TCTAT95_Select Local and capture International Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT095"/>
+        </classes>
+    </test>
+    <test name="TCTAT96_Make Reservation and add SCDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT096"/>
+        </classes>
+    </test>
+    <test name="TCTAT97_Make Reservation and add CDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT097"/>
+        </classes>
+    </test>
+    <test name="TCTAT98_Make Reservation and add TLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT098"/>
+        </classes>
+    </test>
+    <test name="TC99_Make Reservation and add STLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT099"/>
+        </classes>
+    </test>
+    <test name="TCTAT00_Select CDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT100"/>
+        </classes>
+    </test>
+    <test name="TCTAT01_Select CDW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT101"/>
+        </classes>
+    </test>
+    <test name="TCTAT02_Select TLW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT102"/>
+        </classes>
+    </test>
+    <test name="TCTAT03_Select TLW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT103"/>
+        </classes>
+    </test>
+    <test name="TCTAT04_Select TLW and CDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT104"/>
+        </classes>
+    </test>
+    <test name="TCTAT05_Select SCDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT105"/>
+        </classes>
+    </test>
+    <test name="TCTAT06_Select Vehicle Assist  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT106"/>
+        </classes>
+    </test>
+    <test name="TCTAT07_Select Vehicle Assist  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT107"/>
+        </classes>
+    </test>
+    <test name="TCTAT08_Select Tyre Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT108"/>
+        </classes>
+    </test>
+    <test name="TCTAT09_Select Tyre Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT109"/>
+        </classes>
+    </test>
+    <test name="TCTAT10_Select Tyre Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT110"/>
+        </classes>
+    </test>
+    <test name="TCTAT11_Select Hail Damage Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT111"/>
+        </classes>
+    </test>
+    <test name="TCTAT12_Select Hail Damage Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT112"/>
+        </classes>
+    </test>
+    <test name="TCTAT13_Select Hail Damage Waiver  with standard Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT113"/>
+        </classes>
+    </test>
+    <test name="TCTAT14_Select Glass Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT114"/>
+        </classes>
+    </test>
+    <test name="TCTAT15_Select Glass Waiver  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT115"/>
+        </classes>
+    </test>
+    <test name="TCTAT16_Select Glass Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT116"/>
+        </classes>
+    </test>
+    <test name="TCTAT17_Select Additional Drives and  do not capture number of Additional Driver's when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT117"/>
+        </classes>
+    </test>
+    <test name="TCTAT18_Make a Reservation selecting Credit Card as Payment Method.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT118"/>
+        </classes>
+    </test>
+    <test name="TCTAT19_Make a Reservation selecting Credit Card as Payment Method without selecting Card Type.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT119"/>
+        </classes>
+    </test>
+    <test name="TCTAT20_Make a Reservation selecting Credit Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT120"/>
+        </classes>
+    </test>
+    <test name="TCTAT21_Make a Reservation selecting Bidvest Card as Payment Method">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT121"/>
+        </classes>
+    </test>
+    <test name="TCTAT22_Make a Reservation selecting Bidvest Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT122"/>
+        </classes>
+    </test>
+    <test name="TCTAT23_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT123"/>
+        </classes>
+    </test>
+    <test name="TCTAT124">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT124"/>
+        </classes>
+    </test>
+    <test name="TCTAT125">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT125"/>
+        </classes>
+    </test>
+    <test name="TCTAT126">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT126"/>
+        </classes>
+    </test>
+    <test name="TCTAT127">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT127"/>
+        </classes>
+    </test>
+    <test name="TCTAT128">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT128"/>
+        </classes>
+    </test>
+    <test name="TCTAT129">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT129"/>
+        </classes>
+    </test>
+    <test name="TCTAT130">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT130"/>
+        </classes>
+    </test>
+    <test name="TCTAT131">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT131"/>
+        </classes>
+    </test>
+    <test name="TCTAT132">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT132"/>
+        </classes>
+    </test>
+    <test name="TCTAT133">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT133"/>
+        </classes>
+    </test>
+    <test name="TCTAT134">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT134"/>
+        </classes>
+    </test>
+    <test name="TCTAT135">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT135"/>
+        </classes>
+    </test>
+    <test name="TCTAT136">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT136"/>
+        </classes>
+    </test>
+    <test name="TCTAT137">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT137"/>
+        </classes>
+    </test>
+    <test name="TCTAT138">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT138"/>
+        </classes>
+    </test>
+    <test name="TCTAT139">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT139"/>
+        </classes>
+    </test>
+    <test name="TCTAT140">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT140"/>
+        </classes>
+    </test>
+    <test name="TCTAT141">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT141"/>
+        </classes>
+    </test>
+    <test name="TCTAT142">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT142"/>
+        </classes>
+    </test>
+    <test name="TCTAT143">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT143"/>
+        </classes>
+    </test>
+    <test name="TCTAT144">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT144"/>
+        </classes>
+    </test>
+    <test name="TCTAT145">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT145"/>
+        </classes>
+    </test>
+    <test name="TCTAT146">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT146"/>
+        </classes>
+    </test>
+    <test name="TCTAT147">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT147"/>
+        </classes>
+    </test>
+    <test name="TCTAT148">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT148"/>
+        </classes>
+    </test>
+    <test name="TCTAT149">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT149"/>
+        </classes>
+    </test>
+    <test name="TCTAT150">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT150"/>
+        </classes>
+    </test>
+    <test name="TCTAT151">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT151"/>
+        </classes>
+    </test>
+    <test name="TCTAT152">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT152"/>
+        </classes>
+    </test>
+    <test name="TCTAT153">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT153"/>
+        </classes>
+    </test>
+    <test name="TCTAT154">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT154"/>
+        </classes>
+    </test>
+    <test name="TCTAT155">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT155"/>
+        </classes>
+    </test>
+    <test name="TCTAT156">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT156"/>
+        </classes>
+    </test>
+    <test name="TCTAT157">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT157"/>
+        </classes>
+    </test>
+    <test name="TCTAT158">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT158"/>
+        </classes>
+    </test>
+    <test name="TCTAT159">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT159"/>
+        </classes>
+    </test>
+    <test name="TCTAT160">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT160"/>
+        </classes>
+    </test>
+    <test name="TCTAT161">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT161"/>
+        </classes>
+    </test>
+    <test name="TCTAT162">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT162"/>
+        </classes>
+    </test>
+    <test name="TCTAT163">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT163"/>
+        </classes>
+    </test>
+    <test name="TCTAT164">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT164"/>
+        </classes>
+    </test>
+    <test name="TCTAT165">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT165"/>
+        </classes>
+    </test>
+    <test name="TCTAT166">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT166"/>
+        </classes>
+    </test>
+    <test name="TCTAT167">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT167"/>
+        </classes>
+    </test>
+    <test name="TCTAT168">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT168"/>
+        </classes>
+    </test>
+    <test name="TCTAT169">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT169"/>
+        </classes>
+    </test>
+    <test name="TCTAT170">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT170"/>
+        </classes>
+    </test>
+    <test name="TCTAT171">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT171"/>
+        </classes>
+    </test>
+    <test name="TCTAT172">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT172"/>
+        </classes>
+    </test>
+    <test name="TCTAT73">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgency.TCTAT173"/>
+        </classes>
+    </test>
+
+
+
+</suite> <!-- Suite -->

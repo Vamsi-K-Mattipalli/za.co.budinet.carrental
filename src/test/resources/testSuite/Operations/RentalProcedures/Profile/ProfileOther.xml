@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RESERVATIONS OTHER">
+    <test name="TCOTHER01_ Verify the contents of the Rental Agreement screen">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER01"/>
+        </classes>
+    </test>
+    <test name="TCOTHER02_Make a Reservation for Individual Renter by not changing any of the default quotation fields- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER02"/>
+        </classes>
+    </test>
+    <test name="TCOTHER03_Make a Reservation for Individual Renter by not changing any of the default quotation fields- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER03"/>
+        </classes>
+    </test>
+    <test name="TCOTHER04_Make a Reservation for Individual Renter by changing Title New -Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER04"/>
+        </classes>
+    </test>
+    <test name="TCOTHER05_Make a Reservation for Individual Renter by changing Initials -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER05"/>
+        </classes>
+    </test>
+    <test name="TCOTHER06_Make a Reservation for Individual Renter by changing Surname -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER06"/>
+        </classes>
+    </test>
+    <test name="TCOTHER07_Make a Reservation for Individual Renter by changing First Names -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER07"/>
+        </classes>
+    </test>
+    <test name="TCOTHER08_Make a Reservation for Individual Renter by changing Pickup Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER08"/>
+        </classes>
+    </test>
+    <test name="TCOTHER09_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER09"/>
+        </classes>
+    </test>
+    <test name="TCOTHER10_Make a Reservation for Individual Renter by changing Pickup Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER10"/>
+        </classes>
+    </test>
+    <test name="TCOTHER11_Make a Reservation for Individual Renter by changing Due Back Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER11"/>
+        </classes>
+    </test>
+    <test name="TCOTHER12_Make a Reservation for Individual Renter by changing Due Back Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER12"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER13_Make a Reservation for Individual Renter by changing Due Back Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER13"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER14_Make a Reservation for Individual Renter by changing Vehicle Group -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER14"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER15_Make a Reservation for Individual Renter by changing Pickup Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER15"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER16_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER16"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER17_Make a Reservation for Individual Renter by changing Pickup Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER17"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER18_Make a Reservation for Individual Renter by changing Due Back Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER18"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER19_Make a Reservation for Individual Renter by changing Due Back Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER19"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER20_Make a Reservation for Individual Renter by changing Due Back Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER20"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER21_Make a Reservation for Individual Renter by changing Vehicle Group -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER21"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER22_Make a Reservation for Individual Renter by changing Pickup Date-  Using Date Picker to select Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER22"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER23_Make a Reservation for Individual Renter by changing Pickup Date -  Using Date Picker to select Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER23"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER24_Make a Reservation for an Existing Individual Renter that is flagged as Blacklisted by not changing any of the default quotation fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER24"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER25_Make a Reservation for an Existing Individual Renter by Checking if the Vehicle is Fully booked">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER25"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER26_Make a Reservation for an Existing Individual Renter by  Overriding Fully Booked">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER26"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER27_Make a Reservation for an Existing Individual Renter by  Overriding Branch Time">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER27"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER28_View One way Fee on a Reservation screen">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER28"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER29_Make a Reservation for Individual Renter without Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER29"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER30_Make a Reservation for Individual Renter without Tel No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER30"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER31_Select Cell No on ID Type and  do not capture  Cell Number on Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER31"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER32_Make a Reservation for Individual Renter without Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER32"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER33_Verify the contents of the Core">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER33"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER34_Verify the Buttons of the Core  ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER34"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER35_Verify the functionality of Key Fields Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER35"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER36_Verify the functionality of Agents Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER36"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER37_Verify the functionality of View Damages Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER37"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER38_Verify the functionality of New RA Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER38"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER39_Verify the functionality of Print RA Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER39"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER40_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER40"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER41_Verify the functionality of Cancel Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER41"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER42_Verify the functionality of Allocate Etolls Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER42"/>
+        </classes>
+
+    </test>
+    <test name="TC43_Verify the functionality of SMS Notification Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER43"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER44_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER44"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER45_Make a Reservation for Individual Renter by capturing incorrect ID number- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER45"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER46_Make a Reservation for Individual Renter by capturing ID number that has 14 digits- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER46"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER47_Make a Reservation for Individual Renter by capturing ID number that has less than 13 digits -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER47"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER48_Make a Reservation for Individual Renter by capturing incorrect ID number- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER48"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER49_Make a Reservation for Individual Renter by capturing  ID number that has 14 characters- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER49"/>
+        </classes>
+
+    </test>
+    <test name="TCOTHER50_Make a Reservation for Individual Renter by capturing  ID number that has less than 13 digits- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER50"/>
+        </classes>
+    </test>
+    <test name="TCOTHER51_Make a Reservation for Individual Renter by capturing valid  ID number and selecting Retrieve Renter Defaults">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER51"/>
+        </classes>
+    </test>
+    <test name="TCOTHER52_Make a Reservation for Individual Renter by selecting Passport as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER52"/>
+        </classes>
+    </test>
+    <test name="TCOTHER53_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER53"/>
+        </classes>
+    </test>
+    <test name="TCOTHER54_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER54"/>
+        </classes>
+    </test>
+    <test name="TCOTHER55_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER55"/>
+        </classes>
+    </test>
+    <test name="TCOTHER56_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER56"/>
+        </classes>
+    </test>
+    <test name="TCOTHER57_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER57"/>
+        </classes>
+    </test>
+    <test name="TCOTHER58_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER58"/>
+        </classes>
+    </test>
+    <test name="TCOTHER59_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER59"/>
+        </classes>
+    </test>
+    <test name="TCOTHER60_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER60"/>
+        </classes>
+    </test>
+    <test name="TCOTHER61_Perform a Identifying Surname Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER61"/>
+        </classes>
+    </test>
+    <test name="TCOTHER62_Perform Pickup Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER62"/>
+        </classes>
+    </test>
+    <test name="TCOTHER63_Perform Due Back Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER63"/>
+        </classes>
+    </test>
+    <test name="TCOTHER64_Perform Due Back Branch Lookup without selecting Due Back or Pickup Branch">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER64"/>
+        </classes>
+    </test>
+    <test name="TCOTHER65_Perform IATA No. Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER65"/>
+        </classes>
+    </test>
+    <test name="TCOTHER66_Perform Customer Account Name Lookup without capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER66"/>
+        </classes>
+    </test>
+    <test name="TCOTHER67_Perform Customer Account Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER67"/>
+        </classes>
+    </test>
+    <test name="TCOTHER68_Perform Referral Account Number Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER68"/>
+        </classes>
+    </test>
+    <test name="TCOTHER69_Perform Referral Account Number Lookup by capturing invalid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER69"/>
+        </classes>
+    </test>
+    <test name="TCOTHER70_Perform Referral Account Number Lookup by capturing Valid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER70"/>
+        </classes>
+    </test>
+    <test name="TCOTHER71_Perform Referral Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER71"/>
+        </classes>
+    </test>
+    <test name="TCOTHER72_Perform Referral Name Lookup by capturing invalid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER72"/>
+        </classes>
+    </test>
+    <test name="TCOTHER73_Perform Referral Name Lookup by capturing Valid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER73"/>
+        </classes>
+    </test>
+    <test name="TCOTHER74_Perform Referral Name Lookup by capturing Valid Referral Account Number and Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER74"/>
+        </classes>
+    </test>
+    <test name="TCOTHER75_Perform Referral Name Lookup by not capturing Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER75"/>
+        </classes>
+    </test>
+    <test name="TCOTHER76_Perform Referral Name Lookup by capturing invalid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER76"/>
+        </classes>
+    </test>
+    <test name="TCOTHER77_Perform Referral Name Lookup by capturing valid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER77"/>
+        </classes>
+    </test>
+    <test name="TCOTHER78_Reset Customer Details">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER78"/>
+        </classes>
+    </test>
+    <test name="TCOTHER79_Retrieve Customer Defaults without capturing any Customer Details fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER79"/>
+        </classes>
+    </test>
+    <test name="TCOTHER80_Retrieve Customer Defaults by capturing Customer Account No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER80"/>
+        </classes>
+    </test>
+    <test name="TCOTHER81_Retrieve Customer Defaults by capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER81"/>
+        </classes>
+    </test>
+    <test name="TCOTHER82_Perform Reserved Rate Lookup without capturing rate fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER82"/>
+        </classes>
+    </test>
+    <test name="TCOTHER83_Perform Reserved Rate Lookup by capturing Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER83"/>
+        </classes>
+    </test>
+    <test name="TCOTHER84_Perform Reserved Rate Lookup by capturing invalid Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER84"/>
+        </classes>
+    </test>
+    <test name="TCOTHER85_Calculate Credit  Card Auth when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER85"/>
+        </classes>
+    </test>
+    <test name="TCOTHER86_Calculate Credit  Card Auth and do not  select STD or SUPER when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER86"/>
+        </classes>
+    </test>
+    <test name="TCOTHER87_Calculate Credit  Card Auth and do not capture Reserved Rate when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER87"/>
+        </classes>
+    </test>
+    <test name="TCOTHER88_Select Pickup branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER88"/>
+        </classes>
+    </test>
+    <test name="TCOTHER89_Select Due Back branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER89"/>
+        </classes>
+    </test>
+    <test name="TCOTHER90_Make Reservation with same Details of existing Reservation and  Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER90"/>
+        </classes>
+    </test>
+    <test name="TCOTHER91_Make Reservation using same Details of existing Reservation and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER91"/>
+        </classes>
+    </test>
+    <test name="TCOTHER92_Make Reservation using same Details of existing Reservation and change and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER92"/>
+        </classes>
+    </test>
+    <test name="TCOTHER93_Make Reservation and do not capture Flight No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER93"/>
+        </classes>
+    </test>
+    <test name="TCOTHER94_Select Internationaly and capture Local Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER94"/>
+        </classes>
+    </test>
+    <test name="TCOTHER95_Select Local and capture International Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER95"/>
+        </classes>
+    </test>
+    <test name="TCOTHER96_Make Reservation and add SCDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER96"/>
+        </classes>
+    </test>
+    <test name="TCOTHER97_Make Reservation and add CDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER97"/>
+        </classes>
+    </test>
+    <test name="TCOTHER98_Make Reservation and add TLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER98"/>
+        </classes>
+    </test>
+    <test name="TC99_Make Reservation and add STLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER99"/>
+        </classes>
+    </test>
+    <test name="TCOTHER100_Select CDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER100"/>
+        </classes>
+    </test>
+    <test name="TCOTHER101_Select CDW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER101"/>
+        </classes>
+    </test>
+    <test name="TCOTHER102_Select TLW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER102"/>
+        </classes>
+    </test>
+    <test name="TCOTHER103_Select TLW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER103"/>
+        </classes>
+    </test>
+    <test name="TCOTHER104_Select TLW and CDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER104"/>
+        </classes>
+    </test>
+    <test name="TCOTHER105_Select SCDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER105"/>
+        </classes>
+    </test>
+    <test name="TCOTHER106_Select Vehicle Assist  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER106"/>
+        </classes>
+    </test>
+    <test name="TCOTHER107_Select Vehicle Assist  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER107"/>
+        </classes>
+    </test>
+    <test name="TCOTHER108_Select Tyre Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER108"/>
+        </classes>
+    </test>
+    <test name="TCOTHER109_Select Tyre Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER109"/>
+        </classes>
+    </test>
+    <test name="TCOTHER110_Select Tyre Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER110"/>
+        </classes>
+    </test>
+    <test name="TCOTHER111_Select Hail Damage Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER111"/>
+        </classes>
+    </test>
+    <test name="TCOTHER112_Select Hail Damage Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER112"/>
+        </classes>
+    </test>
+    <test name="TCOTHER113_Select Hail Damage Waiver  with standard Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER113"/>
+        </classes>
+    </test>
+    <test name="TCOTHER114_Select Glass Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER114"/>
+        </classes>
+    </test>
+    <test name="TCOTHER115_Select Glass Waiver  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER115"/>
+        </classes>
+    </test>
+    <test name="TCOTHER116_Select Glass Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER116"/>
+        </classes>
+    </test>
+    <test name="TCOTHER117_Select Glass Waiver and GPS with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Other.TCOTHER117"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

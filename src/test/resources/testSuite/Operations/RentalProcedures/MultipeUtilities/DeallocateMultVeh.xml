@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEALLOCATE MULTIPLY MOVEMENT">
+     <test name="TCMUDV006">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.DeallocMultVeh.TCMUDV006"/>
+         </classes>
+     </test>
+     <test name="TCMUDV007">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.DeallocMultVeh.TCMUDV007"/>
+         </classes>
+     </test>
+    <test name="TCMUDV008">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.DeallocMultVeh.TCMUDV008"/>
+        </classes>
+    </test>
+    <test name="TCMUDV009">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.DeallocMultVeh.TCMUDV009"/>
+        </classes>
+    </test>
+</suite>

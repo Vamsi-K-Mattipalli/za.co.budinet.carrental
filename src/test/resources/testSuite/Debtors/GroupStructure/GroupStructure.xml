@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GROUP STRUCTURE">
+    <test name="TCGS01">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS001"/>
+        </classes>
+    </test>
+    <test name="TCGS02 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS002"/>
+        </classes>
+    </test>
+    <test name="TCGS03 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS003"/>
+        </classes>
+    </test>
+    <test name="TCGS04 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS004"/>
+        </classes>
+    </test>
+    <test name="TCGS05 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS005"/>
+        </classes>
+    </test>
+    <test name="TCGS06 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS006"/>
+        </classes>
+    </test>
+    <test name="TCGS07 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS007"/>
+        </classes>
+    </test>
+    <test name="TCGS08 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS008"/>
+        </classes>
+    </test>
+    <test name="TCGS09 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS009"/>
+        </classes>
+    </test>
+    <test name="TCGS10 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS010"/>
+        </classes>
+    </test>
+    <test name="TCGS11 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS011"/>
+        </classes>
+    </test>
+    <test name="TCGS12 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS012"/>
+        </classes>
+    </test>
+    <test name="TCGS13 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS013"/>
+        </classes>
+    </test>
+    <test name="TCGS14 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS014"/>
+        </classes>
+    </test>
+    <test name="TCGS15 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS015"/>
+        </classes>
+    </test>
+    <test name="TCGS16 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS016"/>
+        </classes>
+    </test>
+    <test name="TCGS17 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS017"/>
+        </classes>
+    </test>
+    <test name="TCGS18 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS018"/>
+        </classes>
+    </test>
+    <test name="TCGS19 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS019"/>
+        </classes>
+    </test>
+    <test name="TCGS20 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS020"/>
+        </classes>
+    </test>
+    <test name="TCGS21 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS021"/>
+        </classes>
+    </test>
+    <test name="TCGS22 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS022"/>
+        </classes>
+    </test>
+    <test name="TCGS23 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS023"/>
+        </classes>
+    </test>
+    <test name="TCGS24 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS024"/>
+        </classes>
+    </test>
+    <test name="TCGS25 ">
+        <classes>
+            <class name="TestCases.Debtors.GroupStructure.TCGS025"/>
+        </classes>
+    </test>
+</suite>

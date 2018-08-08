@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CHAUFFEUR" parallel="methods">
+
+    <test name="TCCHFUER001">
+        <classes>
+            <class name="TestCases.Operations.Rental.Chauffeur.TCCHFUER001"/>
+        </classes>
+    </test>
+    <test name="TCCHFUER002">
+        <classes>
+            <class name="TestCases.Operations.Rental.Chauffeur.TCCHFUER002"/>
+        </classes>
+    </test>
+    <test name="TCCHFUER003">
+        <classes>
+            <class name="TestCases.Operations.Rental.Chauffeur.TCCHFUER003"/>
+        </classes>
+    </test>
+    <test name="TCCHFUER004">
+        <classes>
+            <class name="TestCases.Operations.Rental.Chauffeur.TCCHFUER004"/>
+        </classes>
+    </test>
+    <test name="TCCHFUER005">
+        <classes>
+            <class name="TestCases.Operations.Rental.Chauffeur.TCCHFUER005"/>
+        </classes>
+    </test>
+    <test name="TCCHFUER006">
+        <classes>
+            <class name="TestCases.Operations.Rental.Chauffeur.TCCHFUER006"/>
+        </classes>
+    </test>
+    <test name="TCCHFUER007">
+        <classes>
+            <class name="TestCases.Operations.Rental.Chauffeur.TCCHFUER007"/>
+        </classes>
+    </test>
+    <test name="TCCHFUER008">
+        <classes>
+            <class name="TestCases.Operations.Rental.Chauffeur.TCCHFUER008"/>
+        </classes>
+    </test>
+</suite>

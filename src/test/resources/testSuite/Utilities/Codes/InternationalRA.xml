@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES CODES - INTERNATIONAL RA">
+    <test name="TCINTRA01 Verify if the user can navigate to the International RA">
+        <classes>
+            <class name="TestCases.Utilities.Codes.InternationalRA.TCINTRA001"/>
+        </classes>
+    </test>
+    <test name="TCINTRA02 Verify if the user can select the International RA Type">
+        <classes>
+            <class name="TestCases.Utilities.Codes.InternationalRA.TCINTRA002"/>
+        </classes>
+    </test>
+    <test name="TCINTRA03 Verify if the user can search the International RA Type">
+        <classes>
+            <class name="TestCases.Utilities.Codes.InternationalRA.TCINTRA003"/>
+        </classes>
+    </test>
+    <test name="TCINTRA04 Verify if the user can Add International RA">
+        <classes>
+            <class name="TestCases.Utilities.Codes.InternationalRA.TCINTRA004"/>
+        </classes>
+    </test>
+    <test name="TCINTRA05 Verify if the user can be able to reset the International RA Type Search">
+        <classes>
+            <class name="TestCases.Utilities.Codes.InternationalRA.TCINTRA005"/>
+        </classes>
+    </test>
+    <test name="TCINTRA06 Verify if the user can add percentage">
+        <classes>
+            <class name="TestCases.Utilities.Codes.InternationalRA.TCINTRA006"/>
+        </classes>
+    </test>
+    <test name="TCINTRA07 Verify if the user can not add percentage without date">
+        <classes>
+            <class name="TestCases.Utilities.Codes.InternationalRA.TCINTRA007"/>
+        </classes>
+    </test>
+    <test name="TCINTRA8 Verify if the user can not add percentage without percentage">
+        <classes>
+            <class name="TestCases.Utilities.Codes.InternationalRA.TCINTRA008"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES PRINTING QUEUES">
+    <test name="QUE001">
+        <classes>
+            <class name="TestCases.Utilities.Printing.Queues.QUE001"/>
+        </classes>
+    </test>
+    <test name="QUE002">
+        <classes>
+            <class name="TestCases.Utilities.Printing.Queues.QUE002"/>
+        </classes>
+    </test>
+    <test name="QUE003">
+        <classes>
+            <class name="TestCases.Utilities.Printing.Queues.QUE003"/>
+        </classes>
+    </test>
+    <test name="QUE004">
+        <classes>
+            <class name="TestCases.Utilities.Printing.Queues.QUE004"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

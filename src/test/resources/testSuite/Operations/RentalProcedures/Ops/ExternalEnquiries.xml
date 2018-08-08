@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EXTERNAL ENQUIRY" parallel="methods">
+    <test name="TCEXTE01">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExternalEnquiries.TCEXTE01"/>
+        </classes>
+    </test>
+    <test name="TCEXTE02">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExternalEnquiries.TCEXTE02"/>
+        </classes>
+    </test>
+    <test name="TCEXTE03">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExternalEnquiries.TCEXTE03"/>
+        </classes>
+    </test>
+    <test name="TCEXTE04">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExternalEnquiries.TCEXTE04"/>
+        </classes>
+    </test>
+    <test name="TCEXTE05">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExternalEnquiries.TCEXTE05"/>
+        </classes>
+    </test>
+    <test name="TCEXTE06">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExternalEnquiries.TCEXTE06"/>
+        </classes>
+    </test>
+    <test name="TCEXTE07">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExternalEnquiries.TCEXTE07"/>
+        </classes>
+    </test>
+    <test name="TCEXTE08">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExternalEnquiries.TCEXTE08"/>
+        </classes>
+    </test>
+    <test name="TCEXTE09">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExternalEnquiries.TCEXTE09"/>
+        </classes>
+    </test>
+
+</suite>

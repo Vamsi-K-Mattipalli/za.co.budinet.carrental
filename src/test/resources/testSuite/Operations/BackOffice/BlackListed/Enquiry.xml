@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="INTERNATIONAL BLACK LISTED ENQUIRY">
+    <test name="TCBL001 To verify that a User is able to open Budinet  Page">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.BlackList.Enquiry.TCBL001"/>
+        </classes>
+    </test>
+    <test name="TCBL0002 To verify that profile history is displayed successfully">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.BlackList.Enquiry.TCBL002"/>
+        </classes>
+    </test>
+    <test name="TCBL003 To verify that user  is able to load  claim">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.BlackList.Enquiry.TCBL003"/>
+        </classes>
+    </test>
+    <test name="TCBL004 To verify that profile is modified  displayed successfully ">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.BlackList.Enquiry.TCBL004"/>
+        </classes>
+    </test>
+    <test name="TCBL005 To verify that profile is modified  displayed successfully ">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.BlackList.Enquiry.TCBL005"/>
+        </classes>
+    </test>
+    <test name="TCBL006 To verify that profile is modified  displayed successfully ">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.BlackList.Enquiry.TCBL006"/>
+        </classes>
+    </test>
+    <test name="TCBL007 To verify that profile is modified  displayed successfully ">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.BlackList.Enquiry.TCBL007"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

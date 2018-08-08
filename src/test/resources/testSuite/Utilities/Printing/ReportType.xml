@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES PRINTING REPORT TYPE">
+    <test name="REPSCH001">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS001"/>
+        </classes>
+    </test>
+    <test name="REPSCH002">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS002"/>
+        </classes>
+    </test>
+    <test name="REPSCH003">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS003"/>
+        </classes>
+    </test>
+    <test name="REPSCH004">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS004"/>
+        </classes>
+    </test>
+    <test name="REPSCH005">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS005"/>
+        </classes>
+    </test>
+    <test name="REPSCH006">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS006"/>
+        </classes>
+    </test>
+    <test name="REPSCH007">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS007"/>
+        </classes>
+    </test>
+    <test name="REPSCH008">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS008"/>
+        </classes>
+    </test>
+    <test name="REPSCH009">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS009"/>
+        </classes>
+    </test>
+    <test name="REPSCH010">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS010"/>
+        </classes>
+    </test>
+    <test name="REPSCH011">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS011"/>
+        </classes>
+    </test>
+    <test name="REPSCH012">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS012"/>
+        </classes>
+    </test>
+    <test name="REPSCH013">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS013"/>
+        </classes>
+    </test>
+    <test name="REPSCH014">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS014"/>
+        </classes>
+    </test>
+    <test name="REPORTS015">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS015"/>
+        </classes>
+    </test>
+    <test name="REPORTS016">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS016"/>
+        </classes>
+    </test>
+    <test name="REPORTS017">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS017"/>
+        </classes>
+    </test>
+    <test name="REPORTS018">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS018"/>
+        </classes>
+    </test>
+    <test name="REPORTS019">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS019"/>
+        </classes>
+    </test>
+    <test name="REPORTS020">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS020"/>
+        </classes>
+    </test>
+    <test name="REPORTS021">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS021"/>
+        </classes>
+    </test>
+    <test name="REPORTS022">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS022"/>
+        </classes>
+    </test>
+    <test name="REPORTS023">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS023"/>
+        </classes>
+    </test>
+    <test name="REPORTS024">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS024"/>
+        </classes>
+    </test>
+    <test name="REPORTS025">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS025"/>
+        </classes>
+    </test>
+    <test name="REPORTS026">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS026"/>
+        </classes>
+    </test>
+    <test name="REPORTS027">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS027"/>
+        </classes>
+    </test>
+    <test name="REPORTS028">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS028"/>
+        </classes>
+    </test>
+    <test name="REPORTS029">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS029"/>
+        </classes>
+    </test>
+    <test name="REPORTS030">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS030"/>
+        </classes>
+    </test>
+    <test name="REPORTS031">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportsType.REPORTS031"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RESERVATION VEHICLE GROUP" parallel="methods">
+    <test name="TC01">
+
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ReservationVehicleGroup.TC01"/>
+    </classes>
+</test>
+<test name="TC02">
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ReservationVehicleGroup.TC02"/>
+    </classes>
+</test>
+<test name="TC03">
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ReservationVehicleGroup.TC03"/>
+    </classes>
+</test>
+<test name="TC04">
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ReservationVehicleGroup.TC04"/>
+    </classes>
+</test>
+<test name="TC05">
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ReservationVehicleGroup.TC05"/>
+    </classes>
+</test>
+<test name="TC06">
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ReservationVehicleGroup.TC06"/>
+    </classes>
+</test>
+<test name="TC07">
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ReservationVehicleGroup.TC07"/>
+    </classes>
+</test>
+<test name="TC08">
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ReservationVehicleGroup.TC08"/>
+    </classes>
+</test>
+
+</suite>

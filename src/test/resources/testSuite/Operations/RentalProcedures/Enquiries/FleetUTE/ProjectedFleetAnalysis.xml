@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PROJECTED FLEET ANALYSIS" parallel="methods">
+    <test name="TCFUTE001">
+
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ProjectedFleetAnalysis.TCFUTE001"/>
+    </classes>
+</test>
+<test name="TCFUTE002">
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ProjectedFleetAnalysis.TCFUTE002"/>
+    </classes>
+</test>
+<test name="TCFUTE003">
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ProjectedFleetAnalysis.TCFUTE003"/>
+    </classes>
+</test>
+<test name="TCFUTE004">
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ProjectedFleetAnalysis.TCFUTE004"/>
+    </classes>
+</test>
+<test name="TCFUTE005">
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ProjectedFleetAnalysis.TCFUTE005"/>
+    </classes>
+</test>
+<test name="TCFUTE006">
+    <classes>
+        <class name="TestCases.Operations.Rental.Enquiry.FleetUTE.ProjectedFleetAnalysis.TCFUTE006"/>
+    </classes>
+</test>
+
+</suite>

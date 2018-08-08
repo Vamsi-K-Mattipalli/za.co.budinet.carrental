@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RESERVATIONS WALKUP">
+    <test name="TCWU01_ Verify the contents of the Rental Agreement screen">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU01"/>
+        </classes>
+    </test>
+    <test name="TCWU02_Make a Reservation for Individual Renter by not changing any of the default quotation fields- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU02"/>
+        </classes>
+    </test>
+    <test name="TCWU03_Make a Reservation for Individual Renter by not changing any of the default quotation fields- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU03"/>
+        </classes>
+    </test>
+    <test name="TCWU04_Make a Reservation for Individual Renter by changing Title New -Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU04"/>
+        </classes>
+    </test>
+    <test name="TCWU05_Make a Reservation for Individual Renter by changing Initials -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU05"/>
+        </classes>
+    </test>
+    <test name="TCWU06_Make a Reservation for Individual Renter by changing Surname -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU06"/>
+        </classes>
+    </test>
+    <test name="TCWU07_Make a Reservation for Individual Renter by changing First Names -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU07"/>
+        </classes>
+    </test>
+    <test name="TCWU08_Make a Reservation for Individual Renter by changing Pickup Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU08"/>
+        </classes>
+    </test>
+    <test name="TCWU09_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU09"/>
+        </classes>
+    </test>
+    <test name="TCWU10_Make a Reservation for Individual Renter by changing Pickup Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU10"/>
+        </classes>
+    </test>
+    <test name="TCWU11_Make a Reservation for Individual Renter by changing Due Back Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU11"/>
+        </classes>
+    </test>
+    <test name="TCWU12_Make a Reservation for Individual Renter by changing Due Back Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU12"/>
+        </classes>
+
+    </test>
+    <test name="TCWU13_Make a Reservation for Individual Renter by changing Due Back Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU13"/>
+        </classes>
+
+    </test>
+    <test name="TCWU14_Make a Reservation for Individual Renter by changing Vehicle Group -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU14"/>
+        </classes>
+
+    </test>
+    <test name="TCWU15_Make a Reservation for Individual Renter by changing Pickup Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU15"/>
+        </classes>
+
+    </test>
+    <test name="TCWU16_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU16"/>
+        </classes>
+
+    </test>
+    <test name="TCWU17_Make a Reservation for Individual Renter by changing Pickup Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU17"/>
+        </classes>
+
+    </test>
+    <test name="TCWU18_Make a Reservation for Individual Renter by changing Due Back Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU18"/>
+        </classes>
+
+    </test>
+    <test name="TCWU19_Make a Reservation for Individual Renter by changing Due Back Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU19"/>
+        </classes>
+
+    </test>
+    <test name="TCWU20_Make a Reservation for Individual Renter by changing Due Back Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU20"/>
+        </classes>
+
+    </test>
+    <test name="TCWU21_Make a Reservation for Individual Renter by changing Vehicle Group -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU21"/>
+        </classes>
+
+    </test>
+    <test name="TCWU22_Make a Reservation for Individual Renter by changing Pickup Date-  Using Date Picker to select Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU22"/>
+        </classes>
+
+    </test>
+    <test name="TCWU23_Make a Reservation for Individual Renter by changing Pickup Date -  Using Date Picker to select Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU23"/>
+        </classes>
+
+    </test>
+    <test name="TCWU24_Make a Reservation for an Existing Individual Renter that is flagged as Blacklisted by not changing any of the default quotation fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU24"/>
+        </classes>
+
+    </test>
+    <test name="TCWU25_Make a Reservation for an Existing Individual Renter by Checking if the Vehicle is Fully booked">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU25"/>
+        </classes>
+
+    </test>
+    <test name="TCWU26_Make a Reservation for an Existing Individual Renter by  Overriding Fully Booked">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU26"/>
+        </classes>
+
+    </test>
+    <test name="TCWU27_Make a Reservation for an Existing Individual Renter by  Overriding Branch Time">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU27"/>
+        </classes>
+
+    </test>
+    <test name="TCWU28_View One way Fee on a Reservation screen">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU28"/>
+        </classes>
+
+    </test>
+    <test name="TCWU29_Make a Reservation for Individual Renter without Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU29"/>
+        </classes>
+
+    </test>
+    <test name="TCWU30_Make a Reservation for Individual Renter without Tel No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU30"/>
+        </classes>
+
+    </test>
+    <test name="TCWU31_Select Cell No on ID Type and  do not capture  Cell Number on Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU31"/>
+        </classes>
+
+    </test>
+    <test name="TCWU32_Make a Reservation for Individual Renter without Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU32"/>
+        </classes>
+
+    </test>
+    <test name="TCWU33_Verify the contents of the Core">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU33"/>
+        </classes>
+
+    </test>
+    <test name="TCWU34_Verify the Buttons of the Core  ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU34"/>
+        </classes>
+
+    </test>
+    <test name="TCWU35_Verify the functionality of Key Fields Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU35"/>
+        </classes>
+
+    </test>
+    <test name="TCWU36_Verify the functionality of Agents Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU36"/>
+        </classes>
+
+    </test>
+    <test name="TCWU37_Verify the functionality of View Damages Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU37"/>
+        </classes>
+
+    </test>
+    <test name="TCWU38_Verify the functionality of New RA Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU38"/>
+        </classes>
+
+    </test>
+    <test name="TCWU39_Verify the functionality of Print RA Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU39"/>
+        </classes>
+
+    </test>
+    <test name="TCWU40_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU40"/>
+        </classes>
+
+    </test>
+    <test name="TCWU41_Verify the functionality of Cancel Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU41"/>
+        </classes>
+
+    </test>
+    <test name="TCWU42_Verify the functionality of Allocate Etolls Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU42"/>
+        </classes>
+
+    </test>
+    <test name="TC43_Verify the functionality of SMS Notification Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU43"/>
+        </classes>
+
+    </test>
+    <test name="TCWU44_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU44"/>
+        </classes>
+
+    </test>
+    <test name="TCWU45_Make a Reservation for Individual Renter by capturing incorrect ID number- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU45"/>
+        </classes>
+
+    </test>
+    <test name="TCWU46_Make a Reservation for Individual Renter by capturing ID number that has 14 digits- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU46"/>
+        </classes>
+
+    </test>
+    <test name="TCWU47_Make a Reservation for Individual Renter by capturing ID number that has less than 13 digits -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU47"/>
+        </classes>
+
+    </test>
+    <test name="TCWU48_Make a Reservation for Individual Renter by capturing incorrect ID number- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU48"/>
+        </classes>
+
+    </test>
+    <test name="TCWU49_Make a Reservation for Individual Renter by capturing  ID number that has 14 characters- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU49"/>
+        </classes>
+
+    </test>
+    <test name="TCWU50_Make a Reservation for Individual Renter by capturing  ID number that has less than 13 digits- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU50"/>
+        </classes>
+    </test>
+    <test name="TCWU51_Make a Reservation for Individual Renter by capturing valid  ID number and selecting Retrieve Renter Defaults">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU51"/>
+        </classes>
+    </test>
+    <test name="TCWU52_Make a Reservation for Individual Renter by selecting Passport as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU52"/>
+        </classes>
+    </test>
+    <test name="TCWU53_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU53"/>
+        </classes>
+    </test>
+    <test name="TCWU54_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU54"/>
+        </classes>
+    </test>
+    <test name="TCWU55_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU55"/>
+        </classes>
+    </test>
+    <test name="TCWU56_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU56"/>
+        </classes>
+    </test>
+    <test name="TCWU57_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU57"/>
+        </classes>
+    </test>
+    <test name="TCWU58_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU58"/>
+        </classes>
+    </test>
+    <test name="TCWU59_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU59"/>
+        </classes>
+    </test>
+    <test name="TCWU60_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU60"/>
+        </classes>
+    </test>
+    <test name="TCWU61_Perform a Identifying Surname Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU61"/>
+        </classes>
+    </test>
+    <test name="TCWU62_Perform Pickup Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU62"/>
+        </classes>
+    </test>
+    <test name="TCWU63_Perform Due Back Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU63"/>
+        </classes>
+    </test>
+    <test name="TCWU64_Perform Due Back Branch Lookup without selecting Due Back or Pickup Branch">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU64"/>
+        </classes>
+    </test>
+    <test name="TCWU65_Perform IATA No. Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU65"/>
+        </classes>
+    </test>
+    <test name="TCWU66_Perform Customer Account Name Lookup without capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU66"/>
+        </classes>
+    </test>
+    <test name="TCWU67_Perform Customer Account Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU67"/>
+        </classes>
+    </test>
+    <test name="TCWU68_Perform Referral Account Number Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU68"/>
+        </classes>
+    </test>
+    <test name="TCWU69_Perform Referral Account Number Lookup by capturing invalid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU69"/>
+        </classes>
+    </test>
+    <test name="TCWU70_Perform Referral Account Number Lookup by capturing Valid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU70"/>
+        </classes>
+    </test>
+    <test name="TCWU71_Perform Referral Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU71"/>
+        </classes>
+    </test>
+    <test name="TCWU72_Perform Referral Name Lookup by capturing invalid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU72"/>
+        </classes>
+    </test>
+    <test name="TCWU73_Perform Referral Name Lookup by capturing Valid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU73"/>
+        </classes>
+    </test>
+    <test name="TCWU74_Perform Referral Name Lookup by capturing Valid Referral Account Number and Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU74"/>
+        </classes>
+    </test>
+    <test name="TCWU75_Perform Referral Name Lookup by not capturing Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU75"/>
+        </classes>
+    </test>
+    <test name="TCWU76_Perform Referral Name Lookup by capturing invalid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU76"/>
+        </classes>
+    </test>
+    <test name="TCWU77_Perform Referral Name Lookup by capturing valid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU77"/>
+        </classes>
+    </test>
+    <test name="TCWU78_Reset Customer Details">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU78"/>
+        </classes>
+    </test>
+    <test name="TCWU79_Retrieve Customer Defaults without capturing any Customer Details fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU79"/>
+        </classes>
+    </test>
+    <test name="TCWU80_Retrieve Customer Defaults by capturing Customer Account No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU80"/>
+        </classes>
+    </test>
+    <test name="TCWU81_Retrieve Customer Defaults by capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU81"/>
+        </classes>
+    </test>
+    <test name="TCWU82_Perform Reserved Rate Lookup without capturing rate fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU82"/>
+        </classes>
+    </test>
+    <test name="TCWU83_Perform Reserved Rate Lookup by capturing Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU83"/>
+        </classes>
+    </test>
+    <test name="TCWU84_Perform Reserved Rate Lookup by capturing invalid Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU84"/>
+        </classes>
+    </test>
+    <test name="TCWU85_Calculate Credit  Card Auth when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU85"/>
+        </classes>
+    </test>
+    <test name="TCWU86_Calculate Credit  Card Auth and do not  select STD or SUPER when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU86"/>
+        </classes>
+    </test>
+    <test name="TCWU87_Calculate Credit  Card Auth and do not capture Reserved Rate when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU87"/>
+        </classes>
+    </test>
+    <test name="TCWU88_Select Pickup branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU88"/>
+        </classes>
+    </test>
+    <test name="TCWU89_Select Due Back branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU89"/>
+        </classes>
+    </test>
+    <test name="TCWU90_Make Reservation with same Details of existing Reservation and  Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU90"/>
+        </classes>
+    </test>
+    <test name="TCWU91_Make Reservation using same Details of existing Reservation and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU91"/>
+        </classes>
+    </test>
+    <test name="TCWU92_Make Reservation using same Details of existing Reservation and change and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU92"/>
+        </classes>
+    </test>
+    <test name="TCWU93_Make Reservation and do not capture Flight No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU93"/>
+        </classes>
+    </test>
+    <test name="TCWU94_Select Internationaly and capture Local Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU94"/>
+        </classes>
+    </test>
+    <test name="TCWU95_Select Local and capture International Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU95"/>
+        </classes>
+    </test>
+    <test name="TCWU96_Make Reservation and add SCDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU96"/>
+        </classes>
+    </test>
+    <test name="TCWU97_Make Reservation and add CDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU97"/>
+        </classes>
+    </test>
+    <test name="TCWU98_Make Reservation and add TLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU98"/>
+        </classes>
+    </test>
+    <test name="TC99_Make Reservation and add STLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU99"/>
+        </classes>
+    </test>
+    <test name="TCWU100_Select CDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU100"/>
+        </classes>
+    </test>
+    <test name="TCWU101_Select CDW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU101"/>
+        </classes>
+    </test>
+    <test name="TCWU102_Select TLW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU102"/>
+        </classes>
+    </test>
+    <test name="TCWU103_Select TLW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU103"/>
+        </classes>
+    </test>
+    <test name="TCWU104_Select TLW and CDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU104"/>
+        </classes>
+    </test>
+    <test name="TCWU105_Select SCDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU105"/>
+        </classes>
+    </test>
+    <test name="TCWU106_Select Vehicle Assist  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU106"/>
+        </classes>
+    </test>
+    <test name="TCWU107_Select Vehicle Assist  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU107"/>
+        </classes>
+    </test>
+    <test name="TCWU108_Select Tyre Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU108"/>
+        </classes>
+    </test>
+    <test name="TCWU109_Select Tyre Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU109"/>
+        </classes>
+    </test>
+    <test name="TCWU110_Select Tyre Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU110"/>
+        </classes>
+    </test>
+    <test name="TCWU111_Select Hail Damage Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU111"/>
+        </classes>
+    </test>
+    <test name="TCWU112_Select Hail Damage Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU112"/>
+        </classes>
+    </test>
+    <test name="TCWU113_Select Hail Damage Waiver  with standard Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU113"/>
+        </classes>
+    </test>
+    <test name="TCWU114_Select Glass Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU114"/>
+        </classes>
+    </test>
+    <test name="TCWU115_Select Glass Waiver  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU115"/>
+        </classes>
+    </test>
+    <test name="TCWU116_Select Glass Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU116"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

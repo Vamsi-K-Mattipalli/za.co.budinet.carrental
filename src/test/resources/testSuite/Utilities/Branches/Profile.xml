@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES BRANCHES PROFILE">
+    <test name="TCBRPROF001 Verity if the user can navigate to the branch profile">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF001"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF002 Verity if the user can search for a branch using branch code">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF002"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF003 Verity if the user can search for a branch using mmh coy">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF003"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF004 Verity if the user can reset the search">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF004"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF005 Verity if the user can Update Branch Details">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF005"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF006 Verity if the user can add Sundry Ledgers">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF006"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF007 Verity if the user can add Branch Indicators">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF007"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF08 Verity if the user can add/modify Credit Card Indicators">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF008"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF009 Verity if the user can add Maestro Branch">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF009"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF010 Verity if the user can delete Maestro Branch">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF010"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF011 Verity if the user can add Loan Account Details">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF011"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF012 Verity if the user can delete Loan Account Details">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF012"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF013 Verity if the user can add RezCentral Branch">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF013"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF014 Verity if the user can access the percentage page">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF014"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF015 Verity if the user can add percentage type to the branch">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF015"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF016 Verity if the user can delete percentage type to the branch">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF016"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF017 Verity if the user can access the times tab">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF017"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF018 Verity if the user can add the Open abd Close time">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF018"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF019 Verity if the user can add the new closed days">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF019"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF020 Verity if the user can add the new closed days">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF020"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF021 Verity if the user can access the Vehicle Grps tab">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF021"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF022 Verity if the user can add the  Vehicle">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF022"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF023 Verity if the user can delete the  Vehicle">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF023"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF024 Verity if the user can not add vehicle without selecting the groups">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF024"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF025 Verity if the user can access the Keybook tab">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF025"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF026 Verity if the user can add  Auto KeyBook">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF026"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF027 Verity if the user can add vehicle no movement alert">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF027"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF028 Verity if the user can add daily keyBook Reconciliation">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF028"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF029 Verity if the user can add Number of Shifts">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF029"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF030 Verity if the user can add Escalation Emails">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF030"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF031 Verity if the user can delete Escalation Emails">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF031"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF032 Verity if the user can add Branch Key Book Locations">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF032"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF033 Verity if the user can delete Branch Key Book Locations">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF033"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF034 Verity if the user can access the Bay Numbers tab">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF034"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF035 Verity if the user can add Bay">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF035"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF036 Verity if the user can delete Bay  Book Locations">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF036"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF037 Verity if the user can not add Bay without location Book Locations">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF037"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF038 Verity if the user can not add Bay without Bay No Book Locations">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF038"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF039 Verity if the user can access the Contacts Tab">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF039"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF040 Verity if the user can add Contacts">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF040"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF041 Verity if the user can delete contacts">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF041"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF042 Verity if the user can modify contacts">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF042"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF043 Verity if the user can view contacts">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF043"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF044 Verity if the user can add new Contacts">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF044"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF045 Verity if the user can access the Address History Tab">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF045"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF046 Verity if the user can add Address History">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF046"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF047 Verity if the user can view Address History">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF047"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF048 Verity if the user can view Address History">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Profile.TCBRPROF048"/>
+        </classes>
+    </test>
+
+
+</suite>
+

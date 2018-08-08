@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BATCH FILLING">
+     <test name="TCMUTMM033">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.BatchFilling.Enquiry.TCMUTMM033"/>
+         </classes>
+     </test>
+     <test name="TCMUTMM034">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.BatchFilling.Enquiry.TCMUTMM034"/>
+         </classes>
+     </test>
+
+</suite>

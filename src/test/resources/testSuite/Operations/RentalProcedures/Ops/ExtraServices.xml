@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EXTRA SERVICES" parallel="methods">
+    <test name="TCEXTSERV01">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExtraServices.TCEXTSERV01"/>
+        </classes>
+    </test>
+    <test name="TCEXTSERV02">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExtraServices.TCEXTSERV02"/>
+        </classes>
+    </test>
+    <test name="TCEXTSERV03">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExtraServices.TCEXTSERV03"/>
+        </classes>
+    </test>
+    <test name="TCEXTSERV04">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExtraServices.TCEXTSERV04"/>
+        </classes>
+    </test>
+    <test name="TCEXTSERV05">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExtraServices.TCEXTSERV05"/>
+        </classes>
+    </test>
+    <test name="TCEXTSERV06">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExtraServices.TCEXTSERV06"/>
+        </classes>
+    </test>
+    <test name="TCEXTSERV07">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExtraServices.TCEXTSERV07"/>
+        </classes>
+    </test>
+    <test name="TCEXTSERV08">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExtraServices.TCEXTSERV08"/>
+        </classes>
+    </test>
+    <test name="TCEXTSERV09">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.ExtraServices.TCEXTSERV09"/>
+        </classes>
+    </test>
+</suite>

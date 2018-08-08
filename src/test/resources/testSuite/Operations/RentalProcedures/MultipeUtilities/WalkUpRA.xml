@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TERM MULTIPLY MOVEMENT">
+     <test name="TCMUWU010">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.WalkUpRA.TCMUWU010"/>
+         </classes>
+     </test>
+     <test name="TCMUWU011">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.WalkUpRA.TCMUWU011"/>
+         </classes>
+     </test>
+    <test name="TCMUWU012">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.WalkUpRA.TCMUWU012"/>
+        </classes>
+    </test>
+</suite>

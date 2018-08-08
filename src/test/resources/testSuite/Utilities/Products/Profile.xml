@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES PRODUCTS PROFILE">
+    <test name="TCPPROF001">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF01"/>
+        </classes>
+    </test>
+    <test name="TCPPROF002">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF02"/>
+        </classes>
+    </test>
+    <test name="TCPPROF003">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF03"/>
+        </classes>
+    </test>
+    <test name="TCPPROF004">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF04"/>
+        </classes>
+    </test>
+    <test name="TCPPROF005">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF05"/>
+        </classes>
+    </test>
+    <test name="TCPPROF006">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF06"/>
+        </classes>
+    </test>
+    <test name="TCPPROF007">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF07"/>
+        </classes>
+    </test>
+    <test name="TCPPROF008">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF08"/>
+        </classes>
+    </test>
+    <test name="TCPPROF009">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF09"/>
+        </classes>
+    </test>
+    <test name="TCPPROF010">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF10"/>
+        </classes>
+    </test>
+    <test name="TCPPROF011">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF11"/>
+        </classes>
+    </test>
+    <test name="TCPPROF012">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF12"/>
+        </classes>
+    </test>
+    <test name="TCPPROF013">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF13"/>
+        </classes>
+    </test>
+    <test name="TCPPROF014">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF14"/>
+        </classes>
+    </test>
+    <test name="TCPPROF015">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF15"/>
+        </classes>
+    </test>
+    <test name="TCPPROF016">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF16"/>
+        </classes>
+    </test>
+    <test name="TCPPROF017">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF17"/>
+        </classes>
+    </test>
+    <test name="TCPPROF018">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF18"/>
+        </classes>
+    </test>
+    <test name="TCPPROF019">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF19"/>
+        </classes>
+    </test>
+    <test name="TCPPROF020">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF20"/>
+        </classes>
+    </test>
+    <test name="TCPPROF021">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF21"/>
+        </classes>
+    </test>
+    <test name="TCPPROF022">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF22"/>
+        </classes>
+    </test>
+    <test name="TCPPROF023">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF23"/>
+        </classes>
+    </test>
+    <test name="TCPPROF024">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF24"/>
+        </classes>
+    </test>
+    <test name="TCPPROF025">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF25"/>
+        </classes>
+    </test>
+    <test name="TCPPROF026">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF26"/>
+        </classes>
+    </test>
+    <test name="TCPPROF027">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF27"/>
+        </classes>
+    </test>
+    <test name="TCPPROF028">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF28"/>
+        </classes>
+    </test>
+    <test name="TCPPROF029">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF29"/>
+        </classes>
+    </test>
+    <test name="TCPPROF030">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF30"/>
+        </classes>
+    </test>
+    <test name="TCPPROF031">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF31"/>
+        </classes>
+    </test>
+    <test name="TCPPROF032">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF32"/>
+        </classes>
+    </test>
+    <test name="TCPPROF033">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF33"/>
+        </classes>
+    </test>
+    <test name="TCPPROF034">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF34"/>
+        </classes>
+    </test>
+    <test name="TCPPROF035">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF35"/>
+        </classes>
+    </test>
+    <test name="TCPPROF036">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF36"/>
+        </classes>
+    </test>
+    <test name="TCPPROF037">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF37"/>
+        </classes>
+    </test>
+    <test name="TCPPROF038">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF38"/>
+        </classes>
+    </test>
+    <test name="TCPPROF039">
+        <classes>
+            <class name="TestCases.Utilities.Products.Profile.TCPPROF39"/>
+        </classes>
+    </test>
+
+
+</suite> <!-- Suite -->

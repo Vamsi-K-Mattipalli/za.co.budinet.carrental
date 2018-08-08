@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BUILD#34">
+    <listeners>
+        <listener class-name="controlers.GlobalListner"/>
+        <listener class-name="controlers.GlobalRetryListener"/>
+    </listeners>
+    <suite-files>
+
+ <!--                  <suite-file path="testSuite/Fleet/Claims/Enquiry.xml"/>
+                       <suite-file path="testSuite/Fleet/Claims/Profile.xml"/> -->
+
+                       <suite-file path="testSuite/Fleet/Vehicle/Enquiry.xml"/>
+<!--                   <suite-file path="testSuite/Fleet/Vehicle/Profile.xml"/>
+
+                       <suite-file path="testSuite/Fleet/Orders/Enquiry.xml"/>
+                       <suite-file path="testSuite/Fleet/Orders/Profile.xml"/>
+
+                       <suite-file path="testSuite/Fleet/MultipleUtilities/ClsVehDamages.xml"/>
+                       <suite-file path="testSuite/Fleet/MultipleUtilities/Disposal.xml"/>
+                       <suite-file path="testSuite/Fleet/MultipleUtilities/ListOfSold.xml"/>
+                       <suite-file path="testSuite/Fleet/MultipleUtilities/SettlementEval.xml"/>
+
+                       <suite-file path="testSuite/Debtors/CardEmbossing/CardEmbossing.xml"/>
+                       <suite-file path="testSuite/Debtors/Customers/Enquiry.xml"/>
+
+
+                       <suite-file path="testSuite/Debtors/Customers/TourOperatorProfile.xml"/>
+                       <suite-file path="testSuite/Debtors/Customers/TravelAgentProfile.xml"/>
+                       <suite-file path="testSuite/Debtors/Customers/CorporateProfile.xml"/>
+                       <suite-file path="testSuite/Debtors/Customers/CentralBillingProfile.xml"/>
+                       <suite-file path="testSuite/Debtors/Customers/CreditCardProfile.xml"/>
+                    <suite-file path="testSuite/Debtors/Customers/IndividualProfile.xml"/>
+                     <suite-file path="testSuite/Debtors/Customers/FreeHireProfile.xml"/>
+
+                     <suite-file path="testSuite/Debtors/DebtorsReview/Enquiry.xml"/>
+                     <suite-file path="testSuite/Debtors/DebtorsReview/Parameters.xml"/>
+
+                     <suite-file path="testSuite/Debtors/Financial/CrNote/Enquiry.xml"/>
+                     <suite-file path="testSuite/Debtors/Financial/CrNote/Profile.xml"/>
+                     <suite-file path="testSuite/Debtors/Financial/InvoicePrint.xml"/>
+                     <suite-file path="testSuite/Debtors/Financial/MnhmntBal.xml"/>
+
+
+
+                     <suite-file path="testSuite/Debtors/GroupStructure/GroupStructure.xml"/>
+
+
+                            <suite-file path="testSuite/SalesMarketing/Vouchers.xml"/>
+                            <suite-file path="testSuite/SalesMarketing/Loyality.xml"/>
+                            <suite-file path="testSuite/SalesMarketing/Renter.xml"/> 
+
+                           <suite-file path="testSuite/Operations/BackOffice/BlackListed/Enquiry.xml"/>
+                           <suite-file path="testSuite/Operations/BackOffice/BlackListed/Profile.xml"/>
+
+                           <suite-file path="testSuite/Operations/BackOffice/FullyBooked/Enquiry.xml"/>
+                           <suite-file path="testSuite/Operations/BackOffice/FullyBooked/Profile.xml"/>
+
+                           <suite-file path="testSuite/Operations/BackOffice/KeyBook/Enquiry.xml"/>
+                           <suite-file path="testSuite/Operations/BackOffice/KeyBook/Profile.xml"/>
+
+                           <suite-file path="testSuite/Operations/BackOffice/SubHire/Enquiry.xml"/>
+                           <suite-file path="testSuite/Operations/BackOffice/SubHire/Profile.xml"/>
+
+                           <suite-file path="testSuite/Operations/BackOffice/Trends/Analysis.xml"/>
+                           <suite-file path="testSuite/Operations/BackOffice/Trends/Maintenance.xml"/>
+
+                           <suite-file path="testSuite/Operations/BackOffice/Sanral/TagManagement.xml"/>
+                           <suite-file path="testSuite/Operations/BackOffice/Sanral/Transaction.xml"/>
+                           <suite-file path="testSuite/Operations/BackOffice/Sanral/Unallocated.xml"/>
+
+                           <suite-file path="testSuite/Operations/NonRevenue/ConvoyMovement.xml"/>
+                           <suite-file path="testSuite/Operations/NonRevenue/Enquiry.xml"/>
+                           <suite-file path="testSuite/Operations/NonRevenue/Profile.xml"/>
+
+                           <suite-file path="testSuite/Operations/InternationalRA/Enquiry.xml"/>
+                           <suite-file path="testSuite/Operations/InternationalRA/Profile.xml"/>
+
+                           <suite-file path="testSuite/Operations/RentalProcedures/Ops/Enquiries.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Ops/ExternalEnquiries.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Ops/ExtraServices.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Ops/IncommingReservation.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Ops/Vehicle.xml"/>
+
+                           <suite-file path="testSuite/Operations/RentalProcedures/Enquiries/FleetUTE/BranchRegion.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Enquiries/FleetUTE/DailyUtilisation.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Enquiries/FleetUTE/FleetResources.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Enquiries/FleetUTE/FleetUtilisation.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Enquiries/FleetUTE/MaintainBranchForecast.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Enquiries/FleetUTE/ProjectedFleetAnalysis.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Enquiries/FleetUTE/ProjectedVehicleGroup.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Enquiries/FleetUTE/ReservationVehicleGroup.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Enquiries/FleetUTE/VehiclesDueBackGroup.xml"/>
+
+                           <suite-file path="testSuite/Operations/RentalProcedures/CreditCardMOPS/CreditCardsMOPS.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Chauffeur/Chauffeur.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Door2Door/Door2Door.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Collections/Collections.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Delivery/Delivery.xml"/>
+
+
+                           <suite-file path="testSuite/Operations/RentalProcedures/MultipeUtilities/AlloMassVeh.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/MultipeUtilities/BatchFilling.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/MultipeUtilities/DeallocateMultVeh.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/MultipeUtilities/MassFuelAlloc.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/MultipeUtilities/PrintMultiRA.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/MultipeUtilities/TermMultMvmnt.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/MultipeUtilities/WalkUpRA.xml"/> 
+
+                           <suite-file path="testSuite/Operations/Qoutation/QoutationEnquiry.xml"/>
+                           <suite-file path="testSuite/Operations/Qoutation/QoutationProfileCasual.xml"/>
+                           <suite-file path="testSuite/Operations/Qoutation/QoutationProfileTourOperator.xml"/>
+                           <suite-file path="testSuite/Operations/Qoutation/QoutationProfileTravelAgentCasual.xml"/>
+                           <suite-file path="testSuite/Operations/Qoutation/QoutationProfileTravelAgentCorporate.xml"/>
+                           <suite-file path="testSuite/Operations/Qoutation/QoutationProfileCorporate.xml"/>
+                           <suite-file path="testSuite/Operations/Qoutation/QoutationProfileIndividual.xml"/> 
+
+                           <suite-file path="testSuite/Operations/RentalProcedures/Profile/ProfileOther.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Profile/ProfileTravelAgent.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Profile/ProfileCorporate.xml"/> 
+                           <suite-file path="testSuite/Operations/RentalProcedures/Profile/ProfileWalkUp.xml"/>
+                           <suite-file path="testSuite/Operations/RentalProcedures/Profile/ProfileTourOperator.xml"/> 
+                           
+
+                           <suite-file path="testSuite/Utilities/Rates/Enquiry.xml"/>
+                           <suite-file path="testSuite/Utilities/Rates/Profile.xml"/>
+
+                           <suite-file path="testSuite/Utilities/Products/Enquiry.xml"/>
+                           <suite-file path="testSuite/Utilities/Products/Profile.xml"/>
+                           <suite-file path="testSuite/Utilities/Products/OneWayFee.xml"/>
+
+                           <suite-file path="testSuite/Utilities/Accessories/Profile.xml"/>
+                           <suite-file path="testSuite/Utilities/Accessories/Enquiry.xml"/>
+
+
+                           <suite-file path="testSuite/Utilities/Branches/Profile.xml"/>
+                           <suite-file path="testSuite/Utilities/Branches/Enquiry.xml"/>
+                           <suite-file path="testSuite/Utilities/Branches/BranchChange.xml"/>
+
+                           <suite-file path="testSuite/Utilities/Codes/CodeFiles.xml"/>
+                           <suite-file path="testSuite/Utilities/Codes/Dealers.xml"/>
+                           <suite-file path="testSuite/Utilities/Codes/InternationalRA.xml"/>
+                           <suite-file path="testSuite/Utilities/Codes/Messages.xml"/>
+                           <suite-file path="testSuite/Utilities/Codes/Model.xml"/>
+                           <suite-file path="testSuite/Utilities/Codes/SMSNotification.xml"/>
+
+                           <suite-file path="testSuite/Utilities/Printing/Printer.xml"/>
+                           <suite-file path="testSuite/Utilities/Printing/BranchPrinter.xml"/>
+                           <suite-file path="testSuite/Utilities/Printing/LabelPrinting.xml"/>
+                           <suite-file path="testSuite/Utilities/Printing/ReportScheduler.xml"/>
+                           <suite-file path="testSuite/Utilities/Printing/ReportType.xml"/>
+
+                           <suite-file path="testSuite/Utilities/Printing/Queues.xml"/>
+
+                           <suite-file path="testSuite/Utilities/Products/Enquiry.xml"/>
+                           <suite-file path="testSuite/Utilities/Products/Profile.xml"/>
+                           <suite-file path="testSuite/Utilities/Products/OneWayFee.xml"/>
+
+                           <suite-file path="testSuite/Utilities/Rates/Enquiry.xml"/>
+                           <suite-file path="testSuite/Utilities/Rates/Profile.xml"/>
+
+                           <suite-file path="testSuite/Utilities/CreditCardAuth/Auth.xml"/>
+                           <suite-file path="testSuite/Utilities/CreditCardAuth/Table.xml"/> -->
+
+
+    </suite-files>
+</suite>
+

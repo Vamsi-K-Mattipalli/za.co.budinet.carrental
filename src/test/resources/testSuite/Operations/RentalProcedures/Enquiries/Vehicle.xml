@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CLAIMS ENQUIRY" parallel="methods">
+    <test name="TC006_To verify that Claims Enquiry field is displayed">
+    <!--
+    <classes>
+        <class name="TestCases.Fleet.Claims.Enquiry.TCWU06"/>
+    </classes>
+</test>
+<test name="TC007_To verify that Claims Enquiry for Claim Number is complete successfully ">
+    <classes>
+        <class name="TestCases.Fleet.Claims.Enquiry.TCWU07"/>
+    </classes>
+</test>
+<test name="TC008_To verify that Claims Enquiry for Claim Date is complete successfully ">
+    <classes>
+        <class name="TestCases.Fleet.Claims.Enquiry.TCOTHER08"/>
+    </classes>
+</test>
+<test name="TC009_To verify that Claims Enquiry for Write-Off Damage Date  is complete successfully">
+    <classes>
+        <class name="TestCases.Fleet.Claims.Enquiry.TCTA09"/>
+    </classes>
+</test>
+<test name="TC010_To verify that Claims Enquiry for Registration No is complete successfully ">
+    <classes>
+        <class name="TestCases.Fleet.Claims.Enquiry.TCWU10"/>
+    </classes>
+</test>
+<test name="TC011_To verify that Claims Enquiry for Movement No is complete successfully">
+    <classes>
+        <class name="TestCases.Fleet.Claims.Enquiry.TCWU11"/>
+    </classes>
+</test>
+<test name="TC012_To verify that Claims Enquiry for Yard Damage is complete successfully ">
+    <classes>
+        <class name="TestCases.Fleet.Claims.Enquiry.TCWU12"/>
+    </classes>
+</test>
+<test name="TC014_To verify that Claims Enquiry for Rental Damage is complete successfully">
+    <classes>
+        <class name="TestCases.Fleet.Claims.Enquiry.TCOTHER14"/>
+    </classes>
+</test>
+<test name="TC015_To verify that Claims Enquiry for Rental Damage is complete successfully">
+    <classes>
+        <class name="TestCases.Fleet.Claims.Enquiry.TCOTHER15"/>
+    </classes>
+</test>
+<test name="TC016_To verify that Claims Enquiry for  Damages with no Claims Attached successfully ">
+    <classes>
+        <class name="TestCases.Fleet.Claims.Enquiry.TCOTHER16"/>
+    </classes>
+</test>
+-->
+</suite> <!-- Suite -->

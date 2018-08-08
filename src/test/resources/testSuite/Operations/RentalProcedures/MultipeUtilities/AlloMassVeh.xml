@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ALLOCATION MULTIPLY VEHICLE">
+     <test name="TCMUAV001">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.AllocMultVeh.TCMUAV001"/>
+         </classes>
+     </test>
+     <test name="TCMUAV002">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.AllocMultVeh.TCMUAV002"/>
+         </classes>
+     </test>
+     <test name="TCMUAV003">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.AllocMultVeh.TCMUAV003"/>
+         </classes>
+     </test>
+     <test name="TCMUAV004">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.AllocMultVeh.TCMUAV004"/>
+         </classes>
+     </test>
+     <test name="TCMUAV005">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.AllocMultVeh.TCMUAV005"/>
+         </classes>
+     </test>
+
+</suite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NONREVENUE ENQUIRY">
+    <test name="TCNRENQ01">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Enquiry.TCNRENQ01"/>
+        </classes>
+    </test>
+    <test name="TCNRENQ02">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Enquiry.TCNRENQ02"/>
+        </classes>
+    </test>
+    <test name="TCNRENQ03">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Enquiry.TCNRENQ03"/>
+        </classes>
+    </test>
+    <test name="TCNRENQ04">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Enquiry.TCNRENQ04"/>
+        </classes>
+    </test>
+    <test name="TCNRENQ05">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Enquiry.TCNRENQ05"/>
+        </classes>
+    </test>
+    <test name="TCNRENQ06">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Enquiry.TCNRENQ06"/>
+        </classes>
+    </test>
+    <test name="TCNRENQ07">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Enquiry.TCNRENQ07"/>
+        </classes>
+    </test>
+   </suite> <!-- Suite -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES PRINTING RSS">
+    <test name="RSSDAILY">
+        <classes>
+            <class name="TestCases.Utilities.Printing.RSS.RSSDAILY"/>
+        </classes>
+    </test>
+    <test name="RSSIMMEDIATE">
+        <classes>
+            <class name="TestCases.Utilities.Printing.RSS.RSSIMMEDIATE"/>
+        </classes>
+    </test>
+    <test name="RSSMONTLY">
+        <classes>
+            <class name="TestCases.Utilities.Printing.RSS.RSSMONTLY"/>
+        </classes>
+    </test>
+    <test name="RSSWEEKLY">
+        <classes>
+            <class name="TestCases.Utilities.Printing.RSS.RSSWEEKLY"/>
+        </classes>
+    </test>
+    <test name="RSSONCE">
+        <classes>
+            <class name="TestCases.Utilities.Printing.RSS.RSSONCE"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

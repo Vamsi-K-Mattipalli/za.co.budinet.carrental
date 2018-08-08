@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MULTIPLE UTILITIES - DISPOSAL">
+    <test name="TCFMU002_Allow the User to dispose more than one Vehicle at a time">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.Disposal.TCFMU002"/>
+        </classes>
+    </test>
+    <test name="TCFMU003_Sold Date cannot be prior to the last Movement Date">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.Disposal.TCFMU003"/>
+        </classes>
+    </test>
+    <test name="TCFMU004_Sold Date cannot be a future Date">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.Disposal.TCFMU004"/>
+        </classes>
+    </test>
+    <test name="TCFMU005_Selling Price cannot exceed Purchase Price">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.Disposal.TCFMU005"/>
+        </classes>
+    </test>
+    <test name="TCFMU006_Vehicles that are not in status ‘Going Out of Fleet’">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.Disposal.TCFMU006"/>
+        </classes>
+    </test>
+    <test name="TCFMU007_Modify disposal profile">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.Disposal.TCFMU007"/>
+        </classes>
+    </test>
+    <test name="TCFMU008_Delete disposal profile">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.Disposal.TCFMU008"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

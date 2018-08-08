@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FULLYBOOKED ENQUIRY">
+    <test name="TCFULENQ01">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.FullyBooked.Enquiry.TCFULENQ01"/>
+        </classes>
+    </test>
+    <test name="TCFULENQ02">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.FullyBooked.Enquiry.TCFULENQ02"/>
+        </classes>
+    </test>
+    <test name="TCFULENQ03">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.FullyBooked.Enquiry.TCFULENQ03"/>
+        </classes>
+    </test>
+   </suite> <!-- Suite -->

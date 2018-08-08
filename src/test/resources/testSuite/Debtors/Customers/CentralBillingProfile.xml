@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CUSTOMER CENTRAL BILLING PROFILE">
+    <test name="TCCB001">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB001"/>
+        </classes>
+    </test>
+    <test name="TCCB002">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB002"/>
+        </classes>
+    </test>
+    <test name="TCCB003">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB003"/>
+        </classes>
+    </test>
+    <test name="TCCB004">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB004"/>
+        </classes>
+    </test>
+    <test name="TCCB005">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB005"/>
+        </classes>
+    </test>
+    <test name="TCCB006">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB006"/>
+        </classes>
+    </test>
+    <test name="TCCB007">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB007"/>
+        </classes>
+    </test>
+    <test name="TCCB008">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB008"/>
+        </classes>
+    </test>
+    <test name="TCCB009">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB009"/>
+        </classes>
+    </test>
+    <test name="TCCB010">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB010"/>
+        </classes>
+    </test>
+    <test name="TCCB011">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB011"/>
+        </classes>
+    </test>
+    <test name="TCCB012">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB012"/>
+        </classes>
+    </test>
+    <test name="TCCB013">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB013"/>
+        </classes>
+    </test>
+    <test name="TCCB014">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB014"/>
+        </classes>
+    </test>
+    <test name="TCCB015">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB015"/>
+        </classes>
+    </test>
+    <test name="TCCB016">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB016"/>
+        </classes>
+    </test>
+    <test name="TCCB017">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB017"/>
+        </classes>
+    </test>
+    <test name="TCCB018">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB018"/>
+        </classes>
+    </test>
+    <test name="TCCB019">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB019"/>
+        </classes>
+    </test>
+    <test name="TCCB020">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB020"/>
+        </classes>
+    </test>
+    <test name="TCCB021">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB021"/>
+        </classes>
+    </test>
+    <test name="TCCB022">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB022"/>
+        </classes>
+    </test>
+    <test name="TCCB023">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB023"/>
+        </classes>
+    </test>
+    <test name="TCCB024">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB024"/>
+        </classes>
+    </test>
+    <test name="TCCB025">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB025"/>
+        </classes>
+    </test>
+    <test name="TCCB026">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB026"/>
+        </classes>
+    </test>
+    <test name="TCCB027">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB027"/>
+        </classes>
+    </test>
+    <test name="TCCB028">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB028"/>
+        </classes>
+    </test>
+    <test name="TCCB029">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB029"/>
+        </classes>
+    </test>
+    <test name="TCCB030">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB030"/>
+        </classes>
+    </test>
+    <test name="TCCB031">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB031"/>
+        </classes>
+    </test>
+    <test name="TCCB032">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB032"/>
+        </classes>
+    </test>
+    <test name="TCCB033">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB033"/>
+        </classes>
+    </test>
+    <test name="TCCB034">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB034"/>
+        </classes>
+    </test>
+    <test name="TCCB035">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB035"/>
+        </classes>
+    </test>
+    <test name="TCCB036">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB036"/>
+        </classes>
+    </test>
+    <test name="TCCB037">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB037"/>
+        </classes>
+    </test>
+    <test name="TCCB038">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB038"/>
+        </classes>
+    </test>
+    <test name="TCCB039">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB039"/>
+        </classes>
+    </test>
+    <test name="TCCB040">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB040"/>
+        </classes>
+    </test>
+    <test name="TCCB041">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB041"/>
+        </classes>
+    </test>
+    <test name="TCCB042">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB042"/>
+        </classes>
+    </test>
+    <test name="TCCB043">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB043"/>
+        </classes>
+    </test>
+    <test name="TCCB044">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB044"/>
+        </classes>
+    </test>
+    <test name="TCCB045">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB045"/>
+        </classes>
+    </test>
+    <test name="TCCB06">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB046"/>
+        </classes>
+    </test>
+    <test name="TCCB047">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB047"/>
+        </classes>
+    </test>
+    <test name="TCCB048">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB048"/>
+        </classes>
+    </test>
+    <test name="TCCB049">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB049"/>
+        </classes>
+    </test>
+    <test name="TCCB050">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB050"/>
+        </classes>
+    </test>
+    <test name="TCCB051">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB051"/>
+        </classes>
+    </test>
+    <test name="TCCB052">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB052"/>
+        </classes>
+    </test>
+    <test name="TCCB053">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB053"/>
+        </classes>
+    </test>
+    <test name="TCCB054">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB054"/>
+        </classes>
+    </test>
+    <test name="TCCB055">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB055"/>
+        </classes>
+    </test>
+    <test name="TCCB056">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB056"/>
+        </classes>
+    </test>
+    <test name="TCCB057">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB057"/>
+        </classes>
+    </test>
+    <test name="TCCB058">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB058"/>
+        </classes>
+    </test>
+    <test name="TCCB059">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB059"/>
+        </classes>
+    </test>
+    <test name="TCCB060">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB060"/>
+        </classes>
+    </test>
+    <test name="TCCB061">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB061"/>
+        </classes>
+    </test>
+    <test name="TCCB062">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB062"/>
+        </classes>
+    </test>
+    <test name="TCCB063">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB063"/>
+        </classes>
+    </test>
+    <test name="TCCB064">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB064"/>
+        </classes>
+    </test>
+    <test name="TCCB065">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB065"/>
+        </classes>
+    </test>
+    <test name="TCCB066">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB066"/>
+        </classes>
+    </test>
+    <test name="TCCB067">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB067"/>
+        </classes>
+    </test>
+    <test name="TCCB068">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB068"/>
+        </classes>
+    </test>
+    <test name="TCCB069">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB069"/>
+        </classes>
+    </test>
+    <test name="TCCB070">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB070"/>
+        </classes>
+    </test>
+    <test name="TCCB071">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB071"/>
+        </classes>
+    </test>
+    <test name="TCCB072">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB072"/>
+        </classes>
+    </test>
+    <test name="TCCB073">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB073"/>
+        </classes>
+    </test>
+    <test name="TCCB074">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB074"/>
+        </classes>
+    </test>
+    <test name="TCCB075">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB075"/>
+        </classes>
+    </test>
+    <test name="TCCB076">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB076"/>
+        </classes>
+    </test>
+    <test name="TCCB077">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB077"/>
+        </classes>
+    </test>
+    <test name="TCCB078">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB078"/>
+        </classes>
+    </test>
+    <test name="TCCB079">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB079"/>
+        </classes>
+    </test>
+    <test name="TCCB080">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB080"/>
+        </classes>
+    </test>
+    <test name="TCCB081">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB081"/>
+        </classes>
+    </test>
+    <test name="TCCB082">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB082"/>
+        </classes>
+    </test>
+    <test name="TCCB083">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB083"/>
+        </classes>
+    </test>
+    <test name="TCCB084">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB084"/>
+        </classes>
+    </test>
+    <test name="TCCB085">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB085"/>
+        </classes>
+    </test>
+    <test name="TCCB086">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB086"/>
+        </classes>
+    </test>
+    <test name="TCCB087">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB087"/>
+        </classes>
+    </test>
+    <test name="TCCB088">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB088"/>
+        </classes>
+    </test>
+    <test name="TCCB089">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB089"/>
+        </classes>
+    </test>
+    <test name="TCCB090">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB090"/>
+        </classes>
+    </test>
+    <test name="TCCB091">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB091"/>
+        </classes>
+    </test>
+    <test name="TCCB092">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB092"/>
+        </classes>
+    </test>
+    <test name="TCCB093">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB093"/>
+        </classes>
+    </test>
+    <test name="TCCB094">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB094"/>
+        </classes>
+    </test>
+    <test name="TCCB095">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB095"/>
+        </classes>
+    </test>
+    <test name="TCCB096">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB096"/>
+        </classes>
+    </test>
+    <test name="TCCB097">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB097"/>
+        </classes>
+    </test>
+    <test name="TCCB098">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB098"/>
+        </classes>
+    </test>
+    <test name="TCCB099">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB099"/>
+        </classes>
+    </test>
+    <test name="TCCB100">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB100"/>
+        </classes>
+    </test>
+    <test name="TCCB101">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CentralBilling.TCCB101"/>
+        </classes>
+    </test>
+</suite>

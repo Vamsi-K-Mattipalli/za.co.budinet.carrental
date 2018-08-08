@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VEHICLE" parallel="methods">
+    <test name="TCVENQ01">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Vehicle.TCVENQ01"/>
+        </classes>
+    </test>
+    <test name="TCVENQ02">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Vehicle.TCVENQ02"/>
+        </classes>
+    </test>
+    <test name="TCVENQ03">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Vehicle.TCVENQ03"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

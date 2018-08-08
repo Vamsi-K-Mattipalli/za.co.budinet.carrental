@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MASS FUEL ALLOCATION">
+     <test name="TCMUPM013">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.MassFuelAlloc.TCMUTMM031"/>
+         </classes>
+     </test>
+     <test name="TCMUPM014">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.MassFuelAlloc.TCMUTMM032"/>
+         </classes>
+     </test>
+</suite>

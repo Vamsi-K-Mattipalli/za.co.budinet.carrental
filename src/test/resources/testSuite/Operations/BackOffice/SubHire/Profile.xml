@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SUBHIRE PROFILE">
+    <test name="TCSUBPRO001">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.SubHire.Profile.TCSUBPRO001"/>
+        </classes>
+    </test>
+    <test name="TCSUBPRO002">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.SubHire.Profile.TCSUBPRO002"/>
+        </classes>
+    </test>
+    <test name="TCSUBPRO003">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.SubHire.Profile.TCSUBPRO003"/>
+        </classes>
+    </test>
+    <test name="TCSUBPRO004">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.SubHire.Profile.TCSUBPRO004"/>
+        </classes>
+    </test>
+    <test name="TCSUBPRO005">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.SubHire.Profile.TCSUBPRO005"/>
+        </classes>
+    </test>
+    <test name="TCSUBPRO006">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.SubHire.Profile.TCSUBPRO006"/>
+        </classes>
+    </test>
+    <test name="TCSUBPRO007">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.SubHire.Profile.TCSUBPRO007"/>
+        </classes>
+    </test>
+    <test name="TCSUBPRO008">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.SubHire.Profile.TCSUBPRO008"/>
+        </classes>
+    </test>
+    <test name="TCSUBPRO009">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.SubHire.Profile.TCSUBPRO009"/>
+        </classes>
+    </test>
+    <test name="TCSUBPRO010">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.SubHire.Profile.TCSUBPRO010"/>
+        </classes>
+    </test>
+    <test name="TCSUBPRO011">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.SubHire.Profile.TCSUBPRO011"/>
+        </classes>
+    </test>
+    <test name="TCSUBPRO012">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.SubHire.Profile.TCSUBPRO011"/>
+        </classes>
+    </test>
+</suite>

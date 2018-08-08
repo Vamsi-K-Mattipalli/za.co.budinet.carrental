@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DELIVERY">
+    <test name="TCDEL01">
+        <classes>
+            <class name="TestCases.Operations.Rental.Delivery.TCDEL001"/>
+        </classes>
+    </test>
+    <test name="TCDEL02">
+        <classes>
+            <class name="TestCases.Operations.Rental.Delivery.TCDEL002"/>
+        </classes>
+    </test>
+    <test name="TCDEL03">
+        <classes>
+            <class name="TestCases.Operations.Rental.Delivery.TCDEL003"/>
+        </classes>
+    </test>
+</suite>

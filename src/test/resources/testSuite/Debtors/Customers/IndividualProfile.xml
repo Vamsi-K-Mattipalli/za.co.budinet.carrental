@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CUSTOMER INDIVIDUAL PROFILE">
+    <test name="TCINDV001 To verify that Claims Enquiry field is displayed">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV001"/>
+        </classes>
+    </test>
+    <test name="TCINDV002">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV002"/>
+        </classes>
+    </test>
+    <test name="TCINDV003">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV003"/>
+        </classes>
+    </test>
+    <test name="TCINDV004">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV004"/>
+        </classes>
+    </test>
+    <test name="TCINDV005">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV005"/>
+        </classes>
+    </test>
+    <test name="TCINDV006">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV006"/>
+        </classes>
+    </test>
+    <test name="TCINDV007">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV007"/>
+        </classes>
+    </test>
+    <test name="TCINDV008">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV008"/>
+        </classes>
+    </test>
+    <test name="TCINDV009">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV009"/>
+        </classes>
+    </test>
+    <test name="TCINDV010">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV010"/>
+        </classes>
+    </test>
+    <test name="TCINDV011">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV011"/>
+        </classes>
+    </test>
+    <test name="TCINDV012">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV012"/>
+        </classes>
+    </test>
+    <test name="TCINDV013">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV013"/>
+        </classes>
+    </test>
+    <test name="TCINDV014">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV014"/>
+        </classes>
+    </test>
+    <test name="TCINDV015">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV015"/>
+        </classes>
+    </test>
+    <test name="TCINDV016">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV016"/>
+        </classes>
+    </test>
+    <test name="TCINDV017">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV017"/>
+        </classes>
+    </test>
+    <test name="TCINDV018">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV018"/>
+        </classes>
+    </test>
+    <test name="TCINDV019">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV019"/>
+        </classes>
+    </test>
+    <test name="TCINDV020">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV020"/>
+        </classes>
+    </test>
+    <test name="TCINDV021">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV021"/>
+        </classes>
+    </test>
+    <test name="TCINDV022">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV022"/>
+        </classes>
+    </test>
+    <test name="TCINDV023">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV023"/>
+        </classes>
+    </test>
+    <test name="TCINDV024">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV024"/>
+        </classes>
+    </test>
+    <test name="TCINDV025">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV025"/>
+        </classes>
+    </test>
+    <test name="TCINDV026">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV026"/>
+        </classes>
+    </test>
+    <test name="TCINDV027">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV027"/>
+        </classes>
+    </test>
+    <test name="TCINDV028">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV028"/>
+        </classes>
+    </test>
+    <test name="TCINDV029">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV029"/>
+        </classes>
+    </test>
+    <test name="TCINDV030">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV030"/>
+        </classes>
+    </test>
+    <test name="TCINDV031">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV031"/>
+        </classes>
+    </test>
+    <test name="TCINDV032">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV032"/>
+        </classes>
+    </test>
+    <test name="TCINDV033">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV033"/>
+        </classes>
+    </test>
+    <test name="TCINDV034">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV034"/>
+        </classes>
+    </test>
+    <test name="TCINDV035">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV035"/>
+        </classes>
+    </test>
+    <test name="TCINDV036">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV036"/>
+        </classes>
+    </test>
+    <test name="TCINDV037">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV037"/>
+        </classes>
+    </test>
+    <test name="TCINDV038">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV038"/>
+        </classes>
+    </test>
+    <test name="TCINDV039">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV039"/>
+        </classes>
+    </test>
+    <test name="TCINDV040">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV040"/>
+        </classes>
+    </test>
+    <test name="TCINDV041">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV041"/>
+        </classes>
+    </test>
+    <test name="TCINDV042">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV042"/>
+        </classes>
+    </test>
+    <test name="TCINDV043">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV043"/>
+        </classes>
+    </test>
+    <test name="TCINDV044  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV044"/>
+        </classes>
+    </test>
+    <test name="TCINDV045  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV045"/>
+        </classes>
+    </test>
+    <test name="TCINDV046  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV046"/>
+        </classes>
+    </test>
+    <test name="TCINDV047  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV047"/>
+        </classes>
+    </test>
+    <test name="TCINDV048  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV048"/>
+        </classes>
+    </test>
+    <test name="TCINDV049  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV049"/>
+        </classes>
+    </test>
+    <test name="TCINDV050  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV050"/>
+        </classes>
+    </test>
+    <test name="TCINDV051  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV051"/>
+        </classes>
+    </test>
+    <test name="TCINDV052  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV052"/>
+        </classes>
+    </test>
+    <test name="TCINDV053  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV053"/>
+        </classes>
+    </test>
+    <test name="TCINDV054  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV054"/>
+        </classes>
+    </test>
+    <test name="TCINDV055  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV055"/>
+        </classes>
+    </test>
+    <test name="TCINDV56  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV056"/>
+        </classes>
+    </test>
+    <test name="TCINDV057  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV057"/>
+        </classes>
+    </test>
+    <test name="TCINDV058  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV058"/>
+        </classes>
+    </test>
+    <test name="TCINDV059  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV059"/>
+        </classes>
+    </test>
+    <test name="TCINDV060  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV060"/>
+        </classes>
+    </test>
+    <test name="TCINDV061  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV061"/>
+        </classes>
+    </test>
+    <test name="TCINDV062  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV062"/>
+        </classes>
+    </test>
+    <test name="TCINDV063  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV063"/>
+        </classes>
+    </test>
+    <test name="TCINDV064  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV064"/>
+        </classes>
+    </test>
+    <test name="TCINDV065  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV065"/>
+        </classes>
+    </test>
+    <test name="TCINDV066  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV066"/>
+        </classes>
+    </test>
+    <test name="TCINDV067  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV067"/>
+        </classes>
+    </test>
+    <test name="TCINDV068  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV068"/>
+        </classes>
+    </test>
+    <test name="TCINDV069  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV069"/>
+        </classes>
+    </test>
+    <test name="TCINDV070  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV070"/>
+        </classes>
+    </test>
+    <test name="TCINDV071  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV071"/>
+        </classes>
+    </test>
+    <test name="TCINDV072  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV072"/>
+        </classes>
+    </test>
+    <test name="TCINDV073  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV073"/>
+        </classes>
+    </test>
+    <test name="TCINDV074  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV074"/>
+        </classes>
+    </test>
+    <test name="TCINDV075  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV075"/>
+        </classes>
+    </test>
+    <test name="TCINDV076  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV076"/>
+        </classes>
+    </test>
+    <test name="TCINDV077  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV077"/>
+        </classes>
+    </test>
+    <test name="TCINDV078  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV078"/>
+        </classes>
+    </test>
+    <test name="TCINDV079  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV079"/>
+        </classes>
+    </test>
+    <test name="TCINDV080  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV080"/>
+        </classes>
+    </test>
+    <test name="TCINDV081  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV081"/>
+        </classes>
+    </test>
+    <test name="TCINDV082  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV082"/>
+        </classes>
+    </test>
+    <test name="TCINDV083  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV083"/>
+        </classes>
+    </test>
+    <test name="TCINDV084  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV084"/>
+        </classes>
+    </test>
+    <test name="TCINDV085  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV085"/>
+        </classes>
+    </test>
+    <test name="TCINDV086  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV086"/>
+        </classes>
+    </test>
+    <test name="TCINDV087  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV087"/>
+        </classes>
+    </test>
+    <test name="TCINDV088  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV088"/>
+        </classes>
+    </test>
+    <test name="TCINDV089  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV089"/>
+        </classes>
+    </test>
+    <test name="TCINDV090  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV090"/>
+        </classes>
+    </test>
+    <test name="TCINDV091  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV091"/>
+        </classes>
+    </test>
+    <test name="TCINDV092  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV092"/>
+        </classes>
+    </test>
+    <test name="TCINDV093  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV093"/>
+        </classes>
+    </test>
+    <test name="TCINDV094  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV094"/>
+        </classes>
+    </test>
+    <test name="TCINDV095  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV095"/>
+        </classes>
+    </test>
+    <test name="TCINDV096  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV096"/>
+        </classes>
+    </test>
+    <test name="TCINDV097  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV097"/>
+        </classes>
+    </test>
+    <test name="TCINDV098  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV098"/>
+        </classes>
+    </test>
+    <test name="TCINDV099  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV099"/>
+        </classes>
+    </test>
+    <test name="TCINDV100  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV100"/>
+        </classes>
+    </test>
+
+    <test name="TCINDV101  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV101"/>
+        </classes>
+    </test>
+    <test name="TCINDV102  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV102"/>
+        </classes>
+    </test>
+    <test name="TCINDV103  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV103"/>
+        </classes>
+    </test>
+    <test name="TCINDV104  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Individual.TCINDV104"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

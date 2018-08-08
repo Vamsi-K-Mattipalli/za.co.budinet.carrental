@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ORDER ENQUIRY">
+    <test name="TCFO011_To verify that when user Modifies Vehicle Model the Linked Vehicle Model is modified as well">
+        <classes>
+            <class name="TestCases.Fleet.Order.Enquiry.TCFO011"/>
+        </classes>
+    </test>
+    <test name="TCFO012_To verify that Depreciation Rate is auto calculated after submitting the order">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO012"/>
+        </classes>
+    </test>
+    <test name="TCFO022_To verify that user is able to Enquire an existing Vehicle Order">
+        <classes>
+            <class name="TestCases.Fleet.Order.Enquiry.TCFO022"/>
+        </classes>
+    </test>
+    <test name="TCFO23_To verify that user is able to Enquire by Order Deliveries">
+    <classes>
+        <class name="TestCases.Fleet.Order.Enquiry.TCFO023"/>
+    </classes>
+</test>
+    <test name="TCFO24_To verify that user is able to Enquire Order By Dealers Suppliers">
+        <classes>
+            <class name="TestCases.Fleet.Order.Enquiry.TCFO024"/>
+        </classes>
+    </test>
+    <test name="TCFO25_To verify that user is able to Enquire Orders by Model">
+        <classes>
+            <class name="TestCases.Fleet.Order.Enquiry.TCFO025"/>
+        </classes>
+    </test>
+    <test name="TCFO26_To verify that user is able to Enquire Orders by Vehicle Group">
+        <classes>
+            <class name="TestCases.Fleet.Order.Enquiry.TCFO026"/>
+        </classes>
+    </test>
+    <test name="TCFO27_To verify that user is able to Enquire Orders by Country Suppliers">
+        <classes>
+            <class name="TestCases.Fleet.Order.Enquiry.TCFO027"/>
+        </classes>
+    </test>
+    <test name="TCFO28_To verify that user is able to Enquire Orders by Region">
+        <classes>
+            <class name="TestCases.Fleet.Order.Enquiry.TCFO028"/>
+        </classes>
+    </test>
+    <test name="TCFO29_To verify that user is able to Enquire Orders By Date Range">
+        <classes>
+            <class name="TestCases.Fleet.Order.Enquiry.TCFO029"/>
+        </classes>
+    </test>
+    <test name="TCFO30_To verify that user is able to Enquire Orders by Date Range">
+        <classes>
+            <class name="TestCases.Fleet.Order.Enquiry.TCFO030"/>
+        </classes>
+    </test>
+    <test name="TCFO31_To verify that user is able to Enquire Orders By Date Range">
+        <classes>
+            <class name="TestCases.Fleet.Order.Enquiry.TCFO031"/>
+        </classes>
+    </test>
+    <test name="TCFO32_To verify that user is able to Enquire Orders by Status">
+        <classes>
+            <class name="TestCases.Fleet.Order.Enquiry.TCFO032"/>
+        </classes>
+    </test>
+    <test name="TCFO33_To verify that user is able to Cancel Order">
+        <classes>
+            <class name="TestCases.Fleet.Order.Enquiry.TCFO033"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

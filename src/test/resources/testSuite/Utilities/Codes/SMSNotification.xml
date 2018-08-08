@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES CODES - SMS NOTIFICATION">
+    <test name="TCSMSN001 Verify if the user can navigate to the branch Enquiry">
+        <classes>
+            <class name="TestCases.Utilities.Codes.SMSNotification.TCSMSN001"/>
+        </classes>
+    </test>
+    <test name="TCSMSN002 Verify if the user can Enquiry a branch by Division">
+        <classes>
+            <class name="TestCases.Utilities.Codes.SMSNotification.TCSMSN002"/>
+        </classes>
+    </test>
+    <test name="TCSMSN003 Verify if the user can Enquiry a branch by Franchi Code">
+        <classes>
+            <class name="TestCases.Utilities.Codes.SMSNotification.TCSMSN003"/>
+        </classes>
+    </test>
+    <test name="TCSMSN004 Verify if the user can Enquiry a branch by Company Type">
+        <classes>
+            <class name="TestCases.Utilities.Codes.SMSNotification.TCSMSN004"/>
+        </classes>
+    </test>
+</suite>

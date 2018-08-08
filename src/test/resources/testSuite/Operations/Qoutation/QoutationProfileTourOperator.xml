@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QOUTATION PROFILE TOUR OPERATOR">
+    <test name="TCTOPR001_ Verify the contents of the Rental Agreement screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR01"/>
+        </classes>
+    </test>
+    <test name="TCTOPR002_Make a Reservation for Individual Renter by not changing any of the default quotation fields- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR02"/>
+        </classes>
+    </test>
+    <test name="TCTOPR003_Make a Reservation for Individual Renter by not changing any of the default quotation fields- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR03"/>
+        </classes>
+    </test>
+    <test name="TCTOPR004_Make a Reservation for Individual Renter by changing Title New -Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR04"/>
+        </classes>
+    </test>
+    <test name="TCTOPR05_Make a Reservation for Individual Renter by changing Initials -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR05"/>
+        </classes>
+    </test>
+    <test name="TCTOPR06_Make a Reservation for Individual Renter by changing Surname -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR06"/>
+        </classes>
+    </test>
+    <test name="TCTOPR07_Make a Reservation for Individual Renter by changing First Names -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR07"/>
+        </classes>
+    </test>
+    <test name="TCTOPR08_Make a Reservation for Individual Renter by changing Pickup Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR08"/>
+        </classes>
+    </test>
+    <test name="TCTOPR09_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR09"/>
+        </classes>
+    </test>
+    <test name="TCTOPR10_Make a Reservation for Individual Renter by changing Pickup Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR10"/>
+        </classes>
+    </test>
+    <test name="TCTOPR11_Make a Reservation for Individual Renter by changing Due Back Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR11"/>
+        </classes>
+    </test>
+    <test name="TCTOPR12_Make a Reservation for Individual Renter by changing Due Back Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR12"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR13_Make a Reservation for Individual Renter by changing Due Back Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR13"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR14_Make a Reservation for Individual Renter by changing Vehicle Group -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR14"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR15_Make a Reservation for Individual Renter by changing Pickup Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR15"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR16_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR16"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR17_Make a Reservation for Individual Renter by changing Pickup Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR17"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR18_Make a Reservation for Individual Renter by changing Due Back Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR18"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR19_Make a Reservation for Individual Renter by changing Due Back Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR19"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR20_Make a Reservation for Individual Renter by changing Due Back Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR20"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR21_Make a Reservation for Individual Renter by changing Vehicle Group -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR21"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR22_Make a Reservation for Individual Renter by changing Pickup Date-  Using Date Picker to select Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR22"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR23_Make a Reservation for Individual Renter by changing Pickup Date -  Using Date Picker to select Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR23"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR24_Make a Reservation for an Existing Individual Renter that is flagged as Blacklisted by not changing any of the default quotation fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR24"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR25_Make a Reservation for an Existing Individual Renter by Checking if the Vehicle is Fully booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR25"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR26_Make a Reservation for an Existing Individual Renter by  Overriding Fully Booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR26"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR27_Make a Reservation for an Existing Individual Renter by  Overriding Branch Time">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR27"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR28_View One way Fee on a Reservation screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR28"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR29_Make a Reservation for Individual Renter without Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR29"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR30_Make a Reservation for Individual Renter without Tel No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR30"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR31_Select Cell No on ID Type and  do not capture  Cell Number on Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR31"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR32_Make a Reservation for Individual Renter without Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR32"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR33_Verify the contents of the Core">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR33"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR34_Verify the Buttons of the Core  ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR34"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR35_Verify the functionality of Key Fields Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR35"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR36_Verify the functionality of Agents Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR36"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR37_Verify the functionality of View Damages Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR37"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR38_Verify the functionality of New RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR38"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR39_Verify the functionality of Print RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR39"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR40_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR40"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR41_Verify the functionality of Cancel Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR41"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR42_Verify the functionality of Allocate Etolls Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR42"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR43_Verify the functionality of SMS Notification Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR43"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR44_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR44"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR45_Make a Reservation for Individual Renter by capturing incorrect ID number- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR45"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR46_Make a Reservation for Individual Renter by capturing ID number that has 14 digits- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR46"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR47_Make a Reservation for Individual Renter by capturing ID number that has less than 13 digits -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR47"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR48_Make a Reservation for Individual Renter by capturing incorrect ID number- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR48"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR49_Make a Reservation for Individual Renter by capturing  ID number that has 14 characters- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR49"/>
+        </classes>
+
+    </test>
+    <test name="TCTOPR50_Make a Reservation for Individual Renter by capturing  ID number that has less than 13 digits- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR50"/>
+        </classes>
+    </test>
+    <test name="TCTOPR51_Make a Reservation for Individual Renter by capturing valid  ID number and selecting Retrieve Renter Defaults">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR51"/>
+        </classes>
+    </test>
+    <test name="TCTOPR52_Make a Reservation for Individual Renter by selecting Passport as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR52"/>
+        </classes>
+    </test>
+    <test name="TCTOPR53_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR53"/>
+        </classes>
+    </test>
+    <test name="TCTOPR54_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR54"/>
+        </classes>
+    </test>
+    <test name="TCTOPR55_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR55"/>
+        </classes>
+    </test>
+    <test name="TCTOPR56_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR56"/>
+        </classes>
+    </test>
+    <test name="TCTOPR57_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR57"/>
+        </classes>
+    </test>
+    <test name="TCTOPR58_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR58"/>
+        </classes>
+    </test>
+    <test name="TCTOPR59_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR59"/>
+        </classes>
+    </test>
+    <test name="TCTOPR60_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR60"/>
+        </classes>
+    </test>
+    <test name="TCTOPR61_Perform a Identifying Surname Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR61"/>
+        </classes>
+    </test>
+    <test name="TCTOPR62_Perform Pickup Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR62"/>
+        </classes>
+    </test>
+    <test name="TCTOPR63_Perform Due Back Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR63"/>
+        </classes>
+    </test>
+    <test name="TCTOPR64_Perform Due Back Branch Lookup without selecting Due Back or Pickup Branch">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR64"/>
+        </classes>
+    </test>
+    <test name="TCTOPR65_Perform IATA No. Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR65"/>
+        </classes>
+    </test>
+    <test name="TCTOPR66_Perform Customer Account Name Lookup without capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR66"/>
+        </classes>
+    </test>
+    <test name="TCTOPR67_Perform Customer Account Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR67"/>
+        </classes>
+    </test>
+    <test name="TCTOPR68_Perform Referral Account Number Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR68"/>
+        </classes>
+    </test>
+    <test name="TCTOPR69_Perform Referral Account Number Lookup by capturing invalid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR69"/>
+        </classes>
+    </test>
+    <test name="TCTOPR70_Perform Referral Account Number Lookup by capturing Valid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR70"/>
+        </classes>
+    </test>
+    <test name="TCTOPR71_Perform Referral Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR71"/>
+        </classes>
+    </test>
+    <test name="TCTOPR72_Perform Referral Name Lookup by capturing invalid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR72"/>
+        </classes>
+    </test>
+    <test name="TCTOPR73_Perform Referral Name Lookup by capturing Valid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR73"/>
+        </classes>
+    </test>
+    <test name="TCTOPR74_Perform Referral Name Lookup by capturing Valid Referral Account Number and Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR74"/>
+        </classes>
+    </test>
+    <test name="TCTOPR75_Perform Referral Name Lookup by not capturing Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR75"/>
+        </classes>
+    </test>
+    <test name="TCTOPR76_Perform Referral Name Lookup by capturing invalid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR76"/>
+        </classes>
+    </test>
+    <test name="TCTOPR77_Perform Referral Name Lookup by capturing valid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR77"/>
+        </classes>
+    </test>
+    <test name="TCTOPR78_Reset Customer Details">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR78"/>
+        </classes>
+    </test>
+    <test name="TCTOPR79_Retrieve Customer Defaults without capturing any Customer Details fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR79"/>
+        </classes>
+    </test>
+    <test name="TCTOPR80_Retrieve Customer Defaults by capturing Customer Account No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR80"/>
+        </classes>
+    </test>
+    <test name="TCTOPR81_Retrieve Customer Defaults by capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR81"/>
+        </classes>
+    </test>
+    <test name="TCTOPR82_Perform Reserved Rate Lookup without capturing rate fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR82"/>
+        </classes>
+    </test>
+    <test name="TCTOPR83_Perform Reserved Rate Lookup by capturing Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR83"/>
+        </classes>
+    </test>
+    <test name="TCTOPR84_Perform Reserved Rate Lookup by capturing invalid Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR84"/>
+        </classes>
+    </test>
+    <test name="TCTOPR85_Calculate Credit  Card Auth when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR85"/>
+        </classes>
+    </test>
+    <test name="TCTOPR86_Calculate Credit  Card Auth and do not  select STD or SUPER when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR86"/>
+        </classes>
+    </test>
+    <test name="TCTOPR87_Calculate Credit  Card Auth and do not capture Reserved Rate when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR87"/>
+        </classes>
+    </test>
+    <test name="TCTOPR88_Select Pickup branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR88"/>
+        </classes>
+    </test>
+    <test name="TCTOPR89_Select Due Back branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR89"/>
+        </classes>
+    </test>
+    <test name="TCTOPR90_Make Reservation with same Details of existing Reservation and  Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR90"/>
+        </classes>
+    </test>
+    <test name="TCTOPR91_Make Reservation using same Details of existing Reservation and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR91"/>
+        </classes>
+    </test>
+    <test name="TCTOPR92_Make Reservation using same Details of existing Reservation and change and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR92"/>
+        </classes>
+    </test>
+    <test name="TCTOPR93_Make Reservation and do not capture Flight No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR93"/>
+        </classes>
+    </test>
+    <test name="TCTOPR94_Select Internationaly and capture Local Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR94"/>
+        </classes>
+    </test>
+    <test name="TCTOPR95_Select Local and capture International Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR95"/>
+        </classes>
+    </test>
+    <test name="TCTOPR96_Make Reservation and add SCDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR96"/>
+        </classes>
+    </test>
+    <test name="TCTOPR97_Make Reservation and add CDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR97"/>
+        </classes>
+    </test>
+    <test name="TCTOPR98_Make Reservation and add TLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR98"/>
+        </classes>
+    </test>
+    <test name="TCTOPR99_Make Reservation and add STLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR99"/>
+        </classes>
+    </test>
+    <test name="TCTOPR100_Select CDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR100"/>
+        </classes>
+    </test>
+    <test name="TCTOPR101_Select CDW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR101"/>
+        </classes>
+    </test>
+    <test name="TCTOPR102_Select TLW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR102"/>
+        </classes>
+    </test>
+    <test name="TCTOPR103_Select TLW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR103"/>
+        </classes>
+    </test>
+    <test name="TCTOPR104_Select TLW and CDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR104"/>
+        </classes>
+    </test>
+    <test name="TCTOPR105_Select SCDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR105"/>
+        </classes>
+    </test>
+    <test name="TCTOPR106_Select Vehicle Assist  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR106"/>
+        </classes>
+    </test>
+    <test name="TCTOPR107_Select Vehicle Assist  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR107"/>
+        </classes>
+    </test>
+    <test name="TCTOPR108_Select Tyre Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR108"/>
+        </classes>
+    </test>
+    <test name="TCTOPR109_Select Tyre Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR109"/>
+        </classes>
+    </test>
+    <test name="TCTOPR110_Select Tyre Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR110"/>
+        </classes>
+    </test>
+    <test name="TCTOPR111_Select Hail Damage Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR111"/>
+        </classes>
+    </test>
+    <test name="TCTOPR112_Select Hail Damage Waiver  with Super Waivers when Making Reservation ">
+    <classes>
+        <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR112"/>
+    </classes>
+</test>
+    <test name="TCTOPR113_Select Hail Damage Waiver  with standard Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR113"/>
+        </classes>
+    </test>
+    <test name="TCTOPR114_Select Glass Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR114"/>
+        </classes>
+    </test>
+    <test name="TCTOPR115_Select Glass Waiver  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR115"/>
+        </classes>
+    </test>
+    <test name="TCTOPR116_Select Glass Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR116"/>
+        </classes>
+    </test>
+    <test name="TCTOPR117_Select Additional Drives and  do not capture number of Additional Driver's when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR117"/>
+        </classes>
+    </test>
+    <test name="TCTOPR118_Make a Reservation selecting Credit Card as Payment Method.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR118"/>
+        </classes>
+    </test>
+    <test name="TCTOPR119_Make a Reservation selecting Credit Card as Payment Method without selecting Card Type.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR119"/>
+        </classes>
+    </test>
+    <test name="TCTOPR120_Make a Reservation selecting Credit Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR120"/>
+        </classes>
+    </test>
+    <test name="TCTOPR121_Make a Reservation selecting Bidvest Card as Payment Method">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR121"/>
+        </classes>
+    </test>
+    <test name="TCTOPR122_Make a Reservation selecting Bidvest Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR122"/>
+        </classes>
+    </test>
+    <test name="TCTOPR123_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR123"/>
+        </classes>
+    </test>
+    <test name="TCTOPR124">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR124"/>
+        </classes>
+    </test>
+    <test name="TCTOPR125">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR125"/>
+        </classes>
+    </test>
+    <test name="TCTOPR126">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR126"/>
+        </classes>
+    </test>
+    <test name="TCTOPR127">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR127"/>
+        </classes>
+    </test>
+    <test name="TCTOPR128">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR128"/>
+        </classes>
+    </test>
+    <test name="TCTOPR129">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR129"/>
+        </classes>
+    </test>
+    <test name="TCTOPR130">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR130"/>
+        </classes>
+    </test>
+    <test name="TCTOPR131">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR131"/>
+        </classes>
+    </test>
+    <test name="TCTOPR132">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR132"/>
+        </classes>
+    </test>
+    <test name="TCTOPR133">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR133"/>
+        </classes>
+    </test>
+    <test name="TCTOPR134">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR134"/>
+        </classes>
+    </test>
+    <test name="TCTOPR135">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR135"/>
+        </classes>
+    </test>
+    <test name="TCTOPR136">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR136"/>
+        </classes>
+    </test>
+    <test name="TCTOPR137">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR137"/>
+        </classes>
+    </test>
+    <test name="TCTOPR138">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR138"/>
+        </classes>
+    </test>
+    <test name="TCTOPR139">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR139"/>
+        </classes>
+    </test>
+    <test name="TCTOPR140">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR140"/>
+        </classes>
+    </test>
+    <test name="TCTOPR141">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR141"/>
+        </classes>
+    </test>
+    <test name="TCTOPR142">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR142"/>
+        </classes>
+    </test>
+    <test name="TCTOPR143">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR143"/>
+        </classes>
+    </test>
+    <test name="TCTOPR144">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR144"/>
+        </classes>
+    </test>
+    <test name="TCTOPR145">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR145"/>
+        </classes>
+    </test>
+    <test name="TCTOPR146">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR146"/>
+        </classes>
+    </test>
+    <test name="TCTOPR147">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR147"/>
+        </classes>
+    </test>
+    <test name="TCTOPR148">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR148"/>
+        </classes>
+    </test>
+    <test name="TCTOPR149">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR149"/>
+        </classes>
+    </test>
+    <test name="TCTOPR150">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR150"/>
+        </classes>
+    </test>
+    <test name="TCTOPR151">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR151"/>
+        </classes>
+    </test>
+    <test name="TCTOPR152">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR152"/>
+        </classes>
+    </test>
+    <test name="TCTOPR153">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR153"/>
+        </classes>
+    </test>
+    <test name="TCTOPR154">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR154"/>
+        </classes>
+    </test>
+    <test name="TCTOPR155">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR155"/>
+        </classes>
+    </test>
+    <test name="TCTOPR156">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR156"/>
+        </classes>
+    </test>
+    <test name="TCTOPR157">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR157"/>
+        </classes>
+    </test>
+    <test name="TCTOPR158">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR158"/>
+        </classes>
+    </test>
+    <test name="TCTOPR159">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR159"/>
+        </classes>
+    </test>
+    <test name="TCTOPR160">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR160"/>
+        </classes>
+    </test>
+    <test name="TCTOPR161">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR161"/>
+        </classes>
+    </test>
+    <test name="TCTOPR162">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR162"/>
+        </classes>
+    </test>
+    <test name="TCTOPR163">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR163"/>
+        </classes>
+    </test>
+    <test name="TCTOPR164">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR164"/>
+        </classes>
+    </test>
+    <test name="TCTOPR165">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR165"/>
+        </classes>
+    </test>
+    <test name="TCTOPR166">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR166"/>
+        </classes>
+    </test>
+    <test name="TCTOPR167">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR167"/>
+        </classes>
+    </test>
+    <test name="TCTOPR168">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR168"/>
+        </classes>
+    </test>
+    <test name="TCTOPR169">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR169"/>
+        </classes>
+    </test>
+    <test name="TCTOPR170">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR170"/>
+        </classes>
+    </test>
+    <test name="TCTOPR171">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR171"/>
+        </classes>
+    </test>
+    <test name="TCTOPR172">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR172"/>
+        </classes>
+    </test>
+    <test name="TCTOPR173">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR173"/>
+        </classes>
+    </test>
+    <test name="TCTOPR174">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR174"/>
+        </classes>
+    </test>
+    <test name="TCTOPR175">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR175"/>
+        </classes>
+    </test>
+    <test name="TCTOPR176">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR176"/>
+        </classes>
+    </test>
+    <test name="TCTOPR177">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR177"/>
+        </classes>
+    </test>
+    <test name="TCTOPR178">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR178"/>
+        </classes>
+    </test>
+    <test name="TCTOPR179">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR179"/>
+        </classes>
+    </test>
+    <test name="TCTOPR180">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR180"/>
+        </classes>
+    </test>
+    <test name="TCTOPR181">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR181"/>
+        </classes>
+    </test>
+    <test name="TCTOPR182">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR182"/>
+        </classes>
+    </test>
+    <test name="TCTOPR183">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR183"/>
+        </classes>
+    </test>
+    <test name="TCTOPR184">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TourOperator.TCTOPR184"/>
+        </classes>
+    </test>
+
+
+
+</suite> <!-- Suite -->

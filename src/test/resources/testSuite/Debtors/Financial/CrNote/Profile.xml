@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FINANCIAL CREDIT NOTE PROFILE">
+    <test name="TCFIP01">
+        <classes>
+            <class name="TestCases.Debtors.Financial.CrNote.Profile.TCFIP03"/>
+        </classes>
+    </test>
+    <test name="TCFIP04">
+        <classes>
+            <class name="TestCases.Debtors.Financial.CrNote.Profile.TCFIP04"/>
+        </classes>
+    </test>
+    <test name="TCFIP05">
+        <classes>
+            <class name="TestCases.Debtors.Financial.CrNote.Profile.TCFIP05"/>
+        </classes>
+    </test>
+</suite>

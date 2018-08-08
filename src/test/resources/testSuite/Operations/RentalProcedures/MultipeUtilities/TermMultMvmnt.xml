@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TERM MULTIPLY MOVEMENT">
+     <test name="TCMUPM020">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.TermMultMvmnts.TCMUTMM020"/>
+         </classes>
+     </test>
+     <test name="TCMUPM021">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.TermMultMvmnts.TCMUTMM021"/>
+         </classes>
+     </test>
+    <test name="TCMUPM022">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.TermMultMvmnts.TCMUTMM022"/>
+        </classes>
+    </test>
+    <test name="TCMUPM023">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.TermMultMvmnts.TCMUTMM023"/>
+        </classes>
+    </test>
+    <test name="TCMUPM024">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.TermMultMvmnts.TCMUTMM024"/>
+        </classes>
+    </test>
+    <test name="TCMUPM025">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.TermMultMvmnts.TCMUTMM025"/>
+        </classes>
+    </test>
+    <test name="TCMUPM026">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.TermMultMvmnts.TCMUTMM026"/>
+        </classes>
+    </test>
+    <test name="TCMUPM027">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.TermMultMvmnts.TCMUTMM027"/>
+        </classes>
+    </test>
+    <test name="TCMUPM028">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.TermMultMvmnts.TCMUTMM028"/>
+        </classes>
+    </test>
+    <test name="TCMUPM029">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.TermMultMvmnts.TCMUTMM029"/>
+        </classes>
+    </test>
+    <test name="TCMUPM030">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.TermMultMvmnts.TCMUTMM030"/>
+        </classes>
+    </test>
+</suite>

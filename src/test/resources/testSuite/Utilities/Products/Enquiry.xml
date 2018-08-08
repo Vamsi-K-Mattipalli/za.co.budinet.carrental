@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES PRODUCTS ENQUIRY">
+    <test name="TCPENQ001">
+        <classes>
+            <class name="TestCases.Utilities.Products.Enquiry.TCPENQ01"/>
+        </classes>
+    </test>
+    <test name="TCPENQ002">
+        <classes>
+            <class name="TestCases.Utilities.Products.Enquiry.TCPENQ02"/>
+        </classes>
+    </test>
+    <test name="TCPENQ003">
+        <classes>
+            <class name="TestCases.Utilities.Products.Enquiry.TCPENQ03"/>
+        </classes>
+    </test>
+    <test name="TCPENQ004">
+        <classes>
+            <class name="TestCases.Utilities.Products.Enquiry.TCPENQ04"/>
+        </classes>
+    </test>
+    <test name="TCPENQ005">
+        <classes>
+            <class name="TestCases.Utilities.Products.Enquiry.TCPENQ05"/>
+        </classes>
+    </test>
+    <test name="TCPENQ006">
+        <classes>
+            <class name="TestCases.Utilities.Products.Enquiry.TCPENQ06"/>
+        </classes>
+    </test>
+    <test name="TCPENQ007">
+        <classes>
+            <class name="TestCases.Utilities.Products.Enquiry.TCPENQ07"/>
+        </classes>
+    </test>
+    <test name="TCPENQ008">
+        <classes>
+            <class name="TestCases.Utilities.Products.Enquiry.TCPENQ08"/>
+        </classes>
+    </test>
+    <test name="TCPENQ009">
+        <classes>
+            <class name="TestCases.Utilities.Products.Enquiry.TCPENQ09"/>
+        </classes>
+    </test>
+
+</suite>

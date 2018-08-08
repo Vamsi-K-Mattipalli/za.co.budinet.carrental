@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CUSTOMER CORPORATE PROFILE">
+    <test name="TCCORP001">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP001"/>
+        </classes>
+    </test>
+    <test name="TCCORP002">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP002"/>
+        </classes>
+    </test>
+    <test name="TCCORP003">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP003"/>
+        </classes>
+    </test>
+    <test name="TCCORP004">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP004"/>
+        </classes>
+    </test>
+    <test name="TCCORP005">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP005"/>
+        </classes>
+    </test>
+    <test name="TCCORP006">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP006"/>
+        </classes>
+    </test>
+    <test name="TCCORP007">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP007"/>
+        </classes>
+    </test>
+    <test name="TCCORP008">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP008"/>
+        </classes>
+    </test>
+    <test name="TCCORP009">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP009"/>
+        </classes>
+    </test>
+    <test name="TCCORP010">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP010"/>
+        </classes>
+    </test>
+    <test name="TCCORP011">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP011"/>
+        </classes>
+    </test>
+    <test name="TCCORP012">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP012"/>
+        </classes>
+    </test>
+    <test name="TCCORP013">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP013"/>
+        </classes>
+    </test>
+    <test name="TCCORP014">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP014"/>
+        </classes>
+    </test>
+    <test name="TCCORP015">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP015"/>
+        </classes>
+    </test>
+    <test name="TCCORP016">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP016"/>
+        </classes>
+    </test>
+    <test name="TCCORP017">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP017"/>
+        </classes>
+    </test>
+    <test name="TCCORP018">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP018"/>
+        </classes>
+    </test>
+    <test name="TCCORP019">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP019"/>
+        </classes>
+    </test>
+    <test name="TCCORP020">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP020"/>
+        </classes>
+    </test>
+    <test name="TCCORP021">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP021"/>
+        </classes>
+    </test>
+    <test name="TCCORP022">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP022"/>
+        </classes>
+    </test>
+    <test name="TCCORP023">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP023"/>
+        </classes>
+    </test>
+    <test name="TCCORP024">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP024"/>
+        </classes>
+    </test>
+    <test name="TCCORP025">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP025"/>
+        </classes>
+    </test>
+    <test name="TCCORP026">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP026"/>
+        </classes>
+    </test>
+    <test name="TCCORP027">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP027"/>
+        </classes>
+    </test>
+    <test name="TCCORP028">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP028"/>
+        </classes>
+    </test>
+    <test name="TCCORP029">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP029"/>
+        </classes>
+    </test>
+    <test name="TCCORP030">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP030"/>
+        </classes>
+    </test>
+    <test name="TCCORP031">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP031"/>
+        </classes>
+    </test>
+    <test name="TCCORP032">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP032"/>
+        </classes>
+    </test>
+    <test name="TCCORP033">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP033"/>
+        </classes>
+    </test>
+    <test name="TCCORP034">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP034"/>
+        </classes>
+    </test>
+    <test name="TCCORP035">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP035"/>
+        </classes>
+    </test>
+    <test name="TCCORP036">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP036"/>
+        </classes>
+    </test>
+    <test name="TCCORP037">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP037"/>
+        </classes>
+    </test>
+    <test name="TCCORP038">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP038"/>
+        </classes>
+    </test>
+    <test name="TCCORP039">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP039"/>
+        </classes>
+    </test>
+    <test name="TCCORP040">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP040"/>
+        </classes>
+    </test>
+    <test name="TCCORP041">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP041"/>
+        </classes>
+    </test>
+    <test name="TCCORP042">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP042"/>
+        </classes>
+    </test>
+    <test name="TCCORP043">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP043"/>
+        </classes>
+    </test>
+    <test name="TCCORP044">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP044"/>
+        </classes>
+    </test>
+    <test name="TCCORP045 ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP045"/>
+        </classes>
+    </test>
+    <test name="TCCORP046">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP046"/>
+        </classes>
+    </test>
+    <test name="TCCORP047">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP047"/>
+        </classes>
+    </test>
+    <test name="TCCORP048">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP048"/>
+        </classes>
+    </test>
+    <test name="TCCORP049">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP049"/>
+        </classes>
+    </test>
+    <test name="TCCORP050">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP050"/>
+        </classes>
+    </test>
+    <test name="TCCORP051">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP051"/>
+        </classes>
+    </test>
+    <test name="TCCORP052">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP052"/>
+        </classes>
+    </test>
+    <test name="TCCORP053">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP053"/>
+        </classes>
+    </test>
+    <test name="TCCORP054">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP054"/>
+        </classes>
+    </test>
+    <test name="TCCORP055">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP055"/>
+        </classes>
+    </test>
+    <test name="TCCORP056">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP056"/>
+        </classes>
+    </test>
+    <test name="TCCORP057">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP057"/>
+        </classes>
+    </test>
+    <test name="TCCORP058">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP058"/>
+        </classes>
+    </test>
+    <test name="TCCORP059">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP059"/>
+        </classes>
+    </test>
+    <test name="TCCORP060">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP060"/>
+        </classes>
+    </test>
+    <test name="TCCORP061">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP061"/>
+        </classes>
+    </test>
+    <test name="TCCORP062">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP062"/>
+        </classes>
+    </test>
+    <test name="TCCORP063">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP063"/>
+        </classes>
+    </test>
+    <test name="TCCORP064">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP064"/>
+        </classes>
+    </test>
+    <test name="TCCORP065">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP065"/>
+        </classes>
+    </test>
+    <test name="TCCORP066">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP066"/>
+        </classes>
+    </test>
+    <test name="TCCORP067">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP067"/>
+        </classes>
+    </test>
+    <test name="TCCORP068">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP068"/>
+        </classes>
+    </test>
+    <test name="TCCORP069">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP069"/>
+        </classes>
+    </test>
+    <test name="TCCORP070">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP070"/>
+        </classes>
+    </test>
+    <test name="TCCORP071">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP071"/>
+        </classes>
+    </test>
+    <test name="TCCORP072">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP072"/>
+        </classes>
+    </test>
+    <test name="TCCORP073">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP073"/>
+        </classes>
+    </test>
+    <test name="TCCORP074">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP074"/>
+        </classes>
+    </test>
+    <test name="TCCORP075">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP075"/>
+        </classes>
+    </test>
+    <test name="TCCORP076">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP076"/>
+        </classes>
+    </test>
+    <test name="TCCORP077">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP077"/>
+        </classes>
+    </test>
+    <test name="TCCORP078">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP078"/>
+        </classes>
+    </test>
+    <test name="TCCORP079">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP079"/>
+        </classes>
+    </test>
+    <test name="TCCORP080">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP080"/>
+        </classes>
+    </test>
+    <test name="TCCORP081">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP081"/>
+        </classes>
+    </test>
+    <test name="TCCORP082">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP082"/>
+        </classes>
+    </test>
+    <test name="TCCORP083">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP083"/>
+        </classes>
+    </test>
+    <test name="TCCORP084">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP084"/>
+        </classes>
+    </test>
+    <test name="TCCORP085">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP085"/>
+        </classes>
+    </test>
+    <test name="TCCORP086">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP086"/>
+        </classes>
+    </test>
+    <test name="TCCORP087">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP087"/>
+        </classes>
+    </test>
+    <test name="TCCORP088">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP088"/>
+        </classes>
+    </test>
+    <test name="TCCORP089">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP089"/>
+        </classes>
+    </test>
+    <test name="TCCORP090">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP090"/>
+        </classes>
+    </test>
+    <test name="TCCORP091">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP091"/>
+        </classes>
+    </test>
+    <test name="TCCORP092">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP092"/>
+        </classes>
+    </test>
+    <test name="TCCORP093">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP093"/>
+        </classes>
+    </test>
+    <test name="TCCORP094">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP094"/>
+        </classes>
+    </test>
+    <test name="TCCORP095">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP095"/>
+        </classes>
+    </test>
+    <test name="TCCORP096">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP096"/>
+        </classes>
+    </test>
+    <test name="TCCORP097">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP097"/>
+        </classes>
+    </test>
+    <test name="TCCORP098">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP098"/>
+        </classes>
+    </test>
+    <test name="TCCORP099">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP099"/>
+        </classes>
+    </test>
+    <test name="TCCORP100">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP100"/>
+        </classes>
+    </test>
+
+    <test name="TCCORP101">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP101"/>
+        </classes>
+    </test>
+    <test name="TCCORP102">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP102"/>
+        </classes>
+    </test>
+    <test name="TCCORP103">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP103"/>
+        </classes>
+    </test>
+    <test name="TCCORP104">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP104"/>
+        </classes>
+    </test>
+    <test name="TCCORP105">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP105"/>
+        </classes>
+    </test>
+    <test name="TCCORP106">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP106"/>
+        </classes>
+    </test>
+    <test name="TCCORP107">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP107"/>
+        </classes>
+    </test>
+    <test name="TCCORP108">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP108"/>
+        </classes>
+    </test>
+    <test name="TCCORP109">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.Corporate.TCCORP109"/>
+        </classes>
+    </test>
+</suite>

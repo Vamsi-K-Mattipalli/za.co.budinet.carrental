@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TRENDS ANALYSIS">
+    <test name="TCTRAN01  Accessing BudInet Page">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.Trends.Analysis.TCTRAN01"/>
+        </classes>
+    </test>
+    <test name="TCTRAN02 To Enquiry Trend Analysis ">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.Trends.Analysis.TCTRAN02"/>
+        </classes>
+    </test>
+    <test name="TCTRAN03 Sending trend analysis report  to print  ">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.Trends.Analysis.TCTRAN03"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

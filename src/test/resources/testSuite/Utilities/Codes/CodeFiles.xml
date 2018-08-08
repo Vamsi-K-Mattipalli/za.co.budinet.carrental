@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES CODES - CODE FILES">
+    <test name="TCCFILE01 Verity if the user can navigate to the Code Files">
+        <classes>
+            <class name="TestCases.Utilities.Codes.CodeFiles.TCCFILE001"/>
+        </classes>
+    </test>
+    <test name="TCCFILE02 Verity if the user can select code">
+        <classes>
+            <class name="TestCases.Utilities.Codes.CodeFiles.TCCFILE002"/>
+        </classes>
+    </test>
+    <test name="TCCFILE03 Verify if the user can Enquiry a branch by Franchi Code">
+        <classes>
+            <class name="TestCases.Utilities.Codes.CodeFiles.TCCFILE003"/>
+        </classes>
+    </test>
+    <test name="TCCFILE04 Verity if the user can Maintain Code">
+        <classes>
+            <class name="TestCases.Utilities.Codes.CodeFiles.TCCFILE004"/>
+        </classes>
+    </test>
+    <test name="TCCFILE05 Verity if the user can add Maintan Heading">
+        <classes>
+            <class name="TestCases.Utilities.Codes.CodeFiles.TCCFILE005"/>
+        </classes>
+    </test>
+    <test name="TCCFILE06 Verity if the user can not add Maintan Heading without Code Type">
+        <classes>
+            <class name="TestCases.Utilities.Codes.CodeFiles.TCCFILE006"/>
+        </classes>
+    </test>
+    <test name="TCCFILE07 Verity if the user can not add Maintan Heading without Description">
+        <classes>
+            <class name="TestCases.Utilities.Codes.CodeFiles.TCCFILE007"/>
+        </classes>
+    </test>
+    <test name="TCCFILE8 Verity if the user can add Maintain Code">
+        <classes>
+            <class name="TestCases.Utilities.Codes.CodeFiles.TCCFILE008"/>
+        </classes>
+    </test>
+    <test name="TCCFILE09 Verity if the user can  not add Maintan Code without Code">
+        <classes>
+            <class name="TestCases.Utilities.Codes.CodeFiles.TCCFILE009"/>
+        </classes>
+    </test>
+    <test name="TCCFILE10 Verity if the user can not add Maintan Code without Description">
+        <classes>
+            <class name="TestCases.Utilities.Codes.CodeFiles.TCCFILE010"/>
+        </classes>
+    </test>
+    <test name="TCCFILE11 Verity if the user can not add Maintan Code without Display Order">
+        <classes>
+            <class name="TestCases.Utilities.Codes.CodeFiles.TCCFILE011"/>
+        </classes>
+    </test>
+    <test name="TCCFILE12 Verity if the user can modify/ update  Maintan Code">
+        <classes>
+            <class name="TestCases.Utilities.Codes.CodeFiles.TCCFILE012"/>
+        </classes>
+    </test>
+    <test name="TCCFILE13 Verity if the user can delete Maintan Code">
+        <classes>
+            <class name="TestCases.Utilities.Codes.CodeFiles.TCCFILE013"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CLAIMS ENQUIRY">
+    <test name="TCFC006_To verify that Claims Enquiry field is displayed">
+        <classes>
+            <class name="TestCases.Fleet.Claims.Enquiry.TCFC006"/>
+        </classes>
+    </test>
+    <test name="TCFC007_To verify that Claims Enquiry for Claim Number is complete successfully ">
+        <classes>
+            <class name="TestCases.Fleet.Claims.Enquiry.TCFC007"/>
+        </classes>
+    </test>
+    <test name="TCFC008_To verify that Claims Enquiry for Claim Date is complete successfully ">
+        <classes>
+            <class name="TestCases.Fleet.Claims.Enquiry.TCFC008"/>
+        </classes>
+    </test>
+    <test name="TCFC009_To verify that Claims Enquiry for Write-Off Damage Date  is complete successfully">
+        <classes>
+            <class name="TestCases.Fleet.Claims.Enquiry.TCFC009"/>
+        </classes>
+    </test>
+    <test name="TCFC010_To verify that Claims Enquiry for Registration No is complete successfully ">
+        <classes>
+            <class name="TestCases.Fleet.Claims.Enquiry.TCFC010"/>
+        </classes>
+    </test>
+    <test name="TCFC011_To verify that Claims Enquiry for Movement No is complete successfully">
+        <classes>
+            <class name="TestCases.Fleet.Claims.Enquiry.TCFC011"/>
+        </classes>
+    </test>
+    <test name="TCFC012_To verify that Claims Enquiry for Yard Damage is complete successfully ">
+        <classes>
+            <class name="TestCases.Fleet.Claims.Enquiry.TCFC012"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

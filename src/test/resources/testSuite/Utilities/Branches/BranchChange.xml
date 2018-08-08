@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES BRANCH CHANGE">
+    <test name="TCBRPROF001 Verity if the user can navigate to the branch change page">
+        <classes>
+            <class name="TestCases.Utilities.Branches.ChangeBranch.TCBRPROF001"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF002 Verity if the user can select a branch from the dropdown">
+        <classes>
+            <class name="TestCases.Utilities.Branches.ChangeBranch.TCBRPROF002"/>
+        </classes>
+    </test>
+    <test name="TCBRPROF003 Verity if the user can change the branch">
+        <classes>
+            <class name="TestCases.Utilities.Branches.ChangeBranch.TCBRPROF003"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES CODES - DEALERS">
+    <test name="TCDEAL01 Verify if the user can navigate to the Dealers">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Dealers.TCDEAL001"/>
+        </classes>
+    </test>
+    <test name="TCDEAL02 Verify if the user can select a Dealer">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Dealers.TCDEAL002"/>
+        </classes>
+    </test>
+    <test name="TCDEAL03 Verify if the user can search for the Dealer">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Dealers.TCDEAL003"/>
+        </classes>
+    </test>
+    <test name="TCDEAL04 Verify if the user can add the dealer">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Dealers.TCDEAL004"/>
+        </classes>
+    </test>
+    <test name="TCDEAL05 Verify if the user can add the Dealer Model">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Dealers.TCDEAL005"/>
+        </classes>
+    </test>
+    <test name="TCDEAL06 Verify if the user can delete the Dealer Model">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Dealers.TCDEAL006"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

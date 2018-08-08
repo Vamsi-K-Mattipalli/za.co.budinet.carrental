@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CARD EMBOSSING">
+    <test name="TCCE01">
+        <classes>
+            <class name="TestCases.Debtors.CardEmbossing.TCCE01"/>
+        </classes>
+    </test>
+    <test name="TCCE02">
+        <classes>
+            <class name="TestCases.Debtors.CardEmbossing.TCCE02"/>
+        </classes>
+    </test>
+</suite>

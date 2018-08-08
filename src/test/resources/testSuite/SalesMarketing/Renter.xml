@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SALES AND MARKETING - RENTER">
+    <test name="TCSR01 Enquiring Renter Using (Renter ID)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR01"/>
+        </classes>
+    </test>
+    <test name="TCSR02 Enquiring Renter Using (Renter ID Type)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR02"/>
+        </classes>
+    </test>
+    <test name="TCSR03 Enquiring Renter Using (Renter ID Type/ID No)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR03"/>
+        </classes>
+    </test>
+    <test name="TCSRP04 Enquiring Renter Using (Renter Initials)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR04"/>
+        </classes>
+    </test>
+    <test name="TCSR05 Enquiring Renter Using (Renter Name)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR05"/>
+        </classes>
+    </test>
+    <test name="TCSR06 Enquiring Renter Using (Renter Name)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR06"/>
+        </classes>
+    </test>
+    <test name="TCSR07 Enquiring Renter Using (Loyalty Program) drop down list">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR07"/>
+        </classes>
+    </test>
+    <test name="TCSR08 Enquiring Renter Using (Loyalty Program Number)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR08"/>
+        </classes>
+    </test>
+    <test name="TCSR09 Enquiring Renter Using (Renter Class) drop down list">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR09"/>
+        </classes>
+    </test>
+    <test name="TCSR10 Enquiring Renter Using (Renter Class) drop down list">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR10"/>
+        </classes>
+    </test>
+    <test name="TCSR11 Enquiring Renter Using (Black List) Check box">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR11"/>
+        </classes>
+    </test>
+    <test name="TCSR12 Drilling into Renter Profile">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR12"/>
+        </classes>
+    </test>
+    <test name="TCSR13 Loading Renter using Reset Button">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR13"/>
+        </classes>
+    </test>
+    <test name="TCSR14 Loading Address using Address Loading Tab">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR14"/>
+        </classes>
+    </test>
+    <test name="TCSR15 Loading Renter Manually">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR15"/>
+        </classes>
+    </test>
+    <test name="TCSR16 Loading Contacts">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR16"/>
+        </classes>
+    </test>
+    <test name="TCSR17 Contact History">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR17"/>
+        </classes>
+    </test>
+    <test name="TCSR18 Vehicle Preference">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR18"/>
+        </classes>
+    </test>
+    <test name="TCSR19 Loading incoming Correspondence">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR19"/>
+        </classes>
+    </test>
+    <test name="TCSR20 Loading Outgoing Correspondence">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR20"/>
+        </classes>
+    </test>
+    <test name="TCSR21 Loyalty Load">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR21"/>
+        </classes>
+    </test>
+    <test name="TCSR22 Viewing Correspondence History">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR22"/>
+        </classes>
+    </test>
+    <test name="TCSR23 Renter Status">
+        <classes>
+            <class name="TestCases.SalesMarketing.Renter.TCSR23"/>
+        </classes>
+    </test>
+</suite>

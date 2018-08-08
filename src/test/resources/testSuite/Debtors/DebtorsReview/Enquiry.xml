@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEBTORS REVIEW ENQUIRY">
+    <test name="TCDRENQ01">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ01"/>
+        </classes>
+    </test>
+    <test name="TCDRENQ02  ">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ02"/>
+        </classes>
+    </test>
+    <test name="TCDRENQ03  ">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ03"/>
+        </classes>
+    </test>
+    <test name="TCDRENQ04  ">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ04"/>
+        </classes>
+    </test>
+    <test name="TCDRENQ05  ">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ05"/>
+        </classes>
+    </test>
+    <test name="TCDRENQ06  ">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ06"/>
+        </classes>
+    </test>
+    <test name="TCDRENQ07  ">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ07"/>
+        </classes>
+    </test>
+    <test name="TCDRENQ08  ">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ08"/>
+        </classes>
+    </test>
+    <test name="TCDRENQ09  ">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ09"/>
+        </classes>
+    </test>
+    <test name="TCDRENQ10  ">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ10"/>
+        </classes>
+    </test>
+    <test name="TCDRENQ11  ">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ11"/>
+        </classes>
+    </test>
+    <test name="TCDRENQ12  ">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ12"/>
+        </classes>
+    </test>
+    <test name="TCDRENQ13  ">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ13"/>
+        </classes>
+    </test>
+    <test name="TCDRENQ14  ">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Enquiry.TCDRENQ14"/>
+        </classes>
+    </test>
+</suite>

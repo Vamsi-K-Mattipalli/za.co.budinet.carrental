@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NONREVENUE PROFILE">
+    <test name="TCNRPRO01">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Profile.TCNRPRO01"/>
+        </classes>
+    </test>
+    <test name="TCNRPRO02">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Profile.TCNRPRO02"/>
+        </classes>
+    </test>
+    <test name="TCNRPRO03">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Profile.TCNRPRO03"/>
+        </classes>
+    </test>
+    <test name="TCNRPRO04">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Profile.TCNRPRO04"/>
+        </classes>
+    </test>
+    <test name="TCNRPRO05">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Profile.TCNRPRO05"/>
+        </classes>
+    </test>
+    <test name="TCNRPRO06">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Profile.TCNRPRO06"/>
+        </classes>
+    </test>
+    <test name="TCNRPRO07">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Profile.TCNRPRO07"/>
+        </classes>
+    </test>
+    <test name="TCNRPRO08">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Profile.TCNRPRO08"/>
+        </classes>
+    </test>
+    <test name="TCNRPRO09">
+        <classes>
+            <class name="TestCases.Operations.NonReveneu.Profile.TCNRPRO09"/>
+        </classes>
+    </test>
+   </suite> <!-- Suite -->

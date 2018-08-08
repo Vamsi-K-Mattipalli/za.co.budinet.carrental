@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SALES AND MARKETING - LOYALTY">
+    <test name="TCBLP001 Enquiring Loyalty">
+        <classes>
+            <class name="TestCases.SalesMarketing.Loyalty.TCSL01"/>
+        </classes>
+    </test>
+    <test name="TCBLP002 Enquiring Loyalty without selecting Loyalty Number ">
+        <classes>
+            <class name="TestCases.SalesMarketing.Loyalty.TCSL02"/>
+        </classes>
+    </test>
+    <test name="TCBLP003 Enquiring Loyalty without selecting Loyalty Number ">
+        <classes>
+            <class name="TestCases.SalesMarketing.Loyalty.TCSL03"/>
+        </classes>
+    </test>
+    <test name="TCBLP004 Enquiring Loyalty without selecting Loyalty Reward Status ">
+        <classes>
+            <class name="TestCases.SalesMarketing.Loyalty.TCSL04"/>
+        </classes>
+    </test>
+    <test name="TCBLP005 Loyalty Program Submission Manifest Drill down">
+        <classes>
+            <class name="TestCases.SalesMarketing.Loyalty.TCSL05"/>
+        </classes>
+    </test>
+    <test name="TCBLP006 Promoting Loyalty">
+        <classes>
+            <class name="TestCases.SalesMarketing.Loyalty.TCSL06"/>
+        </classes>
+    </test>
+    <test name="TCBLP007 Enquiring Loyalty Program External">
+        <classes>
+            <class name="TestCases.SalesMarketing.Loyalty.TCSL07"/>
+        </classes>
+    </test>
+    <test name="TCBLP008 Allocating Ad Hoc Loyalty Rewards">
+        <classes>
+            <class name="TestCases.SalesMarketing.Loyalty.TCSL08"/>
+        </classes>
+    </test>
+    <test name="TCBLP009 Allocating Ad Hoc Loyalty Rewards">
+        <classes>
+            <class name="TestCases.SalesMarketing.Loyalty.TCSL09"/>
+        </classes>
+    </test>
+</suite>

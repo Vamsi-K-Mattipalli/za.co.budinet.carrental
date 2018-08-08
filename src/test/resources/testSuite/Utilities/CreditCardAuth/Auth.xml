@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES CREDIT CARD AUTH">
+    <test name="TCCCAUTH01">
+        <classes>
+            <class name="TestCases.Utilities.CreditCardAuth.Auth.TCCCAUTH01"/>
+        </classes>
+    </test>
+    <test name="TCCCAUTH02">
+        <classes>
+            <class name="TestCases.Utilities.CreditCardAuth.Auth.TCCCAUTH02"/>
+        </classes>
+    </test>
+    <test name="TCCCAUTH03">
+        <classes>
+            <class name="TestCases.Utilities.CreditCardAuth.Auth.TCCCAUTH03"/>
+        </classes>
+    </test>
+    <test name="TCCCAUTH04">
+        <classes>
+            <class name="TestCases.Utilities.CreditCardAuth.Auth.TCCCAUTH04"/>
+        </classes>
+    </test>
+    <test name="TCCCAUTH05">
+        <classes>
+            <class name="TestCases.Utilities.CreditCardAuth.Auth.TCCCAUTH05"/>
+        </classes>
+    </test>
+    <test name="TCCCAUTH06">
+        <classes>
+            <class name="TestCases.Utilities.CreditCardAuth.Auth.TCCCAUTH06"/>
+        </classes>
+    </test>
+</suite>

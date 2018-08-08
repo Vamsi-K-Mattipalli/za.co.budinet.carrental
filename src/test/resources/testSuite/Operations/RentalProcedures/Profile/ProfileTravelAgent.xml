@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RESERVATIONS TRAVEL AGENT">
+    <test name="TCTA01_ Verify the contents of the Rental Agreement screen">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA01"/>
+        </classes>
+    </test>
+    <test name="TCTA02_Make a Reservation for Individual Renter by not changing any of the default quotation fields- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA02"/>
+        </classes>
+    </test>
+    <test name="TCTA03_Make a Reservation for Individual Renter by not changing any of the default quotation fields- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA03"/>
+        </classes>
+    </test>
+    <test name="TCTA04_Make a Reservation for Individual Renter by changing Title New -Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA04"/>
+        </classes>
+    </test>
+    <test name="TCTA05_Make a Reservation for Individual Renter by changing Initials -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA05"/>
+        </classes>
+    </test>
+    <test name="TCTA06_Make a Reservation for Individual Renter by changing Surname -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA06"/>
+        </classes>
+    </test>
+    <test name="TCTA07_Make a Reservation for Individual Renter by changing First Names -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA07"/>
+        </classes>
+    </test>
+    <test name="TCTA08_Make a Reservation for Individual Renter by changing Pickup Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA08"/>
+        </classes>
+    </test>
+    <test name="TCTA09_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA09"/>
+        </classes>
+    </test>
+    <test name="TCTA10_Make a Reservation for Individual Renter by changing Pickup Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA10"/>
+        </classes>
+    </test>
+    <test name="TCTA11_Make a Reservation for Individual Renter by changing Due Back Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA11"/>
+        </classes>
+    </test>
+    <test name="TCTA12_Make a Reservation for Individual Renter by changing Due Back Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA12"/>
+        </classes>
+
+    </test>
+    <test name="TCTA13_Make a Reservation for Individual Renter by changing Due Back Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA13"/>
+        </classes>
+
+    </test>
+    <test name="TCTA14_Make a Reservation for Individual Renter by changing Vehicle Group -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA14"/>
+        </classes>
+
+    </test>
+    <test name="TCTA15_Make a Reservation for Individual Renter by changing Pickup Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA15"/>
+        </classes>
+
+    </test>
+    <test name="TCTA16_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA16"/>
+        </classes>
+
+    </test>
+    <test name="TCTA17_Make a Reservation for Individual Renter by changing Pickup Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA17"/>
+        </classes>
+
+    </test>
+    <test name="TCTA18_Make a Reservation for Individual Renter by changing Due Back Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA18"/>
+        </classes>
+
+    </test>
+    <test name="TCTA19_Make a Reservation for Individual Renter by changing Due Back Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA19"/>
+        </classes>
+
+    </test>
+    <test name="TCTA20_Make a Reservation for Individual Renter by changing Due Back Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA20"/>
+        </classes>
+
+    </test>
+    <test name="TCTA21_Make a Reservation for Individual Renter by changing Vehicle Group -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA21"/>
+        </classes>
+
+    </test>
+    <test name="TCTA22_Make a Reservation for Individual Renter by changing Pickup Date-  Using Date Picker to select Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA22"/>
+        </classes>
+
+    </test>
+    <test name="TCTA23_Make a Reservation for Individual Renter by changing Pickup Date -  Using Date Picker to select Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA23"/>
+        </classes>
+
+    </test>
+    <test name="TCTA24_Make a Reservation for an Existing Individual Renter that is flagged as Blacklisted by not changing any of the default quotation fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA24"/>
+        </classes>
+
+    </test>
+    <test name="TCTA25_Make a Reservation for an Existing Individual Renter by Checking if the Vehicle is Fully booked">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA25"/>
+        </classes>
+
+    </test>
+    <test name="TCTA26_Make a Reservation for an Existing Individual Renter by  Overriding Fully Booked">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA26"/>
+        </classes>
+
+    </test>
+    <test name="TCTA27_Make a Reservation for an Existing Individual Renter by  Overriding Branch Time">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA27"/>
+        </classes>
+
+    </test>
+    <test name="TCTA28_View One way Fee on a Reservation screen">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA28"/>
+        </classes>
+
+    </test>
+    <test name="TCTA29_Make a Reservation for Individual Renter without Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA29"/>
+        </classes>
+
+    </test>
+    <test name="TCTA30_Make a Reservation for Individual Renter without Tel No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA30"/>
+        </classes>
+
+    </test>
+    <test name="TCTA31_Select Cell No on ID Type and  do not capture  Cell Number on Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA31"/>
+        </classes>
+
+    </test>
+    <test name="TCTA32_Make a Reservation for Individual Renter without Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA32"/>
+        </classes>
+
+    </test>
+    <test name="TCTA33_Verify the contents of the Core">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA33"/>
+        </classes>
+
+    </test>
+    <test name="TCTA34_Verify the Buttons of the Core  ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA34"/>
+        </classes>
+
+    </test>
+    <test name="TCTA35_Verify the functionality of Key Fields Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA35"/>
+        </classes>
+
+    </test>
+    <test name="TCTA36_Verify the functionality of Agents Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA36"/>
+        </classes>
+
+    </test>
+    <test name="TCTA37_Verify the functionality of View Damages Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA37"/>
+        </classes>
+
+    </test>
+    <test name="TCTA38_Verify the functionality of New RA Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA38"/>
+        </classes>
+
+    </test>
+    <test name="TCTA39_Verify the functionality of Print RA Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA39"/>
+        </classes>
+
+    </test>
+    <test name="TCTA40_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA40"/>
+        </classes>
+
+    </test>
+    <test name="TCTA41_Verify the functionality of Cancel Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA41"/>
+        </classes>
+
+    </test>
+    <test name="TCTA42_Verify the functionality of Allocate Etolls Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA42"/>
+        </classes>
+
+    </test>
+    <test name="TC43_Verify the functionality of SMS Notification Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA43"/>
+        </classes>
+
+    </test>
+    <test name="TCTA44_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA44"/>
+        </classes>
+
+    </test>
+    <test name="TCTA45_Make a Reservation for Individual Renter by capturing incorrect ID number- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA45"/>
+        </classes>
+
+    </test>
+    <test name="TCTA46_Make a Reservation for Individual Renter by capturing ID number that has 14 digits- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA46"/>
+        </classes>
+
+    </test>
+    <test name="TCTA47_Make a Reservation for Individual Renter by capturing ID number that has less than 13 digits -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA47"/>
+        </classes>
+
+    </test>
+    <test name="TCTA48_Make a Reservation for Individual Renter by capturing incorrect ID number- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA48"/>
+        </classes>
+
+    </test>
+    <test name="TCTA49_Make a Reservation for Individual Renter by capturing  ID number that has 14 characters- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA49"/>
+        </classes>
+
+    </test>
+    <test name="TCTA50_Make a Reservation for Individual Renter by capturing  ID number that has less than 13 digits- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA50"/>
+        </classes>
+    </test>
+    <test name="TCTA51_Make a Reservation for Individual Renter by capturing valid  ID number and selecting Retrieve Renter Defaults">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA51"/>
+        </classes>
+    </test>
+    <test name="TCTA52_Make a Reservation for Individual Renter by selecting Passport as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA52"/>
+        </classes>
+    </test>
+    <test name="TCTA53_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA53"/>
+        </classes>
+    </test>
+    <test name="TCTA54_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA54"/>
+        </classes>
+    </test>
+    <test name="TCTA55_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA55"/>
+        </classes>
+    </test>
+    <test name="TCTA56_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA56"/>
+        </classes>
+    </test>
+    <test name="TCTA57_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA57"/>
+        </classes>
+    </test>
+    <test name="TCTA58_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA58"/>
+        </classes>
+    </test>
+    <test name="TCTA59_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA59"/>
+        </classes>
+    </test>
+    <test name="TCTA60_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA60"/>
+        </classes>
+    </test>
+    <test name="TCTA61_Perform a Identifying Surname Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA61"/>
+        </classes>
+    </test>
+    <test name="TCTA62_Perform Pickup Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA62"/>
+        </classes>
+    </test>
+    <test name="TCTA63_Perform Due Back Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA63"/>
+        </classes>
+    </test>
+    <test name="TCTA64_Perform Due Back Branch Lookup without selecting Due Back or Pickup Branch">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA64"/>
+        </classes>
+    </test>
+    <test name="TCTA65_Perform IATA No. Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA65"/>
+        </classes>
+    </test>
+    <test name="TCTA66_Perform Customer Account Name Lookup without capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA66"/>
+        </classes>
+    </test>
+    <test name="TCTA67_Perform Customer Account Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA67"/>
+        </classes>
+    </test>
+    <test name="TCTA68_Perform Referral Account Number Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA68"/>
+        </classes>
+    </test>
+    <test name="TCTA69_Perform Referral Account Number Lookup by capturing invalid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA69"/>
+        </classes>
+    </test>
+    <test name="TCTA70_Perform Referral Account Number Lookup by capturing Valid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA70"/>
+        </classes>
+    </test>
+    <test name="TCTA71_Perform Referral Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA71"/>
+        </classes>
+    </test>
+    <test name="TCTA72_Perform Referral Name Lookup by capturing invalid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA72"/>
+        </classes>
+    </test>
+    <test name="TCTA73_Perform Referral Name Lookup by capturing Valid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA73"/>
+        </classes>
+    </test>
+    <test name="TCTA74_Perform Referral Name Lookup by capturing Valid Referral Account Number and Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA74"/>
+        </classes>
+    </test>
+    <test name="TCTA75_Perform Referral Name Lookup by not capturing Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA75"/>
+        </classes>
+    </test>
+    <test name="TCTA76_Perform Referral Name Lookup by capturing invalid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA76"/>
+        </classes>
+    </test>
+    <test name="TCTA77_Perform Referral Name Lookup by capturing valid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA77"/>
+        </classes>
+    </test>
+    <test name="TCTA78_Reset Customer Details">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA78"/>
+        </classes>
+    </test>
+    <test name="TCTA79_Retrieve Customer Defaults without capturing any Customer Details fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA79"/>
+        </classes>
+    </test>
+    <test name="TCTA80_Retrieve Customer Defaults by capturing Customer Account No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA80"/>
+        </classes>
+    </test>
+    <test name="TCTA81_Retrieve Customer Defaults by capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA81"/>
+        </classes>
+    </test>
+    <test name="TCTA82_Perform Reserved Rate Lookup without capturing rate fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA82"/>
+        </classes>
+    </test>
+    <test name="TCTA83_Perform Reserved Rate Lookup by capturing Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA83"/>
+        </classes>
+    </test>
+    <test name="TCTA84_Perform Reserved Rate Lookup by capturing invalid Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA84"/>
+        </classes>
+    </test>
+    <test name="TCTA85_Calculate Credit  Card Auth when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA85"/>
+        </classes>
+    </test>
+    <test name="TCTA86_Calculate Credit  Card Auth and do not  select STD or SUPER when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA86"/>
+        </classes>
+    </test>
+    <test name="TCTA87_Calculate Credit  Card Auth and do not capture Reserved Rate when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA87"/>
+        </classes>
+    </test>
+    <test name="TCTA88_Select Pickup branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA88"/>
+        </classes>
+    </test>
+    <test name="TCTA89_Select Due Back branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA89"/>
+        </classes>
+    </test>
+    <test name="TCTA90_Make Reservation with same Details of existing Reservation and  Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA90"/>
+        </classes>
+    </test>
+    <test name="TCTA91_Make Reservation using same Details of existing Reservation and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA91"/>
+        </classes>
+    </test>
+    <test name="TCTA92_Make Reservation using same Details of existing Reservation and change and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA92"/>
+        </classes>
+    </test>
+    <test name="TCTA93_Make Reservation and do not capture Flight No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA93"/>
+        </classes>
+    </test>
+    <test name="TCTA94_Select Internationaly and capture Local Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA94"/>
+        </classes>
+    </test>
+    <test name="TCTA95_Select Local and capture International Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA95"/>
+        </classes>
+    </test>
+    <test name="TCTA96_Make Reservation and add SCDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA96"/>
+        </classes>
+    </test>
+    <test name="TCTA97_Make Reservation and add CDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA97"/>
+        </classes>
+    </test>
+    <test name="TCTA98_Make Reservation and add TLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA98"/>
+        </classes>
+    </test>
+    <test name="TC99_Make Reservation and add STLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA99"/>
+        </classes>
+    </test>
+    <test name="TCTA100_Select CDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA100"/>
+        </classes>
+    </test>
+    <test name="TCTA101_Select CDW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA101"/>
+        </classes>
+    </test>
+    <test name="TCTA102_Select TLW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA102"/>
+        </classes>
+    </test>
+    <test name="TCTA103_Select TLW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA103"/>
+        </classes>
+    </test>
+    <test name="TCTA104_Select TLW and CDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA104"/>
+        </classes>
+    </test>
+    <test name="TCTA105_Select SCDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA105"/>
+        </classes>
+    </test>
+    <test name="TCTA106_Select Vehicle Assist  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA106"/>
+        </classes>
+    </test>
+    <test name="TCTA107_Select Vehicle Assist  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA107"/>
+        </classes>
+    </test>
+    <test name="TCTA108_Select Tyre Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA108"/>
+        </classes>
+    </test>
+    <test name="TCTA109_Select Tyre Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA109"/>
+        </classes>
+    </test>
+    <test name="TCTA110_Select Tyre Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA110"/>
+        </classes>
+    </test>
+    <test name="TCTA111_Select Hail Damage Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA111"/>
+        </classes>
+    </test>
+    <test name="TCTA112_Select Hail Damage Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA112"/>
+        </classes>
+    </test>
+    <test name="TCTA113_Select Hail Damage Waiver  with standard Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA113"/>
+        </classes>
+    </test>
+    <test name="TCTA114_Select Glass Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA114"/>
+        </classes>
+    </test>
+    <test name="TCTA115_Select Glass Waiver  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA115"/>
+        </classes>
+    </test>
+    <test name="TCTA116_Select Glass Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA116"/>
+        </classes>
+    </test>
+    <test name="TCTA117_Select Additional Drives and  do not capture number of Additional Driver's when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA117"/>
+        </classes>
+    </test>
+    <test name="TCTA118_Make a Reservation selecting Credit Card as Payment Method.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA118"/>
+        </classes>
+    </test>
+    <test name="TCTA119_Make a Reservation selecting Credit Card as Payment Method without selecting Card Type.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA119"/>
+        </classes>
+    </test>
+    <test name="TCTA120_Make a Reservation selecting Credit Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA120"/>
+        </classes>
+    </test>
+    <test name="TCTA121_Make a Reservation selecting Bidvest Card as Payment Method">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA121"/>
+        </classes>
+    </test>
+    <test name="TCTA122_Make a Reservation selecting Bidvest Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA122"/>
+        </classes>
+    </test>
+    <test name="TCTA123_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA123"/>
+        </classes>
+    </test>
+    <test name="TCTA124 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA124"/>
+        </classes>
+    </test>
+    <test name="TCTA125 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA125"/>
+        </classes>
+    </test>
+    <test name="TCTA126 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA126"/>
+        </classes>
+    </test>
+    <test name="TCTA127 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA127"/>
+        </classes>
+    </test>
+    <test name="TCTA128 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA128"/>
+        </classes>
+    </test>
+    <test name="TCTA129 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA129"/>
+        </classes>
+    </test>
+    <test name="TCTA130 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA130"/>
+        </classes>
+    </test>
+    <test name="TCTA131 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA131"/>
+        </classes>
+    </test>
+    <test name="TCTA132 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA132"/>
+        </classes>
+    </test>
+    <test name="TCTA133 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA133"/>
+        </classes>
+    </test>
+    <test name="TCTA134 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA134"/>
+        </classes>
+    </test>
+    <test name="TCTA135 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA135"/>
+        </classes>
+    </test>
+    <test name="TCTA136 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA136"/>
+        </classes>
+    </test>
+    <test name="TCTA137 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA137"/>
+        </classes>
+    </test>
+    <test name="TCTA138 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA138"/>
+        </classes>
+    </test>
+    <test name="TCTA139 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA139"/>
+        </classes>
+    </test>
+    <test name="TCTA140 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA140"/>
+        </classes>
+    </test>
+    <test name="TCTA141 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA141"/>
+        </classes>
+    </test>
+    <test name="TCTA142 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA142"/>
+        </classes>
+    </test>
+    <test name="TCTA143 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA143"/>
+        </classes>
+    </test>
+    <test name="TCTA144 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA144"/>
+        </classes>
+    </test>
+    <test name="TCTA145 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA145"/>
+        </classes>
+    </test>
+    <test name="TCTA146 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA146"/>
+        </classes>
+    </test>
+    <test name="TCTA147 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA147"/>
+        </classes>
+    </test>
+    <test name="TCTA148 Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.TravelAgent.TCTA148"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

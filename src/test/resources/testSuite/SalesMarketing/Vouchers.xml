@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SALES AND MARKETING - VOUCHERS">
+    <test name="TCSV001	Accessing Budinet">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV01"/>
+        </classes>
+    </test>
+    <test name="TCSV002	Logon to Budinet">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV02"/>
+        </classes>
+    </test>
+    <test name="TCSV003 Enquiring voucher by using (Voucher Type )">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV03"/>
+        </classes>
+    </test>
+    <test name="TCSV004 Enquiring voucher by using (Range From)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV04"/>
+        </classes>
+    </test>
+    <test name="TCSV005 Enquiring voucher by using (Range To)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV05"/>
+        </classes>
+    </test>
+    <test name="TCSV006 Enquiring voucher by using (Voucher Number)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV06"/>
+        </classes>
+    </test>
+    <test name="TCSV007 Enquiring voucher by using (Status)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV07"/>
+        </classes>
+    </test>
+    <test name="TCSV008 Enquiring voucher by using Status (Reserved against an RA)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV08"/>
+        </classes>
+    </test>
+    <test name="TCSV009	Enquiring voucher by using Status (Stolen)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV09"/>
+        </classes>
+    </test>
+    <test name="TCSV010	Enquiring voucher by using Status (Used on RA)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV10"/>
+        </classes>
+    </test>
+    <test name="TCSV011	Enquiring voucher by using (Customer Number)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV11"/>
+        </classes>
+    </test>
+    <test name="TCSV12	Enquiring voucher by using (Referral Account Number)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV12"/>
+        </classes>
+    </test>
+    <test name="TCSV13	Enquiring voucher by using (Allocated To)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV13"/>
+        </classes>
+    </test>
+    <test name="TCSV14	Enquiring voucher by using (RA Number)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV14"/>
+        </classes>
+    </test>
+    <test name="TCSV15	Voucher belonging to Custoner">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV15"/>
+        </classes>
+    </test>
+    <test name="TCSV16	Voucher has been used on a Rental agreement">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV16"/>
+        </classes>
+    </test>
+    <test name="TCSV17	Vouchers in allocate status">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV17"/>
+        </classes>
+    </test>
+    <test name="TCSV18	Print  Own voucher is Ticked">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV18"/>
+        </classes>
+    </test>
+    <test name="TCSV19	Allocating Vouchers by Clicking on Allocation Tab">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV19"/>
+        </classes>
+    </test>
+    <test name="TCSV20	Cancelling Voucher by clicking on Cancel Tab on a Customer Profile Page">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV20"/>
+        </classes>
+    </test>
+    <test name="TCSV21	Viewing the Voucher Allocation History by clicking on History Tab">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV21"/>
+        </classes>
+    </test>
+    <test name="TCSV22	Printing a Voucher by using Print by Account">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV22"/>
+        </classes>
+    </test>
+    <test name="TCSV23	Printing a Voucher by using Print by Allocation drop down list">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV23"/>
+        </classes>
+    </test>
+    <test name="TCSV24	Printing a Voucher by using Print by Referral Account">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV24"/>
+        </classes>
+    </test>
+    <test name="TCSV25	Printing a Voucher by using Print by Region drop down list">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV25"/>
+        </classes>
+    </test>
+    <test name="TCSV26	Printing a Voucher by using Print by Status drop down list">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV26"/>
+        </classes>
+    </test>
+    <test name="TCSV27	Printing a Voucher by using Range From Number and Range To Number">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV27"/>
+        </classes>
+    </test>
+    <test name="TCSV28	Reprint where Voucher was not Printed before">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV28"/>
+        </classes>
+    </test>
+    <test name="TCSV29	Reprint where Voucher  was Printed before">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV29"/>
+        </classes>
+    </test>
+    <test name="TCSV30	Allocating a voucher by Clicking on Allocate Voucher sub-menu">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV30"/>
+        </classes>
+    </test>
+    <test name="TCSV31	Cancel Voucher Allocation Using the same Page as Voucher Allocation">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV31"/>
+        </classes>
+    </test>
+    <test name="TCSV32	Reinstate Voucher by clicking on Reinstate Voucher sub-menu">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV32"/>
+        </classes>
+    </test>
+    <test name="TCSV33	Reinstating Cancelled Individual Voucher">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV33"/>
+        </classes>
+    </test>
+    <test name="TCSV34	Reinstating not cancelled Vouchers">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV34"/>
+        </classes>
+    </test>
+    <test name="TCSV35	Reinstate Range of Vouchers">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV35"/>
+        </classes>
+    </test>
+    <test name="TCSV36	Modifying Renter Details Using (Renter ID)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV36"/>
+        </classes>
+    </test>
+    <test name="TCSV37	Enquiring Renter Using (Loyalty Program Number)">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV37"/>
+        </classes>
+    </test>
+    <test name="TCSV38	Merging Renter two Renters">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV38"/>
+        </classes>
+    </test>
+    <test name="TCSV39	Enquiring Loyalty">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV39"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

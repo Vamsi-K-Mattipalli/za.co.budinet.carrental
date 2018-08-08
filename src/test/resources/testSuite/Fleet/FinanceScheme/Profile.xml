@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FINANCE SCHEME PROFILE">
+    <test name="TCFFS001_To verify that a User is able to open Budinet  Page">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Profile.TCFFS001"/>
+        </classes>
+    </test>
+    <test name="TCFFS002_To verify that profile history is displayed successfully">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Profile.TCFFS002"/>
+        </classes>
+    </test>
+    <test name="TCFFS003_To verify that user  is able to load  claim">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Profile.TCFFS003"/>
+        </classes>
+    </test>
+   </suite> <!-- Suite -->

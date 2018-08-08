@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES CODES - MODEL">
+    <test name="TCMODEL001 Verify if the user can navigate to the Model">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Models.TCMODEL001"/>
+        </classes>
+    </test>
+    <test name="TCMODEL002 Verify if the user can select the Vehicle Model">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Models.TCMODEL002"/>
+        </classes>
+    </test>
+    <test name="TCMODEL003 Verify if the user can search Vehicle Model">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Models.TCMODEL003"/>
+        </classes>
+    </test>
+    <test name="TCMODEL004 Verify if the user can add Vehicle Model">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Models.TCMODEL004"/>
+        </classes>
+    </test>
+</suite>

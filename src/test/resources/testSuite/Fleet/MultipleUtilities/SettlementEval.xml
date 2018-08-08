@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FINANCE SCHEME ENQUIRY">
+    <test name="TCFMU009_Verify that user can Cater for ADD functionality">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.SettlementEval.TCFMU009"/>
+        </classes>
+    </test>
+    <test name="TCFMU010_Verify that user can Cater for multiple ADD functionality ">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.SettlementEval.TCFMU010"/>
+        </classes>
+    </test>
+    <test name="TCFMU011_Verify that Continue Button returns to Multiple View of Sold Vehicles load">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.SettlementEval.TCFMU011"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

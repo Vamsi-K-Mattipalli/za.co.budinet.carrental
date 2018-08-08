@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OPS ENQUIRY" parallel="methods">
+    <test name="TCRAENQSEC01">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC01"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC02">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC02"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC03">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC03"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC04">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC04"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC05">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC05"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC06">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC06"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC07">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC07"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC08">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC08"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC09">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC09"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC10">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC10"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC11">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC11"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC12">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC12"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC13">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC13"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC14">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC14"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC15">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC15"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC16">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC16"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC17">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC17"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC18">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC18"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC19">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC19"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC20">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC20"/>
+        </classes>
+    </test>
+    <test name="TCRAENQSEC21">
+        <classes>
+            <class name="TestCases.Operations.Rental.Enquiry.Ops.Enquiry.TCRAENQSEC21"/>
+        </classes>
+    </test>
+</suite>

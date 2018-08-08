@@ -1,0 +1,40 @@
+package TestCases.Debtors.Financial.CrNote.Enquiry;
+
+import config.DataProviders;
+import config.TestCore;
+import controlers.Generics;
+import io.qameta.allure.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import pageLibrary.CloseWebDriver;
+import pageLibrary.LogIn;
+import pageLibrary.Menu;
+
+public class TCFIP02 extends TestCore
+{
+    @BeforeMethod
+    public void setUp() throws Exception {
+        init();
+    }
+    @Epic("DEBTORS")
+    @Feature("FINANCIAL CREDIT NOTE")
+    @Story("ENQUIRY")
+    @Severity(SeverityLevel.NORMAL)
+    @Test(dataProvider = "login", dataProviderClass = DataProviders.class)
+    public void TCFIP02_Test1(String Username, String Password) throws Exception {
+        LogIn.SignIn(Username, Password);
+        Menu.NavigateTo4("debtors.menu.debtors", "debtors.menu.finance", "debtors.menu.finance.note", "debtors.menu.finance.note.enquiry");
+        driverwait();
+        Generics.FieldPopulate("Date", "debtors.field.financial.date", "2017-10-30");
+        Generics.FieldPopulate("RA No", "debtors.field.financial.rano", "JS32252I01");
+        Generics.DropdownSelector("Type of Print", "debtors.dropdown.financial.typeofprint", "Local Invoices Printed");
+        Generics.ClickButtonLink("debtors.button.submit","debtors.button.submit");
+    }
+
+    @AfterMethod
+    public void tearDown() throws Exception {
+        CloseWebDriver.browser();
+
+    }
+}

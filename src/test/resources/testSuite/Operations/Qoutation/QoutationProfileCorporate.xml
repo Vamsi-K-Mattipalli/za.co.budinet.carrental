@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QOUTATION PROFILE CORPORATE">
+    <test name="TCCORP01_ Verify the contents of the Rental Agreement screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP01"/>
+        </classes>
+    </test>
+    <test name="TCCORP02_Make a Reservation for Individual Renter by not changing any of the default quotation fields- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP02"/>
+        </classes>
+    </test>
+    <test name="TCCORP03_Make a Reservation for Individual Renter by not changing any of the default quotation fields- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP03"/>
+        </classes>
+    </test>
+    <test name="TCCORP04_Make a Reservation for Individual Renter by changing Title New -Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP04"/>
+        </classes>
+    </test>
+    <test name="TCCORP05_Make a Reservation for Individual Renter by changing Initials -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP05"/>
+        </classes>
+    </test>
+    <test name="TCCORP06_Make a Reservation for Individual Renter by changing Surname -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP06"/>
+        </classes>
+    </test>
+    <test name="TCCORP07_Make a Reservation for Individual Renter by changing First Names -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP07"/>
+        </classes>
+    </test>
+    <test name="TCCORP08_Make a Reservation for Individual Renter by changing Pickup Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP08"/>
+        </classes>
+    </test>
+    <test name="TCCORP09_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP09"/>
+        </classes>
+    </test>
+    <test name="TCCORP10_Make a Reservation for Individual Renter by changing Pickup Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP10"/>
+        </classes>
+    </test>
+    <test name="TCCORP11_Make a Reservation for Individual Renter by changing Due Back Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP11"/>
+        </classes>
+    </test>
+    <test name="TCCORP12_Make a Reservation for Individual Renter by changing Due Back Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP12"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP13_Make a Reservation for Individual Renter by changing Due Back Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP13"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP14_Make a Reservation for Individual Renter by changing Vehicle Group -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP14"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP15_Make a Reservation for Individual Renter by changing Pickup Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP15"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP16_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP16"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP17_Make a Reservation for Individual Renter by changing Pickup Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP17"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP18_Make a Reservation for Individual Renter by changing Due Back Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP18"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP19_Make a Reservation for Individual Renter by changing Due Back Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP19"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP20_Make a Reservation for Individual Renter by changing Due Back Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP20"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP21_Make a Reservation for Individual Renter by changing Vehicle Group -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP21"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP22_Make a Reservation for Individual Renter by changing Pickup Date-  Using Date Picker to select Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP22"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP23_Make a Reservation for Individual Renter by changing Pickup Date -  Using Date Picker to select Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP23"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP24_Make a Reservation for an Existing Individual Renter that is flagged as Blacklisted by not changing any of the default quotation fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP24"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP25_Make a Reservation for an Existing Individual Renter by Checking if the Vehicle is Fully booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP25"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP26_Make a Reservation for an Existing Individual Renter by  Overriding Fully Booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP26"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP27_Make a Reservation for an Existing Individual Renter by  Overriding Branch Time">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP27"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP28_View One way Fee on a Reservation screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP28"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP29_Make a Reservation for Individual Renter without Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP29"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP30_Make a Reservation for Individual Renter without Tel No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP30"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP31_Select Cell No on ID Type and  do not capture  Cell Number on Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP31"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP32_Make a Reservation for Individual Renter without Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP32"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP33_Verify the contents of the Core">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP33"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP34_Verify the Buttons of the Core  ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP34"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP35_Verify the functionality of Key Fields Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP35"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP36_Verify the functionality of Agents Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP36"/>
+        </classes>
+    </test>
+    <test name="TCCORP37_Verify the functionality of View Damages Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP37"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP38_Verify the functionality of New RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP38"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP39_Verify the functionality of Print RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP39"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP40_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP40"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP41_Verify the functionality of Cancel Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP41"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP42_Verify the functionality of Allocate Etolls Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP42"/>
+        </classes>
+
+    </test>
+    <test name="TC43_Verify the functionality of SMS Notification Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP43"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP44_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP44"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP45_Make a Reservation for Individual Renter by capturing incorrect ID number- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP45"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP46_Make a Reservation for Individual Renter by capturing ID number that has 14 digits- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP46"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP47_Make a Reservation for Individual Renter by capturing ID number that has less than 13 digits -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP47"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP48_Make a Reservation for Individual Renter by capturing incorrect ID number- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP48"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP49_Make a Reservation for Individual Renter by capturing  ID number that has 14 characters- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP49"/>
+        </classes>
+
+    </test>
+    <test name="TCCORP50_Make a Reservation for Individual Renter by capturing  ID number that has less than 13 digits- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP50"/>
+        </classes>
+    </test>
+    <test name="TCCORP51_Make a Reservation for Individual Renter by capturing valid  ID number and selecting Retrieve Renter Defaults">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP51"/>
+        </classes>
+    </test>
+    <test name="TCCORP52_Make a Reservation for Individual Renter by selecting Passport as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP52"/>
+        </classes>
+    </test>
+    <test name="TCCORP53_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP53"/>
+        </classes>
+    </test>
+    <test name="TCCORP54_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP54"/>
+        </classes>
+    </test>
+    <test name="TCCORP55_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP55"/>
+        </classes>
+    </test>
+    <test name="TCCORP56_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP56"/>
+        </classes>
+    </test>
+    <test name="TCCORP57_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP57"/>
+        </classes>
+    </test>
+    <test name="TCCORP58_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP58"/>
+        </classes>
+    </test>
+    <test name="TCCORP59_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP59"/>
+        </classes>
+    </test>
+    <test name="TCCORP60_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP60"/>
+        </classes>
+    </test>
+    <test name="TCCORP61_Perform a Identifying Surname Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP61"/>
+        </classes>
+    </test>
+    <test name="TCCORP62_Perform Pickup Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP62"/>
+        </classes>
+    </test>
+    <test name="TCCORP63_Perform Due Back Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP63"/>
+        </classes>
+    </test>
+    <test name="TCCORP64_Perform Due Back Branch Lookup without selecting Due Back or Pickup Branch">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP64"/>
+        </classes>
+    </test>
+    <test name="TCCORP65_Perform IATA No. Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP65"/>
+        </classes>
+    </test>
+    <test name="TCCORP66_Perform Customer Account Name Lookup without capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP66"/>
+        </classes>
+    </test>
+    <test name="TCCORP67_Perform Customer Account Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP67"/>
+        </classes>
+    </test>
+    <test name="TCCORP68_Perform Referral Account Number Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP68"/>
+        </classes>
+    </test>
+    <test name="TCCORP69_Perform Referral Account Number Lookup by capturing invalid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP69"/>
+        </classes>
+    </test>
+    <test name="TCCORP70_Perform Referral Account Number Lookup by capturing Valid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP70"/>
+        </classes>
+    </test>
+    <test name="TCCORP71_Perform Referral Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP71"/>
+        </classes>
+    </test>
+    <test name="TCCORP72_Perform Referral Name Lookup by capturing invalid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP72"/>
+        </classes>
+    </test>
+    <test name="TCCORP73_Perform Referral Name Lookup by capturing Valid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP73"/>
+        </classes>
+    </test>
+    <test name="TCCORP74_Perform Referral Name Lookup by capturing Valid Referral Account Number and Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP74"/>
+        </classes>
+    </test>
+    <test name="TCCORP75_Perform Referral Name Lookup by not capturing Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP75"/>
+        </classes>
+    </test>
+    <test name="TCCORP76_Perform Referral Name Lookup by capturing invalid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP76"/>
+        </classes>
+    </test>
+    <test name="TCCORP77_Perform Referral Name Lookup by capturing valid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP77"/>
+        </classes>
+    </test>
+    <test name="TCCORP78_Reset Customer Details">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP78"/>
+        </classes>
+    </test>
+    <test name="TCCORP79_Retrieve Customer Defaults without capturing any Customer Details fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP79"/>
+        </classes>
+    </test>
+    <test name="TCCORP80_Retrieve Customer Defaults by capturing Customer Account No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP80"/>
+        </classes>
+    </test>
+    <test name="TCCORP81_Retrieve Customer Defaults by capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP81"/>
+        </classes>
+    </test>
+    <test name="TCCORP82_Perform Reserved Rate Lookup without capturing rate fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP82"/>
+        </classes>
+    </test>
+    <test name="TCCORP83_Perform Reserved Rate Lookup by capturing Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP83"/>
+        </classes>
+    </test>
+    <test name="TCCORP84_Perform Reserved Rate Lookup by capturing invalid Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP84"/>
+        </classes>
+    </test>
+    <test name="TCCORP85_Calculate Credit  Card Auth when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP85"/>
+        </classes>
+    </test>
+    <test name="TCCORP86_Calculate Credit  Card Auth and do not  select STD or SUPER when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP86"/>
+        </classes>
+    </test>
+    <test name="TCCORP87_Calculate Credit  Card Auth and do not capture Reserved Rate when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP87"/>
+        </classes>
+    </test>
+    <test name="TCCORP88_Select Pickup branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP88"/>
+        </classes>
+    </test>
+    <test name="TCCORP89_Select Due Back branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP89"/>
+        </classes>
+    </test>
+    <test name="TCCORP90_Make Reservation with same Details of existing Reservation and  Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP90"/>
+        </classes>
+    </test>
+    <test name="TCCORP91_Make Reservation using same Details of existing Reservation and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP91"/>
+        </classes>
+    </test>
+    <test name="TCCORP92_Make Reservation using same Details of existing Reservation and change and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP92"/>
+        </classes>
+    </test>
+    <test name="TCCORP93_Make Reservation and do not capture Flight No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP93"/>
+        </classes>
+    </test>
+    <test name="TCCORP94_Select Internationaly and capture Local Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP94"/>
+        </classes>
+    </test>
+    <test name="TCCORP95_Select Local and capture International Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP95"/>
+        </classes>
+    </test>
+    <test name="TCCORP96_Make Reservation and add SCDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP96"/>
+        </classes>
+    </test>
+    <test name="TCCORP97_Make Reservation and add CDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP97"/>
+        </classes>
+    </test>
+    <test name="TCCORP98_Make Reservation and add TLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP98"/>
+        </classes>
+    </test>
+    <test name="TC99_Make Reservation and add STLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP99"/>
+        </classes>
+    </test>
+    <test name="TCCORP100_Select CDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP100"/>
+        </classes>
+    </test>
+    <test name="TCCORP101_Select CDW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP101"/>
+        </classes>
+    </test>
+    <test name="TCCORP102_Select TLW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP102"/>
+        </classes>
+    </test>
+    <test name="TCCORP103_Select TLW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP103"/>
+        </classes>
+    </test>
+    <test name="TCCORP104_Select TLW and CDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP104"/>
+        </classes>
+    </test>
+    <test name="TCCORP105_Select SCDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP105"/>
+        </classes>
+    </test>
+    <test name="TCCORP106_Select Vehicle Assist  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP106"/>
+        </classes>
+    </test>
+    <test name="TCCORP107_Select Vehicle Assist  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP107"/>
+        </classes>
+    </test>
+    <test name="TCCORP108_Select Tyre Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP108"/>
+        </classes>
+    </test>
+    <test name="TCCORP109_Select Tyre Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP109"/>
+        </classes>
+    </test>
+    <test name="TCCORP110_Select Tyre Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP110"/>
+        </classes>
+    </test>
+    <test name="TCCORP111_Select Hail Damage Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP111"/>
+        </classes>
+    </test>
+    <test name="TCCORP112_Select Hail Damage Waiver  with Super Waivers when Making Reservation ">
+    <classes>
+        <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP112"/>
+    </classes>
+</test>
+    <test name="TCCORP113_Select Hail Damage Waiver  with standard Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP113"/>
+        </classes>
+    </test>
+    <test name="TCCORP114_Select Glass Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP114"/>
+        </classes>
+    </test>
+    <test name="TCCORP115_Select Glass Waiver  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP115"/>
+        </classes>
+    </test>
+    <test name="TCCORP116_Select Glass Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP116"/>
+        </classes>
+    </test>
+    <test name="TCCORP117_Select Additional Drives and  do not capture number of Additional Driver's when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP117"/>
+        </classes>
+    </test>
+    <test name="TCCORP118_Make a Reservation selecting Credit Card as Payment Method.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP118"/>
+        </classes>
+    </test>
+    <test name="TCCORP119_Make a Reservation selecting Credit Card as Payment Method without selecting Card Type.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP119"/>
+        </classes>
+    </test>
+    <test name="TCCORP120_Make a Reservation selecting Credit Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP120"/>
+        </classes>
+    </test>
+    <test name="TCCORP121_Make a Reservation selecting Bidvest Card as Payment Method">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP121"/>
+        </classes>
+    </test>
+    <test name="TCCORP122_Make a Reservation selecting Bidvest Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP122"/>
+        </classes>
+    </test>
+    <test name="TCCORP123_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP123"/>
+        </classes>
+    </test>
+    <test name="TCCORP124">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP124"/>
+        </classes>
+    </test>
+    <test name="TCCORP125">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP125"/>
+        </classes>
+    </test>
+    <test name="TCCORP126">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP126"/>
+        </classes>
+    </test>
+    <test name="TCCORP127">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP127"/>
+        </classes>
+    </test>
+    <test name="TCCORP128">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP128"/>
+        </classes>
+    </test>
+    <test name="TCCORP129">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP129"/>
+        </classes>
+    </test>
+    <test name="TCCORP130">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP130"/>
+        </classes>
+    </test>
+    <test name="TCCORP131">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP131"/>
+        </classes>
+    </test>
+    <test name="TCCORP132">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP132"/>
+        </classes>
+    </test>
+    <test name="TCCORP133">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP133"/>
+        </classes>
+    </test>
+    <test name="TCCORP134">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP134"/>
+        </classes>
+    </test>
+    <test name="TCCORP135">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP135"/>
+        </classes>
+    </test>
+    <test name="TCCORP136">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP136"/>
+        </classes>
+    </test>
+    <test name="TCCORP137">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP137"/>
+        </classes>
+    </test>
+    <test name="TCCORP138">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP138"/>
+        </classes>
+    </test>
+    <test name="TCCORP139">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP139"/>
+        </classes>
+    </test>
+    <test name="TCCORP140">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP140"/>
+        </classes>
+    </test>
+    <test name="TCCORP141">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP141"/>
+        </classes>
+    </test>
+    <test name="TCCORP142">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP142"/>
+        </classes>
+    </test>
+    <test name="TCCORP143">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP143"/>
+        </classes>
+    </test>
+    <test name="TCCORP144">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP144"/>
+        </classes>
+    </test>
+    <test name="TCCORP145">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP145"/>
+        </classes>
+    </test>
+    <test name="TCCORP146">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP146"/>
+        </classes>
+    </test>
+    <test name="TCCORP147">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP147"/>
+        </classes>
+    </test>
+    <test name="TCCORP148">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP148"/>
+        </classes>
+    </test>
+    <test name="TCCORP149">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP149"/>
+        </classes>
+    </test>
+    <test name="TCCORP150">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP150"/>
+        </classes>
+    </test>
+    <test name="TCCORP151">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP151"/>
+        </classes>
+    </test>
+    <test name="TCCORP152">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP152"/>
+        </classes>
+    </test>
+    <test name="TCCORP153">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP153"/>
+        </classes>
+    </test>
+    <test name="TCCORP154">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP154"/>
+        </classes>
+    </test>
+    <test name="TCCORP155">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP155"/>
+        </classes>
+    </test>
+    <test name="TCCORP156">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP156"/>
+        </classes>
+    </test>
+    <test name="TCCORP157">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP157"/>
+        </classes>
+    </test>
+    <test name="TCCORP158">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP158"/>
+        </classes>
+    </test>
+    <test name="TCCORP159">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP159"/>
+        </classes>
+    </test>
+    <test name="TCCORP160">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP160"/>
+        </classes>
+    </test>
+    <test name="TCCORP161">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP161"/>
+        </classes>
+    </test>
+    <test name="TCCORP162">
+    <classes>
+        <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP162"/>
+    </classes>
+</test>
+    <test name="TCCORP163">
+    <classes>
+        <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP163"/>
+    </classes>
+</test>
+    <test name="TCCORP164">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP164"/>
+        </classes>
+    </test>
+    <test name="TCCORP165">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP165"/>
+        </classes>
+    </test>
+    <test name="TCCORP166">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP166"/>
+        </classes>
+    </test>
+    <test name="TCCORP167">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP167"/>
+        </classes>
+    </test>
+    <test name="TCCORP168">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP168"/>
+        </classes>
+    </test>
+    <test name="TCCORP169">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP169"/>
+        </classes>
+    </test>
+    <test name="TCCORP170">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP170"/>
+        </classes>
+    </test>
+    <test name="TCCORP171">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP171"/>
+        </classes>
+    </test>
+    <test name="TCCORP172">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP172"/>
+        </classes>
+    </test>
+    <test name="TCCORP173">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Corporate.TCCORP173"/>
+        </classes>
+    </test>
+</suite>

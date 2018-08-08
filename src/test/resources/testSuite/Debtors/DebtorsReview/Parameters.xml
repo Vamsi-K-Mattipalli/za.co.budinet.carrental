@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEBTORS REVIEW PARAMETERS">
+    <test name="TCDENQ01">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Parameters.TCDRP01"/>
+        </classes>
+    </test>
+    <test name="TCDENQ02">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Parameters.TCDRP02"/>
+        </classes>
+    </test>
+    <test name="TCDENQ03">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Parameters.TCDRP03"/>
+        </classes>
+    </test>
+    <test name="TCDENQ04">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Parameters.TCDRP04"/>
+        </classes>
+    </test>
+    <test name="TCDENQ05">
+        <classes>
+            <class name="TestCases.Debtors.DebtorsReview.Parameters.TCDRP05"/>
+        </classes>
+    </test>
+</suite>

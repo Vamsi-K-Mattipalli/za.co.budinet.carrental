@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES PRINTING REPORT SCHEDULER">
+    <test name="REPSCH001">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH001"/>
+        </classes>
+    </test>
+    <test name="REPSCH002">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH002"/>
+        </classes>
+    </test>
+    <test name="REPSCH003">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH003"/>
+        </classes>
+    </test>
+    <test name="REPSCH004">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH004"/>
+        </classes>
+    </test>
+    <test name="REPSCH005">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH005"/>
+        </classes>
+    </test>
+    <test name="REPSCH006">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH006"/>
+        </classes>
+    </test>
+    <test name="REPSCH007">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH007"/>
+        </classes>
+    </test>
+    <test name="REPSCH008">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH008"/>
+        </classes>
+    </test>
+    <test name="REPSCH009">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH009"/>
+        </classes>
+    </test>
+    <test name="REPSCH010">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH010"/>
+        </classes>
+    </test>
+    <test name="REPSCH011">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH011"/>
+        </classes>
+    </test>
+    <test name="REPSCH012">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH012"/>
+        </classes>
+    </test>
+    <test name="REPSCH013">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH013"/>
+        </classes>
+    </test>
+    <test name="REPSCH014">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH014"/>
+        </classes>
+    </test>
+    <test name="REPSCH015">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH015"/>
+        </classes>
+    </test>
+
+</suite>

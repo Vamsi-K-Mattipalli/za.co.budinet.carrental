@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KEYBOOK PROFILE">
+    <test name="TCKEYPRO01">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Profile.TCKEYPRO01"/>
+        </classes>
+    </test>
+    <test name="TCKEYPRO02">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Profile.TCKEYPRO02"/>
+        </classes>
+    </test>
+    <test name="TCKEYPRO03">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Profile.TCKEYPRO03"/>
+        </classes>
+    </test>
+    <test name="TCKEYPRO04">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Profile.TCKEYPRO04"/>
+        </classes>
+    </test>
+    <test name="TCKEYPRO05">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Profile.TCKEYPRO05"/>
+        </classes>
+    </test>
+    <test name="TCKEYPRO06">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Profile.TCKEYPRO06"/>
+        </classes>
+    </test>
+    <test name="TCKEYPRO07">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Profile.TCKEYPRO07"/>
+        </classes>
+    </test>
+    <test name="TCKEYPRO08">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Profile.TCKEYPRO08"/>
+        </classes>
+    </test>
+    <test name="TCKEYPRO09">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Profile.TCKEYPRO09"/>
+        </classes>
+    </test>
+    <test name="TCKEYPRO10">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Profile.TCKEYPRO10"/>
+        </classes>
+    </test>
+    <test name="TCKEYPRO11">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Profile.TCKEYPRO11"/>
+        </classes>
+    </test>
+    <test name="TCKEYPRO12">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Profile.TCKEYPRO12"/>
+        </classes>
+    </test>
+    <test name="TCKEYPRO13">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Profile.TCKEYPRO13"/>
+        </classes>
+    </test>
+   </suite> <!-- Suite -->

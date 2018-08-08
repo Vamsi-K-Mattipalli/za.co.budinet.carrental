@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BACKOFFICE SANRAL TAG MANAGEMENT">
+    <test name="TCTAGMAN01  Accessing BudInet Page">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.Sanral.TagManagement.TCTAGMAN01"/>
+        </classes>
+    </test>
+    <test name="TCTAGMAN02 Unallocated E-Toll Transaction ">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.Sanral.TagManagement.TCTAGMAN02"/>
+        </classes>
+    </test>
+    <test name="TCTAGMAN03 Tag Action">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.Sanral.TagManagement.TCTAGMAN03"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CREDIT CARDS MOPS">
+    <test name="TCCCMOPCC01 Client is using  Credit Card as Primary Method of Payment(MOP) for manual authorisation">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC01"/>
+        </classes>
+    </test>
+    <test name="TCCCMOPCC02 Primary Credit Card is not paying for  all Products for manual authorisation">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC02"/>
+        </classes>
+    </test>
+    <test name="TCCCMOPCC03 Email address is not capture when Processing  MOP">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC03"/>
+        </classes>
+    </test>
+    <test name="TCCCMOPCC04 Reservation is not on  required status  during processing of MOPS">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC04"/>
+        </classes>
+    </test>
+    <test name="TCCCMOPCC05 Client is  using Pin Pad  to authorise  Master Credit Card as Primary Method of Payment(MOP)">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC05"/>
+        </classes>
+    </test>
+    <test name="TCCCMOPCC06 Client is  using Pin Pad  to authorise  Master Credit Card and  Primary Method of Payment(MOP) is not paying for all products">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC06"/>
+        </classes>
+    </test>
+    <test name="TCCCMOPCC07 Credit Card is not presented to the Internal User">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC07"/>
+        </classes>
+    </test>
+    <test name="TCCCMOPCC08 Credit card number embossed on the card is  not matching card number that is stored on the magnetic strip">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC08"/>
+        </classes>
+    </test>
+    <test name="TCCCMOPCC09 Approval Number is not captured for Manually Authorisation of Credit  Card">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC09"/>
+        </classes>
+    </test>
+    <test name="TCCCMOPCC10 Approval  Amount is not captured for Manually Authorisation of Credit  Card">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC10"/>
+        </classes>
+    </test>
+    <test name="TCCCMOPCC11 Manual Cancelling  Credit where Approval Number is captured  during Authorisation">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC11"/>
+        </classes>
+    </test>
+    <test name="TCCCMOPCC12 Manual Cancelling  Credit where Appoval Number is  not captured  during Authorisation">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC12"/>
+        </classes>
+
+    </test>
+    <test name="TCCCMOPCC13 Adding and  Process Credit card as Second MOP">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC13"/>
+        </classes>
+
+    </test>
+    <test name="TCCCMOPCC14 Customer's Credit Card is exceeding the Limit">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC14"/>
+        </classes>
+
+    </test>
+    <test name="TCCCMOPCC15 Authorisation Limit is exceeding 70000">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC15"/>
+        </classes>
+
+    </test>
+    <test name="TCCCMOPCC16 Client is uLodge Card without Vouche) as Primary Method of Payment(MOP)">
+        <classes>
+            <class name="TestCases.Operations.Rental.CreditCardsMOPS.TCCCMOPCC16"/>
+        </classes>
+
+    </test>
+</suite>

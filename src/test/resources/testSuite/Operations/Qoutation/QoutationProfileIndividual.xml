@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QOUTATION PROFILE INDIVIDUAL">
+    <test name="TCINDV01_ Verify the contents of the Rental Agreement screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV01"/>
+        </classes>
+    </test>
+    <test name="TCINDV02_Make a Reservation for Individual Renter by not changing any of the default quotation fields- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV02"/>
+        </classes>
+    </test>
+    <test name="TCINDV03_Make a Reservation for Individual Renter by not changing any of the default quotation fields- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV03"/>
+        </classes>
+    </test>
+    <test name="TCINDV04_Make a Reservation for Individual Renter by changing Title New -Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV04"/>
+        </classes>
+    </test>
+    <test name="TCINDV05_Make a Reservation for Individual Renter by changing Initials -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV05"/>
+        </classes>
+    </test>
+    <test name="TCINDV06_Make a Reservation for Individual Renter by changing Surname -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV06"/>
+        </classes>
+    </test>
+    <test name="TCINDV07_Make a Reservation for Individual Renter by changing First Names -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV07"/>
+        </classes>
+    </test>
+    <test name="TCINDV08_Make a Reservation for Individual Renter by changing Pickup Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV08"/>
+        </classes>
+    </test>
+    <test name="TCINDV09_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV09"/>
+        </classes>
+    </test>
+    <test name="TCINDV10_Make a Reservation for Individual Renter by changing Pickup Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV10"/>
+        </classes>
+    </test>
+    <test name="TCINDV11_Make a Reservation for Individual Renter by changing Due Back Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV11"/>
+        </classes>
+    </test>
+    <test name="TCINDV12_Make a Reservation for Individual Renter by changing Due Back Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV12"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV13_Make a Reservation for Individual Renter by changing Due Back Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV13"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV14_Make a Reservation for Individual Renter by changing Vehicle Group -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV14"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV15_Make a Reservation for Individual Renter by changing Pickup Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV15"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV16_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV16"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV17_Make a Reservation for Individual Renter by changing Pickup Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV17"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV18_Make a Reservation for Individual Renter by changing Due Back Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV18"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV19_Make a Reservation for Individual Renter by changing Due Back Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV19"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV20_Make a Reservation for Individual Renter by changing Due Back Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV20"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV21_Make a Reservation for Individual Renter by changing Vehicle Group -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV21"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV22_Make a Reservation for Individual Renter by changing Pickup Date-  Using Date Picker to select Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV22"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV23_Make a Reservation for Individual Renter by changing Pickup Date -  Using Date Picker to select Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV23"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV24_Make a Reservation for an Existing Individual Renter that is flagged as Blacklisted by not changing any of the default quotation fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV24"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV25_Make a Reservation for an Existing Individual Renter by Checking if the Vehicle is Fully booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV25"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV26_Make a Reservation for an Existing Individual Renter by  Overriding Fully Booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV26"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV27_Make a Reservation for an Existing Individual Renter by  Overriding Branch Time">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV27"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV28_View One way Fee on a Reservation screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV28"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV29_Make a Reservation for Individual Renter without Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV29"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV30_Make a Reservation for Individual Renter without Tel No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV30"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV31_Select Cell No on ID Type and  do not capture  Cell Number on Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV31"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV32_Make a Reservation for Individual Renter without Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV32"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV33_Verify the contents of the Core">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV33"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV34_Verify the Buttons of the Core  ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV34"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV35_Verify the functionality of Key Fields Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV35"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV36_Verify the functionality of Agents Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV36"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV37_Verify the functionality of View Damages Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV37"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV38_Verify the functionality of New RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV38"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV39_Verify the functionality of Print RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV39"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV40_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV40"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV41_Verify the functionality of Cancel Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV41"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV42_Verify the functionality of Allocate Etolls Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV42"/>
+        </classes>
+
+    </test>
+    <test name="TC43_Verify the functionality of SMS Notification Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV43"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV44_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV44"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV45_Make a Reservation for Individual Renter by capturing incorrect ID number- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV45"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV46_Make a Reservation for Individual Renter by capturing ID number that has 14 digits- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV46"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV47_Make a Reservation for Individual Renter by capturing ID number that has less than 13 digits -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV47"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV48_Make a Reservation for Individual Renter by capturing incorrect ID number- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV48"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV49_Make a Reservation for Individual Renter by capturing  ID number that has 14 characters- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV49"/>
+        </classes>
+
+    </test>
+    <test name="TCINDV50_Make a Reservation for Individual Renter by capturing  ID number that has less than 13 digits- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV50"/>
+        </classes>
+    </test>
+    <test name="TCINDV51_Make a Reservation for Individual Renter by capturing valid  ID number and selecting Retrieve Renter Defaults">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV51"/>
+        </classes>
+    </test>
+    <test name="TCINDV52_Make a Reservation for Individual Renter by selecting Passport as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV52"/>
+        </classes>
+    </test>
+    <test name="TCINDV53_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV53"/>
+        </classes>
+    </test>
+    <test name="TCINDV54_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV54"/>
+        </classes>
+    </test>
+    <test name="TCINDV55_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV55"/>
+        </classes>
+    </test>
+    <test name="TCINDV56_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV56"/>
+        </classes>
+    </test>
+    <test name="TCINDV57_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV57"/>
+        </classes>
+    </test>
+    <test name="TCINDV58_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV58"/>
+        </classes>
+    </test>
+    <test name="TCINDV59_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV59"/>
+        </classes>
+    </test>
+    <test name="TCINDV60_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV60"/>
+        </classes>
+    </test>
+    <test name="TCINDV61_Perform a Identifying Surname Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV61"/>
+        </classes>
+    </test>
+    <test name="TCINDV62_Perform Pickup Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV62"/>
+        </classes>
+    </test>
+    <test name="TCINDV63_Perform Due Back Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV63"/>
+        </classes>
+    </test>
+    <test name="TCINDV64_Perform Due Back Branch Lookup without selecting Due Back or Pickup Branch">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV64"/>
+        </classes>
+    </test>
+    <test name="TCINDV65_Perform IATA No. Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV65"/>
+        </classes>
+    </test>
+    <test name="TCINDV66_Perform Customer Account Name Lookup without capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV66"/>
+        </classes>
+    </test>
+    <test name="TCINDV67_Perform Customer Account Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV67"/>
+        </classes>
+    </test>
+    <test name="TCINDV68_Perform Referral Account Number Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV68"/>
+        </classes>
+    </test>
+    <test name="TCINDV69_Perform Referral Account Number Lookup by capturing invalid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV69"/>
+        </classes>
+    </test>
+    <test name="TCINDV70_Perform Referral Account Number Lookup by capturing Valid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV70"/>
+        </classes>
+    </test>
+    <test name="TCINDV71_Perform Referral Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV71"/>
+        </classes>
+    </test>
+    <test name="TCINDV72_Perform Referral Name Lookup by capturing invalid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV72"/>
+        </classes>
+    </test>
+    <test name="TCINDV73_Perform Referral Name Lookup by capturing Valid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV73"/>
+        </classes>
+    </test>
+    <test name="TCINDV74_Perform Referral Name Lookup by capturing Valid Referral Account Number and Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV74"/>
+        </classes>
+    </test>
+    <test name="TCINDV75_Perform Referral Name Lookup by not capturing Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV75"/>
+        </classes>
+    </test>
+    <test name="TCINDV76_Perform Referral Name Lookup by capturing invalid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV76"/>
+        </classes>
+    </test>
+    <test name="TCINDV77_Perform Referral Name Lookup by capturing valid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV77"/>
+        </classes>
+    </test>
+    <test name="TCINDV78_Reset Customer Details">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV78"/>
+        </classes>
+    </test>
+    <test name="TCINDV79_Retrieve Customer Defaults without capturing any Customer Details fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV79"/>
+        </classes>
+    </test>
+    <test name="TCINDV80_Retrieve Customer Defaults by capturing Customer Account No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV80"/>
+        </classes>
+    </test>
+    <test name="TCINDV81_Retrieve Customer Defaults by capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV81"/>
+        </classes>
+    </test>
+    <test name="TCINDV82_Perform Reserved Rate Lookup without capturing rate fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV82"/>
+        </classes>
+    </test>
+    <test name="TCINDV83_Perform Reserved Rate Lookup by capturing Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV83"/>
+        </classes>
+    </test>
+    <test name="TCINDV84_Perform Reserved Rate Lookup by capturing invalid Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV84"/>
+        </classes>
+    </test>
+    <test name="TCINDV85_Calculate Credit  Card Auth when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV85"/>
+        </classes>
+    </test>
+    <test name="TCINDV86_Calculate Credit  Card Auth and do not  select STD or SUPER when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV86"/>
+        </classes>
+    </test>
+    <test name="TCINDV87_Calculate Credit  Card Auth and do not capture Reserved Rate when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV87"/>
+        </classes>
+    </test>
+    <test name="TCINDV88_Select Pickup branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV88"/>
+        </classes>
+    </test>
+    <test name="TCINDV89_Select Due Back branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV89"/>
+        </classes>
+    </test>
+    <test name="TCINDV90_Make Reservation with same Details of existing Reservation and  Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV90"/>
+        </classes>
+    </test>
+    <test name="TCINDV91_Make Reservation using same Details of existing Reservation and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV91"/>
+        </classes>
+    </test>
+    <test name="TCINDV92_Make Reservation using same Details of existing Reservation and change and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV92"/>
+        </classes>
+    </test>
+    <test name="TCINDV93_Make Reservation and do not capture Flight No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV93"/>
+        </classes>
+    </test>
+    <test name="TCINDV94_Select Internationaly and capture Local Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV94"/>
+        </classes>
+    </test>
+    <test name="TCINDV95_Select Local and capture International Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV95"/>
+        </classes>
+    </test>
+    <test name="TCINDV96_Make Reservation and add SCDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV96"/>
+        </classes>
+    </test>
+    <test name="TCINDV97_Make Reservation and add CDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV97"/>
+        </classes>
+    </test>
+    <test name="TCINDV98_Make Reservation and add TLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV98"/>
+        </classes>
+    </test>
+    <test name="TC99_Make Reservation and add STLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV99"/>
+        </classes>
+    </test>
+    <test name="TCINDV100_Select CDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV100"/>
+        </classes>
+    </test>
+    <test name="TCINDV101_Select CDW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV101"/>
+        </classes>
+    </test>
+    <test name="TCINDV102_Select TLW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV102"/>
+        </classes>
+    </test>
+    <test name="TCINDV103_Select TLW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV103"/>
+        </classes>
+    </test>
+    <test name="TCINDV104_Select TLW and CDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV104"/>
+        </classes>
+    </test>
+    <test name="TCINDV105_Select SCDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV105"/>
+        </classes>
+    </test>
+    <test name="TCINDV106_Select Vehicle Assist  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV106"/>
+        </classes>
+    </test>
+    <test name="TCINDV107_Select Vehicle Assist  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV107"/>
+        </classes>
+    </test>
+    <test name="TCINDV108_Select Tyre Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV108"/>
+        </classes>
+    </test>
+    <test name="TCINDV109_Select Tyre Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV109"/>
+        </classes>
+    </test>
+    <test name="TCINDV110_Select Tyre Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV110"/>
+        </classes>
+    </test>
+    <test name="TCINDV111_Select Hail Damage Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV111"/>
+        </classes>
+    </test>
+    <test name="TCINDV112_Select Hail Damage Waiver  with Super Waivers when Making Reservation ">
+    <classes>
+        <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV112"/>
+    </classes>
+</test>
+    <test name="TCINDV113_Select Hail Damage Waiver  with standard Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV113"/>
+        </classes>
+    </test>
+    <test name="TCINDV114_Select Glass Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV114"/>
+        </classes>
+    </test>
+    <test name="TCINDV115_Select Glass Waiver  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV115"/>
+        </classes>
+    </test>
+    <test name="TCINDV116_Select Glass Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV116"/>
+        </classes>
+    </test>
+    <test name="TCINDV117_Select Additional Drives and  do not capture number of Additional Driver's when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV117"/>
+        </classes>
+    </test>
+    <test name="TCINDV118_Make a Reservation selecting Credit Card as Payment Method.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV118"/>
+        </classes>
+    </test>
+    <test name="TCINDV119_Make a Reservation selecting Credit Card as Payment Method without selecting Card Type.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV119"/>
+        </classes>
+    </test>
+    <test name="TCINDV120_Make a Reservation selecting Credit Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV120"/>
+        </classes>
+    </test>
+    <test name="TCINDV121_Make a Reservation selecting Bidvest Card as Payment Method">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV121"/>
+        </classes>
+    </test>
+    <test name="TCINDV122_Make a Reservation selecting Bidvest Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV122"/>
+        </classes>
+    </test>
+    <test name="TCINDV123_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV123"/>
+        </classes>
+    </test>
+    <test name="TCINDV124">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV124"/>
+        </classes>
+    </test>
+    <test name="TCINDV125">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV125"/>
+        </classes>
+    </test>
+    <test name="TCINDV126">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV126"/>
+        </classes>
+    </test>
+    <test name="TCINDV127">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV127"/>
+        </classes>
+    </test>
+    <test name="TCINDV128">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV128"/>
+        </classes>
+    </test>
+    <test name="TCINDV129">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV129"/>
+        </classes>
+    </test>
+    <test name="TCINDV130">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV130"/>
+        </classes>
+    </test>
+    <test name="TCINDV131">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV131"/>
+        </classes>
+    </test>
+    <test name="TCINDV132">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV132"/>
+        </classes>
+    </test>
+    <test name="TCINDV133">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV133"/>
+        </classes>
+    </test>
+    <test name="TCINDV134">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV134"/>
+        </classes>
+    </test>
+    <test name="TCINDV135">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV135"/>
+        </classes>
+    </test>
+    <test name="TCINDV136">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV136"/>
+        </classes>
+    </test>
+    <test name="TCINDV137">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV137"/>
+        </classes>
+    </test>
+    <test name="TCINDV138">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV138"/>
+        </classes>
+    </test>
+    <test name="TCINDV139">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV139"/>
+        </classes>
+    </test>
+    <test name="TCINDV140">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV140"/>
+        </classes>
+    </test>
+    <test name="TCINDV141">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV141"/>
+        </classes>
+    </test>
+    <test name="TCINDV142">
+    <classes>
+        <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV142"/>
+    </classes>
+</test>
+    <test name="TCINDV143">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV143"/>
+        </classes>
+    </test>
+    <test name="TCINDV144">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV144"/>
+        </classes>
+    </test>
+    <test name="TCINDV145">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV145"/>
+        </classes>
+    </test>
+    <test name="TCINDV146">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV146"/>
+        </classes>
+    </test>
+    <test name="TCINDV147">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV147"/>
+        </classes>
+    </test>
+    <test name="TCINDV148">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV148"/>
+        </classes>
+    </test>
+    <test name="TCINDV149">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV149"/>
+        </classes>
+    </test>
+    <test name="TCINDV150">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV150"/>
+        </classes>
+    </test>
+    <test name="TCINDV151">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV151"/>
+        </classes>
+    </test>
+    <test name="TCINDV152">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV152"/>
+        </classes>
+    </test>
+    <test name="TCINDV153">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV153"/>
+        </classes>
+    </test>
+    <test name="TCINDV154">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV154"/>
+        </classes>
+    </test>
+    <test name="TCINDV155">
+    <classes>
+        <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV155"/>
+    </classes>
+</test>
+    <test name="TCINDV156">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV156"/>
+        </classes>
+    </test>
+    <test name="TCINDV157">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV157"/>
+        </classes>
+    </test>
+    <test name="TCINDV158">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV158"/>
+        </classes>
+    </test>
+    <test name="TCINDV159">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV159"/>
+        </classes>
+    </test>
+    <test name="TCINDV160">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV160"/>
+        </classes>
+    </test>
+    <test name="TCINDV161">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV161"/>
+        </classes>
+    </test>
+    <test name="TCINDV162">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV162"/>
+        </classes>
+    </test>
+    <test name="TCINDV163">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV163"/>
+        </classes>
+    </test>
+    <test name="TCINDV164">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV164"/>
+        </classes>
+    </test>
+    <test name="TCINDV165">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV165"/>
+        </classes>
+    </test>
+    <test name="TCINDV166">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV166"/>
+        </classes>
+    </test>
+    <test name="TCINDV167">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV167"/>
+        </classes>
+    </test>
+    <test name="TCINDV168">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV168"/>
+        </classes>
+    </test>
+    <test name="TCINDV169">
+    <classes>
+        <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV169"/>
+    </classes>
+</test>
+    <test name="TCINDV170">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV170"/>
+        </classes>
+    </test>
+    <test name="TCINDV171">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV171"/>
+        </classes>
+    </test>
+    <test name="TCINDV172">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV172"/>
+        </classes>
+    </test>
+    <test name="TCINDV173">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Individual.TCINDV173"/>
+        </classes>
+    </test>
+
+
+
+
+</suite> <!-- Suite -->

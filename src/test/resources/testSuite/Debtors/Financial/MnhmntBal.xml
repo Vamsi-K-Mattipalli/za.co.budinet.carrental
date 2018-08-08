@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FINANCIAL MANAGEMENT BALANCE">
+    <test name="TCFMB01">
+        <classes>
+            <class name="TestCases.Debtors.Financial.MngmntBal.TCFMB01"/>
+        </classes>
+    </test>
+    <test name="TCFMB02">
+        <classes>
+            <class name="TestCases.Debtors.Financial.MngmntBal.TCFMB02"/>
+        </classes>
+    </test>
+    <test name="TCFMB03">
+        <classes>
+            <class name="TestCases.Debtors.Financial.MngmntBal.TCFMB03"/>
+        </classes>
+    </test>
+    <test name="TCFMB04">
+        <classes>
+            <class name="TestCases.Debtors.Financial.MngmntBal.TCFMB04"/>
+        </classes>
+    </test>
+    <test name="TCFMB05">
+        <classes>
+            <class name="TestCases.Debtors.Financial.MngmntBal.TCFMB05"/>
+        </classes>
+    </test>
+    <test name="TCFMB06">
+        <classes>
+            <class name="TestCases.Debtors.Financial.MngmntBal.TCFMB06"/>
+        </classes>
+    </test>
+    <test name="TCFMB07">
+        <classes>
+            <class name="TestCases.Debtors.Financial.MngmntBal.TCFMB07"/>
+        </classes>
+    </test>
+</suite>

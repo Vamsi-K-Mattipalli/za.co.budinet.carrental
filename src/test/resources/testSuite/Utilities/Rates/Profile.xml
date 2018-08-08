@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES RATE PROFILE">
+    <test name="TCRATES018">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES018"/>
+        </classes>
+    </test>
+    <test name="TCRATES019">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES019"/>
+        </classes>
+    </test>
+    <test name="TCRATES020">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES020"/>
+        </classes>
+    </test>
+    <test name="TCRATES021">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES021"/>
+        </classes>
+    </test>
+    <test name="TCRATES022">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES022"/>
+        </classes>
+    </test>
+    <test name="TCRATES023">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES023"/>
+        </classes>
+    </test>
+    <test name="TCRATES024">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES024"/>
+        </classes>
+    </test>
+    <test name="TCRATES025">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES025"/>
+        </classes>
+    </test>
+    <test name="TCRATES026">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES026"/>
+        </classes>
+    </test>
+    <test name="TCRATES027">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES027"/>
+        </classes>
+    </test>
+    <test name="TCRATES028">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES028"/>
+        </classes>
+    </test>
+    <test name="TCRATES029">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES029"/>
+        </classes>
+    </test>
+    <test name="TCRATES030">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES030"/>
+        </classes>
+    </test>
+    <test name="TCRATES031">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES031"/>
+        </classes>
+    </test>
+    <test name="TCRATES032">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES032"/>
+        </classes>
+    </test>
+    <test name="TCRATES033">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES033"/>
+        </classes>
+    </test>
+    <test name="TCRATES034">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES034"/>
+        </classes>
+    </test>
+    <test name="TCRATES035">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES035"/>
+        </classes>
+    </test>
+    <test name="TCRATES036">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES036"/>
+        </classes>
+    </test>
+    <test name="TCRATES037">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES037"/>
+        </classes>
+    </test>
+    <test name="TCRATES038">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES038"/>
+        </classes>
+    </test>
+    <test name="TCRATES039">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES039"/>
+        </classes>
+    </test>
+    <test name="TCRATES040">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES040"/>
+        </classes>
+    </test>
+    <test name="TCRATES041">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES041"/>
+        </classes>
+    </test>
+    <test name="TCRATES042">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES042"/>
+        </classes>
+    </test>
+    <test name="TCRATES043">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES043"/>
+        </classes>
+    </test>
+    <test name="TCRATES044">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES044"/>
+        </classes>
+    </test>
+    <test name="TCRATES045">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES045"/>
+        </classes>
+    </test>
+    <test name="TCRATES046">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES046"/>
+        </classes>
+    </test>
+    <test name="TCRATES047">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES047"/>
+        </classes>
+    </test>
+    <test name="TCRATES048">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES048"/>
+        </classes>
+    </test>
+    <test name="TCRATES049">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES049"/>
+        </classes>
+    </test>
+    <test name="TCRATES050">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES050"/>
+        </classes>
+    </test>
+    <test name="TCRATES051">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES051"/>
+        </classes>
+    </test>
+    <test name="TCRATES052">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES052"/>
+        </classes>
+    </test>
+    <test name="TCRATES053">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES053"/>
+        </classes>
+    </test>
+    <test name="TCRATES054">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES054"/>
+        </classes>
+    </test>
+    <test name="TCRATES055">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES055"/>
+        </classes>
+    </test>
+    <test name="TCRATES056">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES056"/>
+        </classes>
+    </test>
+    <test name="TCRATES057">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES057"/>
+        </classes>
+    </test>
+    <test name="TCRATES058">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES058"/>
+        </classes>
+    </test>
+    <test name="TCRATES059">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES059"/>
+        </classes>
+    </test>
+    <test name="TCRATES060">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES060"/>
+        </classes>
+    </test>
+    <test name="TCRATES061">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES061"/>
+        </classes>
+    </test>
+    <test name="TCRATES062">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES062"/>
+        </classes>
+    </test>
+    <test name="TCRATES063">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES063"/>
+        </classes>
+    </test>
+    <test name="TCRATES064">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Profile.TCRATES064"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CUSTOMER ENQUIRY">
+    <test name="TCDENQ001">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ01"/>
+        </classes>
+    </test>
+    <test name="TCDENQ002">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ02"/>
+        </classes>
+    </test>
+    <test name="TCDENQ003">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ03"/>
+        </classes>
+    </test>
+    <test name="TCDENQ004">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ04"/>
+        </classes>
+    </test>
+    <test name="TCDENQ005">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ05"/>
+        </classes>
+    </test>
+    <test name="TCDENQ006">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ06"/>
+        </classes>
+    </test>
+    <test name="TCDENQ007">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ07"/>
+        </classes>
+    </test>
+    <test name="TCDENQ008">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ08"/>
+        </classes>
+    </test>
+    <test name="TCDENQ009">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ09"/>
+        </classes>
+    </test>
+    <test name="TCDENQ010">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ10"/>
+        </classes>
+    </test>
+    <test name="TCDENQ011">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ11"/>
+        </classes>
+    </test>
+    <test name="TCDENQ012">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ12"/>
+        </classes>
+    </test>
+    <test name="TCDENQ013">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ13"/>
+        </classes>
+    </test>
+    <test name="TCDENQ014">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ14"/>
+        </classes>
+    </test>
+    <test name="TCDENQ015">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ15"/>
+        </classes>
+    </test>
+    <test name="TCDENQ016">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ16"/>
+        </classes>
+    </test>
+    <test name="TCDENQ017">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ17"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Grid" parallel="true" >
+    <test name="Test Node1 Internet Explorer 1">
+        <parameter name="portNo" value="4545"></parameter>
+        <parameter name="appURL" value="http://bdn.bcxcad.net"></parameter>
+        <classes>
+            <class name="config.GridDriver"/>
+        </classes>
+    </test>
+    <test name="Test Node2 Internet Explorer 2">
+        <parameter name="portNo" value="4546"></parameter>
+        <parameter name="appURL" value="http://bdn.bcxcad.net"></parameter>
+        <classes>
+            <class name="config.GridDriver"/>
+        </classes>
+    </test>
+    <test name="Test Node3 Internet Explorer 3">
+        <parameter name="portNo" value="4547"></parameter>
+        <parameter name="appURL" value="http://bdn.bcxcad.net"></parameter>
+        <classes>
+            <class name="config.GridDriver"/>
+        </classes>
+    </test>
+</suite>

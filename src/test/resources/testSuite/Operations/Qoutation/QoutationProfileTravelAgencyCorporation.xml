@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QOUTATION INDIVIDUAL" parallel="methods">
+    <test name="TC001_ Verify the contents of the Rental Agreement screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR01"/>
+        </classes>
+    </test>
+    <test name="TC002_Make a Reservation for Individual Renter by not changing any of the default quotation fields- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR02"/>
+        </classes>
+    </test>
+    <test name="TC003_Make a Reservation for Individual Renter by not changing any of the default quotation fields- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR03"/>
+        </classes>
+    </test>
+    <test name="TC004_Make a Reservation for Individual Renter by changing Title New -Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR04"/>
+        </classes>
+    </test>
+    <test name="TC005_Make a Reservation for Individual Renter by changing Initials -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR05"/>
+        </classes>
+    </test>
+    <test name="TC006_Make a Reservation for Individual Renter by changing Surname -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR06"/>
+        </classes>
+    </test>
+    <test name="TC007_Make a Reservation for Individual Renter by changing First Names -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR07"/>
+        </classes>
+    </test>
+    <test name="TC008_Make a Reservation for Individual Renter by changing Pickup Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR08"/>
+        </classes>
+    </test>
+    <test name="TC009_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR09"/>
+        </classes>
+    </test>
+    <test name="TC010_Make a Reservation for Individual Renter by changing Pickup Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR10"/>
+        </classes>
+    </test>
+    <test name="TC011_Make a Reservation for Individual Renter by changing Due Back Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR11"/>
+        </classes>
+    </test>
+    <test name="TC012_Make a Reservation for Individual Renter by changing Due Back Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR12"/>
+        </classes>
+
+    </test>
+    <test name="TC013_Make a Reservation for Individual Renter by changing Due Back Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR13"/>
+        </classes>
+
+    </test>
+    <test name="TC014_Make a Reservation for Individual Renter by changing Vehicle Group -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR14"/>
+        </classes>
+
+    </test>
+    <test name="TC015_Make a Reservation for Individual Renter by changing Pickup Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR15"/>
+        </classes>
+
+    </test>
+    <test name="TC016_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR16"/>
+        </classes>
+
+    </test>
+    <test name="TC017_Make a Reservation for Individual Renter by changing Pickup Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR17"/>
+        </classes>
+
+    </test>
+    <test name="TC018_Make a Reservation for Individual Renter by changing Due Back Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR18"/>
+        </classes>
+
+    </test>
+    <test name="TC019_Make a Reservation for Individual Renter by changing Due Back Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR19"/>
+        </classes>
+
+    </test>
+    <test name="TC020_Make a Reservation for Individual Renter by changing Due Back Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR20"/>
+        </classes>
+
+    </test>
+    <test name="TC021_Make a Reservation for Individual Renter by changing Vehicle Group -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR21"/>
+        </classes>
+
+    </test>
+    <test name="TC022_Make a Reservation for Individual Renter by changing Pickup Date-  Using Date Picker to select Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR22"/>
+        </classes>
+
+    </test>
+    <test name="TC023_Make a Reservation for Individual Renter by changing Pickup Date -  Using Date Picker to select Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR23"/>
+        </classes>
+
+    </test>
+    <test name="TC024_Make a Reservation for an Existing Individual Renter that is flagged as Blacklisted by not changing any of the default quotation fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR24"/>
+        </classes>
+
+    </test>
+    <test name="TC025_Make a Reservation for an Existing Individual Renter by Checking if the Vehicle is Fully booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR25"/>
+        </classes>
+
+    </test>
+    <test name="TC026_Make a Reservation for an Existing Individual Renter by  Overriding Fully Booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR26"/>
+        </classes>
+
+    </test>
+    <test name="TC027_Make a Reservation for an Existing Individual Renter by  Overriding Branch Time">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR27"/>
+        </classes>
+
+    </test>
+    <test name="TC028_View One way Fee on a Reservation screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR28"/>
+        </classes>
+
+    </test>
+    <test name="TC029_Make a Reservation for Individual Renter without Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR29"/>
+        </classes>
+
+    </test>
+    <test name="TC030_Make a Reservation for Individual Renter without Tel No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR30"/>
+        </classes>
+
+    </test>
+    <test name="TC031_Select Cell No on ID Type and  do not capture  Cell Number on Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR31"/>
+        </classes>
+
+    </test>
+    <test name="TC032_Make a Reservation for Individual Renter without Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR32"/>
+        </classes>
+
+    </test>
+    <test name="TC033_Verify the contents of the Core">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR33"/>
+        </classes>
+
+    </test>
+    <test name="TC034_Verify the Buttons of the Core  ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR34"/>
+        </classes>
+
+    </test>
+    <test name="TC035_Verify the functionality of Key Fields Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR35"/>
+        </classes>
+
+    </test>
+    <test name="TC036_Verify the functionality of Agents Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR36"/>
+        </classes>
+
+    </test>
+    <test name="TC037_Verify the functionality of View Damages Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR37"/>
+        </classes>
+
+    </test>
+    <test name="TC038_Verify the functionality of New RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR38"/>
+        </classes>
+
+    </test>
+    <test name="TC039_Verify the functionality of Print RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR39"/>
+        </classes>
+
+    </test>
+    <test name="TC040_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR40"/>
+        </classes>
+
+    </test>
+    <test name="TC041_Verify the functionality of Cancel Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR41"/>
+        </classes>
+
+    </test>
+    <test name="TC042_Verify the functionality of Allocate Etolls Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR42"/>
+        </classes>
+
+    </test>
+    <test name="TC43_Verify the functionality of SMS Notification Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR43"/>
+        </classes>
+
+    </test>
+    <test name="TC044_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR44"/>
+        </classes>
+
+    </test>
+    <test name="TC045_Make a Reservation for Individual Renter by capturing incorrect ID number- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR45"/>
+        </classes>
+
+    </test>
+    <test name="TC046_Make a Reservation for Individual Renter by capturing ID number that has 14 digits- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR46"/>
+        </classes>
+
+    </test>
+    <test name="TC047_Make a Reservation for Individual Renter by capturing ID number that has less than 13 digits -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR47"/>
+        </classes>
+
+    </test>
+    <test name="TC048_Make a Reservation for Individual Renter by capturing incorrect ID number- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR48"/>
+        </classes>
+
+    </test>
+    <test name="TC049_Make a Reservation for Individual Renter by capturing  ID number that has 14 characters- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR49"/>
+        </classes>
+
+    </test>
+    <test name="TC050_Make a Reservation for Individual Renter by capturing  ID number that has less than 13 digits- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR50"/>
+        </classes>
+    </test>
+    <test name="TC051_Make a Reservation for Individual Renter by capturing valid  ID number and selecting Retrieve Renter Defaults">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR51"/>
+        </classes>
+    </test>
+    <test name="TC052_Make a Reservation for Individual Renter by selecting Passport as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR52"/>
+        </classes>
+    </test>
+    <test name="TC053_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR53"/>
+        </classes>
+    </test>
+    <test name="TC054_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR54"/>
+        </classes>
+    </test>
+    <test name="TC055_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR55"/>
+        </classes>
+    </test>
+    <test name="TC056_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR56"/>
+        </classes>
+    </test>
+    <test name="TC057_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR57"/>
+        </classes>
+    </test>
+    <test name="TC058_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR58"/>
+        </classes>
+    </test>
+    <test name="TC059_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR59"/>
+        </classes>
+    </test>
+    <test name="TC060_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR60"/>
+        </classes>
+    </test>
+    <test name="TC061_Perform a Identifying Surname Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR61"/>
+        </classes>
+    </test>
+    <test name="TC062_Perform Pickup Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR62"/>
+        </classes>
+    </test>
+    <test name="TC063_Perform Due Back Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR63"/>
+        </classes>
+    </test>
+    <test name="TC064_Perform Due Back Branch Lookup without selecting Due Back or Pickup Branch">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR64"/>
+        </classes>
+    </test>
+    <test name="TC065_Perform IATA No. Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR65"/>
+        </classes>
+    </test>
+    <test name="TC066_Perform Customer Account Name Lookup without capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR66"/>
+        </classes>
+    </test>
+    <test name="TC067_Perform Customer Account Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR67"/>
+        </classes>
+    </test>
+    <test name="TC068_Perform Referral Account Number Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR68"/>
+        </classes>
+    </test>
+    <test name="TC069_Perform Referral Account Number Lookup by capturing invalid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR69"/>
+        </classes>
+    </test>
+    <test name="TC070_Perform Referral Account Number Lookup by capturing Valid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR70"/>
+        </classes>
+    </test>
+    <test name="TC071_Perform Referral Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR71"/>
+        </classes>
+    </test>
+    <test name="TC072_Perform Referral Name Lookup by capturing invalid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR72"/>
+        </classes>
+    </test>
+    <test name="TC073_Perform Referral Name Lookup by capturing Valid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR73"/>
+        </classes>
+    </test>
+    <test name="TC074_Perform Referral Name Lookup by capturing Valid Referral Account Number and Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR74"/>
+        </classes>
+    </test>
+    <test name="TC075_Perform Referral Name Lookup by not capturing Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR75"/>
+        </classes>
+    </test>
+    <test name="TC076_Perform Referral Name Lookup by capturing invalid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR76"/>
+        </classes>
+    </test>
+    <test name="TC077_Perform Referral Name Lookup by capturing valid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR77"/>
+        </classes>
+    </test>
+    <test name="TC078_Reset Customer Details">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR78"/>
+        </classes>
+    </test>
+    <test name="TC079_Retrieve Customer Defaults without capturing any Customer Details fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR79"/>
+        </classes>
+    </test>
+    <test name="TC080_Retrieve Customer Defaults by capturing Customer Account No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR80"/>
+        </classes>
+    </test>
+    <test name="TC081_Retrieve Customer Defaults by capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR81"/>
+        </classes>
+    </test>
+    <test name="TC082_Perform Reserved Rate Lookup without capturing rate fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR82"/>
+        </classes>
+    </test>
+    <test name="TC083_Perform Reserved Rate Lookup by capturing Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR83"/>
+        </classes>
+    </test>
+    <test name="TC084_Perform Reserved Rate Lookup by capturing invalid Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR84"/>
+        </classes>
+    </test>
+    <test name="TC085_Calculate Credit  Card Auth when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR85"/>
+        </classes>
+    </test>
+    <test name="TC086_Calculate Credit  Card Auth and do not  select STD or SUPER when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR86"/>
+        </classes>
+    </test>
+    <test name="TC087_Calculate Credit  Card Auth and do not capture Reserved Rate when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR87"/>
+        </classes>
+    </test>
+    <test name="TC088_Select Pickup branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR88"/>
+        </classes>
+    </test>
+    <test name="TC089_Select Due Back branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR89"/>
+        </classes>
+    </test>
+    <test name="TC090_Make Reservation with same Details of existing Reservation and  Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR90"/>
+        </classes>
+    </test>
+    <test name="TC091_Make Reservation using same Details of existing Reservation and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR91"/>
+        </classes>
+    </test>
+    <test name="TC092_Make Reservation using same Details of existing Reservation and change and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR92"/>
+        </classes>
+    </test>
+    <test name="TC093_Make Reservation and do not capture Flight No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR93"/>
+        </classes>
+    </test>
+    <test name="TC094_Select Internationaly and capture Local Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR94"/>
+        </classes>
+    </test>
+    <test name="TC095_Select Local and capture International Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR95"/>
+        </classes>
+    </test>
+    <test name="TC096_Make Reservation and add SCDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR96"/>
+        </classes>
+    </test>
+    <test name="TC097_Make Reservation and add CDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR97"/>
+        </classes>
+    </test>
+    <test name="TC098_Make Reservation and add TLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR98"/>
+        </classes>
+    </test>
+    <test name="TC99_Make Reservation and add STLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR99"/>
+        </classes>
+    </test>
+    <test name="TC100_Select CDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR100"/>
+        </classes>
+    </test>
+    <test name="TC101_Select CDW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR101"/>
+        </classes>
+    </test>
+    <test name="TC102_Select TLW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR102"/>
+        </classes>
+    </test>
+    <test name="TC103_Select TLW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR103"/>
+        </classes>
+    </test>
+    <test name="TC104_Select TLW and CDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR104"/>
+        </classes>
+    </test>
+    <test name="TC105_Select SCDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR105"/>
+        </classes>
+    </test>
+    <test name="TC106_Select Vehicle Assist  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR106"/>
+        </classes>
+    </test>
+    <test name="TC107_Select Vehicle Assist  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR107"/>
+        </classes>
+    </test>
+    <test name="TC108_Select Tyre Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR108"/>
+        </classes>
+    </test>
+    <test name="TC109_Select Tyre Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR109"/>
+        </classes>
+    </test>
+    <test name="TC110_Select Tyre Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR110"/>
+        </classes>
+    </test>
+    <test name="TC111_Select Hail Damage Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR111"/>
+        </classes>
+    </test>
+    <test name="TC112_Select Hail Damage Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR112"/>
+        </classes>
+    </test>
+    <test name="TC113_Select Hail Damage Waiver  with standard Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR113"/>
+        </classes>
+    </test>
+    <test name="TC114_Select Glass Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR114"/>
+        </classes>
+    </test>
+    <test name="TC115_Select Glass Waiver  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR115"/>
+        </classes>
+    </test>
+    <test name="TC116_Select Glass Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR116"/>
+        </classes>
+    </test>
+    <test name="TC117_Select Additional Drives and  do not capture number of Additional Driver's when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR117"/>
+        </classes>
+    </test>
+    <test name="TC118_Make a Reservation selecting Credit Card as Payment Method.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR118"/>
+        </classes>
+    </test>
+    <test name="TC119_Make a Reservation selecting Credit Card as Payment Method without selecting Card Type.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR119"/>
+        </classes>
+    </test>
+    <test name="TC120_Make a Reservation selecting Credit Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR120"/>
+        </classes>
+    </test>
+    <test name="TC121_Make a Reservation selecting Bidvest Card as Payment Method">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR121"/>
+        </classes>
+    </test>
+    <test name="TC122_Make a Reservation selecting Bidvest Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR122"/>
+        </classes>
+    </test>
+    <test name="TC123_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR123"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES PRINTING BRANCH PRINTER">
+    <test name="BPRNT001">
+        <classes>
+            <class name="TestCases.Utilities.Printing.BranchPrinter.BPRNT001"/>
+        </classes>
+    </test>
+    <test name="BPRNT002">
+        <classes>
+            <class name="TestCases.Utilities.Printing.BranchPrinter.BPRNT002"/>
+        </classes>
+    </test>
+    <test name="BPRNT003">
+        <classes>
+            <class name="TestCases.Utilities.Printing.BranchPrinter.BPRNT003"/>
+        </classes>
+    </test>
+    <test name="BPRNT004">
+        <classes>
+            <class name="TestCases.Utilities.Printing.BranchPrinter.BPRNT004"/>
+        </classes>
+    </test>
+    <test name="BPRNT005">
+        <classes>
+            <class name="TestCases.Utilities.Printing.BranchPrinter.BPRNT005"/>
+        </classes>
+    </test>
+    <test name="BPRNT006">
+        <classes>
+            <class name="TestCases.Utilities.Printing.BranchPrinter.BPRNT006"/>
+        </classes>
+    </test>
+    <test name="BPRNT007">
+        <classes>
+            <class name="TestCases.Utilities.Printing.BranchPrinter.BPRNT007"/>
+        </classes>
+    </test>
+
+
+</suite> <!-- Suite -->

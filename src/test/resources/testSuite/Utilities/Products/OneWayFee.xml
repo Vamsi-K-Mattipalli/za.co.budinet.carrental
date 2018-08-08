@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES PRODUCTS ONE WAY FEE">
+    <test name="TCEWF001">
+        <classes>
+            <class name="TestCases.Utilities.Products.OneWayFee.TCEWF01"/>
+        </classes>
+    </test>
+    <test name="TCEWF002">
+        <classes>
+            <class name="TestCases.Utilities.Products.OneWayFee.TCEWF02"/>
+        </classes>
+    </test>
+    <test name="TCEWF003">
+        <classes>
+            <class name="TestCases.Utilities.Products.OneWayFee.TCEWF03"/>
+        </classes>
+    </test>
+    <test name="TCEWF004">
+        <classes>
+            <class name="TestCases.Utilities.Products.OneWayFee.TCEWF04"/>
+        </classes>
+    </test>
+    <test name="TCEWF005">
+        <classes>
+            <class name="TestCases.Utilities.Products.OneWayFee.TCEWF05"/>
+        </classes>
+    </test>
+    <test name="TCEWF006">
+        <classes>
+            <class name="TestCases.Utilities.Products.OneWayFee.TCEWF06"/>
+        </classes>
+    </test>
+    <test name="TCEWF007">
+        <classes>
+            <class name="TestCases.Utilities.Products.OneWayFee.TCEWF07"/>
+        </classes>
+    </test>
+
+</suite>

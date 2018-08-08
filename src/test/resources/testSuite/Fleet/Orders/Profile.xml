@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ORDER PROFILE">
+    <test name="TCFO001_To verify that a User is able to open Budinet  Page">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO001"/>
+        </classes>
+    </test>
+    <test name="TCFO002_To verify that user is able to Create Vehicle Order">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO002"/>
+        </classes>
+    </test>
+    <test name="TCFO003_To verify error message is displayed when No. of Vehicles Required is greater than 50">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO003"/>
+        </classes>
+    </test>
+    <test name="TCFO004_To verify error message is displayed when Lease Period is maximum of 24 months">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO004"/>
+        </classes>
+    </test>
+    <test name="TCFO005_To verify error message is displayed when Acquisition Type do not correspond to the Contract Type as loaded on the Finance scheme">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO005"/>
+        </classes>
+    </test>
+    <test name="TCFO006_To verify error message is displayed when future Order Date from Date Picker is selected">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO006"/>
+        </classes>
+    </test>
+    <test name="TCFO007_To verify that an error message is displayed when Re-Purchase price is greater than Purchase price">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO007"/>
+        </classes>
+    </test>
+    <test name="TCFO008_To verify that an error message is displayed when Retail Price can not be less or equal to the Purchase price">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO008"/>
+        </classes>
+    </test>
+    <test name="TCFO009_To verify error message is displayed when future Order Date from Date Picker is selected">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO009"/>
+        </classes>
+    </test>
+    <test name="TCFO010_To verify that Order Status is pending ">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO010"/>
+        </classes>
+    </test>
+    <test name="TCFO013_To verify that Depreciation Rate is auto calculated after submitting the order">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO013"/>
+        </classes>
+    </test>
+    <test name="TCFO014_To verify that user is able to view Order History">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO014"/>
+        </classes>
+    </test>
+    <test name="TCFO015_To verify that User is able to Authorise Order">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO015"/>
+        </classes>
+    </test>
+    <test name="TCFO016_To verify that user is able to View Order">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO016"/>
+        </classes>
+    </test>
+    <test name="TCFO017_To verify that user is able to add Remarks">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO017"/>
+        </classes>
+    </test>
+    <test name="TCFO018_To verify that Order History is displayed">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO018"/>
+        </classes>
+    </test>
+    <test name="TCFO019_To verify that Override Order Details is displayed when user click on the Override button">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO019"/>
+        </classes>
+    </test>
+    <test name="TCFO020_To verify New Bidvest Fleet Vehicle Order Page is displayed when user click Reset button">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO020"/>
+        </classes>
+    </test>
+    <test name="TCFO021_To verify that a list of Vehicle list is displayed">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO021"/>
+        </classes>
+    </test>
+    <test name="TCFO034_To verify that user is able to Load Vehicle from the button">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO034"/>
+        </classes>
+    </test>
+    <test name="TCFO035_To verify error message is displayed when Identifier code format is not the last 6 chars of Vin No.">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO035"/>
+        </classes>
+    </test>
+    <test name="TCFO036_To verify error message is displayed when Date of first registration has not been captured required">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO036"/>
+        </classes>
+    </test>
+    <test name="TCFO037_To verify error message is displayed when Engine No. is not required captured">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO037"/>
+        </classes>
+    </test>
+    <test name="TCFO038_To verify error message is displayed when Load Vehicle without authorising the Order">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO038"/>
+        </classes>
+    </test>
+    <test name="TCFO039_To verify error message is displayed when user Loads a Cancelled Vehicle Order ">
+        <classes>
+            <class name="TestCases.Fleet.Order.Profile.TCFO039"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

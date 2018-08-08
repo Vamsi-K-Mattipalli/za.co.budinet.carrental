@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES RATE ENQUIRY">
+    <test name="TCRATES001">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES001"/>
+        </classes>
+    </test>
+    <test name="TCRATES002">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES002"/>
+        </classes>
+    </test>
+    <test name="TCRATES003">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES003"/>
+        </classes>
+    </test>
+    <test name="TCRATES004">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES004"/>
+        </classes>
+    </test>
+    <test name="TCRATES005">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES005"/>
+        </classes>
+    </test>
+    <test name="TCRATES006">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES006"/>
+        </classes>
+    </test>
+    <test name="TCRATES007">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES007"/>
+        </classes>
+    </test>
+    <test name="TCRATES008">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES008"/>
+        </classes>
+    </test>
+    <test name="TCRATES009">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES009"/>
+        </classes>
+    </test>
+    <test name="TCRATES010">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES010"/>
+        </classes>
+    </test>
+    <test name="TCRATES011">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES011"/>
+        </classes>
+    </test>
+    <test name="TCRATES012">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES012"/>
+        </classes>
+    </test>
+    <test name="TCRATES013">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES013"/>
+        </classes>
+    </test>
+    <test name="TCRATES014">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES014"/>
+        </classes>
+    </test>
+    <test name="TCRATES015">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES015"/>
+        </classes>
+    </test>
+    <test name="TCRATES016">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES016"/>
+        </classes>
+    </test>
+    <test name="TCRATES017">
+        <classes>
+            <class name="TestCases.Utilities.Rates.Enquiry.TCRATES017"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

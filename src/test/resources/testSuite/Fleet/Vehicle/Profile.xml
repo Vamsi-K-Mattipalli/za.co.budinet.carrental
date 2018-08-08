@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VEHICLE PROFILE">
+
+    <test name="TCFV003_To verify that when user Modifies Vehicle Model the Linked Vehicle Model is modified as well">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV003"/>
+        </classes>
+    </test>
+
+
+    <test name="TCFV023_To verify that user is able to Load Vehicle from the Vehicle Profile">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV023"/>
+        </classes>
+    </test>
+    <test name="TCFV024_To verify error message is displayed when Load Vehicle without authorising the Order">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV024"/>
+        </classes>
+    </test>
+    <test name="TCFV025_To verify that user is able to View Loaded vehicle">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV025"/>
+        </classes>
+    </test>
+    <test name="TCFV026_To verify error message is displayed when Load Vehicle without authorising the Order">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV026"/>
+        </classes>
+    </test>
+    <test name="TCFV027_To verify that user is able to Modify Loaded Vehicle">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV027"/>
+        </classes>
+    </test>
+    <test name="TCFV028_To verify error message is displayed when Registered in Region must match the Vehicle Registration Number">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV028"/>
+        </classes>
+    </test>
+    <test name="TCFV029_To verify that user is able to create SANRAL Tag">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV029"/>
+        </classes>
+    </test>
+    <test name="TCFV030_To verify that user is able to Correct Vehicle">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV030"/>
+        </classes>
+    </test>
+    <test name="TCFV031_To verify that user is able to Print Barcode">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV031"/>
+        </classes>
+    </test>
+    <test name="TCFV032_To verify that user is able to Print E-Tag label">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV032"/>
+        </classes>
+    </test>
+    <test name="TCFV033_To verify that user is able to View status of Vehicle on  Defleeting History">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV033"/>
+        </classes>
+    </test>
+    <test name="TCFV034_To verify that user is able to  Defleet the Vehicle">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV034"/>
+        </classes>
+    </test>
+    <test name="TCFV035_To verify that error is displayed when selling Vehicle and etag  or Track is not Removed">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV035"/>
+        </classes>
+    </test>
+    <test name="TCFV036_To verify that user is able to Sell Vehicle">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV036"/>
+        </classes>
+    </test>
+    <test name="TCFV037_To verify that an error message is displayed when user defleet vehicles that are not in Available or Keybook status ">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV037"/>
+        </classes>
+    </test>
+    <test name="TCFV038_To verify that user is able to Return Subhire Vehicle">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV038"/>
+        </classes>
+    </test>
+    <test name="TCFV039_To verify that user is able to Reinstate Sold Vehicle">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV039"/>
+        </classes>
+    </test>
+    <test name="TCFV040_ To verify that user is able to Reinstate Returned Vehicle">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV040"/>
+        </classes>
+    </test>
+    <test name="TCFV041_To verify that an error message is displayed when Settlement Date is prior to Today Date">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV041"/>
+        </classes>
+    </test>
+    <test name="TCFV042_To verify that the user is able to calculate the settlement amount as at the current date Settlement Val default to ">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV042"/>
+        </classes>
+    </test>
+    <test name="TCFV043_To verify that user is able to capture Written Off  Vehicle">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV043"/>
+        </classes>
+    </test>
+    <test name="TCFV044_To verify that user is able to capture stolen Vehicle">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV044"/>
+        </classes>
+    </test>
+    <test name="TCFV045_To verify that user is able to capture recovered Vehicle">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV045"/>
+        </classes>
+    </test>
+    <test name="TCFV046_To verify that user is able to Yard Load">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV046"/>
+        </classes>
+    </test>
+    <test name="TCFV047_To verify that user is able to View Damage History">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV047"/>
+        </classes>
+    </test>
+    <test name="TCFV048_To verify that user is able to Modify Yard Damage ">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV048"/>
+        </classes>
+    </test>
+    <test name="TCFV049_To verify that the user has fixed the damage">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV049"/>
+        </classes>
+    </test>
+    <test name="TCFV050_To verify that the user is able to Order Corrections">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV050"/>
+        </classes>
+    </test>
+    <test name="TCFV051_To verify that the user is able to Vehicle Corrections">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV051"/>
+        </classes>
+    </test>
+    <test name="TCFV052_To verify that error message is displayed when user has not Detag, Deregister Sanral Tag and Account unit id">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV052"/>
+        </classes>
+    </test>
+    <test name="TCFV053_To verify that the user is able to Load Service">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV053"/>
+        </classes>
+    </test>
+    <test name="TCFV054_To verify that the user is able to Load Service">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV054"/>
+        </classes>
+    </test>
+    <test name="TCFV055_To verify that the user is able to View Service History">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV055"/>
+        </classes>
+    </test>
+    <test name="TCFV056_To verify that the user is able to Modify">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV056"/>
+        </classes>
+    </test>
+    <test name="TCFV057_To verify that the user is able to Load Accessories">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV057"/>
+        </classes>
+    </test>
+    <test name="TCFV058_To verify that the user is able to View Remarks">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV058"/>
+        </classes>
+    </test>
+    <test name="TCFV059_To verify that the user is able to View Movement History">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV059"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

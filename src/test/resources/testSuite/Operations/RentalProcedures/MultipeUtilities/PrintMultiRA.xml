@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PRINT MULTIPLY VEHICLE">
+     <test name="TCMUPM013">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.PrintMultRA.TCMUPM013"/>
+         </classes>
+     </test>
+     <test name="TCMUPM014">
+         <classes>
+             <class name="TestCases.Operations.Rental.MultipleUtilites.PrintMultRA.TCMUPM014"/>
+         </classes>
+     </test>
+    <test name="TCMUPM015">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.PrintMultRA.TCMUPM015"/>
+        </classes>
+    </test>
+    <test name="TCMUPM016">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.PrintMultRA.TCMUPM016"/>
+        </classes>
+    </test>
+    <test name="TCMUPM017">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.PrintMultRA.TCMUPM017"/>
+        </classes>
+    </test>
+    <test name="TCMUPM018">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.PrintMultRA.TCMUPM018"/>
+        </classes>
+    </test>
+    <test name="TCMUPM019">
+        <classes>
+            <class name="TestCases.Operations.Rental.MultipleUtilites.PrintMultRA.TCMUPM019"/>
+        </classes>
+    </test>
+</suite>

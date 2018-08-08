@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES ACCESSORIES ENQUIRY">
+    <test name="TCENQ01 Verify if the user can navigate to the branch Enquiry">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ001"/>
+        </classes>
+    </test>
+    <test name="TCENQ02 Verify if the user can Enquiry a branch by Division">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ002"/>
+        </classes>
+    </test>
+    <test name="TCENQ03 Verify if the user can Enquiry a branch by Franchi Code">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ003"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ04 Verify if the user can Enquiry a branch by Company Type">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ004"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ05 Verify if the user can Enquiry a branch by Operating Country">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ005"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ06 Verity if the user can Enquiry a branch by Operating Regions">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ006"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ07 Verify if the user can Enquiry a branch by Division and Franchise Code">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ007"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ8 Verify if the user can Enquiry a branch by Division and Company Type">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ008"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ09 Verify if the user can Enquiry a branch by Division and Operating Country">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ009"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ10 Verify if the user can Enquiry a branch by Division and Operating Province">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ010"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ11 Verify if the user can Enquiry a branch by Division and Operating Regions">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ011"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ12 Verify if the user can Enquiry a branch by Fanshise Code  and Company Type">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ012"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ13 Verify if the user can Enquiry a branch by Fanshise Code  and Operating Country">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ013"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ14 Verify if the user can Enquiry a branch by Fanshise Code  and Operating Country">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ014"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ15 Verify if the user can Enquiry a branch by Fanshise Code  and Operating Regions">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ015"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ16 Verify if the user can Enquiry a branch by Company Type and Operating Country">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ016"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ17 Verify if the user can Enquiry a branch by Company Type and Operating Province">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ017"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ18 Verify if the user can Enquiry a branch by Company Type and Operating Regions">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ018"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ19 Verify if the user can Enquiry a branch by Operating Country and Operating Province">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ019"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ20 Verify if the user can Enquiry a branch by Operating Province and Operating Regions">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ020"/>
+        </classes>
+    </test>
+    <test name="TCBRENQ21 Enquiring accessories using Due Back Enquiry without capturing Due Back Time">
+        <classes>
+            <class name="TestCases.Utilities.Branches.Enquiry.TCBRENQ021"/>
+        </classes>
+    </test>
+</suite>

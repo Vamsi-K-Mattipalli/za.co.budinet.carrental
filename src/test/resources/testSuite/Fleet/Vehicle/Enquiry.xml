@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VEHICLE ENQUIRY">
+    <test name="TCFV001_To verify that a User is able to open Budinet  Page">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV001"/>
+        </classes>
+    </test>
+    <test name="TCFV02_To verify that user is able to Enquire Vehicle by All Months - BFO(1)">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV002"/>
+        </classes>
+    </test>
+    <test name="TCFV003_To verify that user is able to Enquire Vehicle by Regions per Month - BFO(2)">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV003"/>
+        </classes>
+    </test>
+    <test name="TCFV004_To verify that user is able to Enquire Vehicle by Fleet per Month - BFO(3)">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV004"/>
+        </classes>
+    </test>
+    <test name="To verify that user is able to Enquire Vehicle by Vehicle Models by Date Due Into Fleet">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV005"/>
+        </classes>
+    </test>
+    <test name="TCFV006_To verify that user is able to Enquire Vehicle Models by Date Due Off Fleet">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV006"/>
+        </classes>
+    </test>
+    <test name="TCFV007_To verify that user is able to Enquire Vehicle Model by Status">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV007"/>
+        </classes>
+    </test>
+    <test name="TCFV008_To verify that user is able to Enquire Vehicle Group by Status">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV008"/>
+        </classes>
+    </test>
+    <test name="TCFV009_To verify that user is able to Enquire Vehicles Waiting for E-Tag Processing">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV009"/>
+        </classes>
+    </test>
+    <test name="TCFV010_To verify that user is able to Enquire Vehicles Red listed by SANRAL">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV010"/>
+        </classes>
+    </test>
+    <test name="TCFV011_To verify that user is able to Enquire Country by Status on Vehicle Status">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV011"/>
+        </classes>
+    </test>
+    <test name="TCFV012_To verify that user is able to Enquire Region by Status on Vehicle Status">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV012"/>
+        </classes>
+    </test>
+    <test name="TCFV013_To verify that user is able to Enquire Current Branch by Status - BVF on Vehicle Status">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV013"/>
+        </classes>
+    </test>
+    <test name="TCFV014_To verify that user is able to Enquire Reservations by Due Back Branch - BVB on Operational Enquiries">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV014"/>
+        </classes>
+    </test>
+    <test name="TCFV015_To verify that user is able to Enquire Registration Number ">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV015"/>
+        </classes>
+    </test>
+    <test name="TCFV016_To verify that user is able to Enquire Car Number">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV016"/>
+        </classes>
+    </test>
+    <test name="TCFV017_To verify that user is able to Enquire Vin Number">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV017"/>
+        </classes>
+    </test>
+    <test name="TCFV018_To verify that user is able to Enquire Engine Number">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV018"/>
+        </classes>
+    </test>
+    <test name="TCFV019_To verify that user is able to Enquire Vehicle Order">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV019"/>
+        </classes>
+    </test>
+    <test name="TCFV020_To verify that user is able to Enquire E-Tag">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV020"/>
+        </classes>
+    </test>
+    <test name="TCFV021_To verify that user is able to Enquire SANRAL Unit ID">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV021"/>
+        </classes>
+    </test>
+    <test name="TCFV022_To verify that user is able to Enquire Vehicle Enquiry by Owner Type">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Enquiry.TCFV022"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

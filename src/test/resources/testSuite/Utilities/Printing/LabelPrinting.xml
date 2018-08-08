@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES PRINTING LABEL PTRINTING">
+    <test name="LBLPRNT001">
+        <classes>
+            <class name="TestCases.Utilities.Printing.LabelPrinting.LBLPRNT001"/>
+        </classes>
+    </test>
+    <test name="LBLPRNT002">
+        <classes>
+            <class name="TestCases.Utilities.Printing.LabelPrinting.LBLPRNT002"/>
+        </classes>
+    </test>
+    <test name="LBLPRNT003">
+        <classes>
+            <class name="TestCases.Utilities.Printing.LabelPrinting.LBLPRNT003"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

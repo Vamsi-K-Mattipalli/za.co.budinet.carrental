@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES ACCESSORIES PROFILE">
+    <test name="TCPROF Accessing Budinet Page">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF01"/>
+        </classes>
+    </test>
+    <test name="TCPROF02 Navigate to Accessory Enquires page">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF02"/>
+        </classes>
+    </test>
+    <test name="TCPROF03 Search for Accessory Profile by entering an existing Accessory Number without Serial Number">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF03"/>
+        </classes>
+    </test>
+    <test name="TCPROF04 Search for Accessory Profile by entering a non-existing Accessory Number and Serial Number">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF04"/>
+        </classes>
+    </test>
+    <test name="TCPROF05 Enter Loading details for Accessory Profile">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF05"/>
+        </classes>
+    </test>
+    <test name="TCPROF06 Search for Accessory Profile by entering an existing Serial Number without Accessory Number ">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF06"/>
+        </classes>
+    </test>
+    <test name="TCPROF07 Enter Loading details for Accessory Profile without capturing Effective From">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF07"/>
+        </classes>
+    </test>
+    <test name="TCPROF8 Enter Loading details for Accessory Profile without capturing Serial No">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF08"/>
+        </classes>
+    </test>
+    <test name="TCPROF09 Enter Loading details for Accessory Profile without capturing Description">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF09"/>
+        </classes>
+    </test>
+    <test name="TCPROF10 Enter Loading details for Accessory Profile without capturing Accessory Type">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF10"/>
+        </classes>
+    </test>
+    <test name="TCPROF11 Enter Loading details for Accessory Profile without capturing Purchased by Region">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF11"/>
+        </classes>
+    </test>
+    <test name="TCPROF12 Enter Loading details for Accessory Profile without capturing Date Purchase">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF12"/>
+        </classes>
+    </test>
+    <test name="TCPROF13 Enter Loading details for Accessory Profile without capturing Purchase Cost">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF13"/>
+        </classes>
+    </test>
+    <test name="TCPROF14 Enter Loading details for Accessory Profile without capturing Located At Branch">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF14"/>
+        </classes>
+    </test>
+    <test name="TCPROF15 Enter Loading details for Accessory Profile without capturing Date Scrapped">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF15"/>
+        </classes>
+    </test>
+    <test name="TCPROF16 Enter Loading details for Accessory Profile without capturing SubHire Company">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF16"/>
+        </classes>
+    </test>
+    <test name="TCPROF17 Ensuring that a user is able to display Accessory Barcode after clicking Print Barcode button">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF17"/>
+        </classes>
+    </test>
+    <test name="TCPROF18 Ensuring that a user is able to clear populated fields after clicking Reset button">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF18"/>
+        </classes>
+    </test>
+    <test name="TCPROF19 Ensuring that a user is able to display User details after clicking View button under the Load tab">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF19"/>
+        </classes>
+    </test>
+    <test name="TCPROF20 Ensuring that a user is able to modify user details after clicking Modify button under the Load tab">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF20"/>
+        </classes>
+    </test>
+    <test name="TCPROF21 Ensuring that a user is able to enter new details after clicking New button under the Load tab">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF21"/>
+        </classes>
+    </test>
+    <test name="TCPROF22 Ensuring that a user is able to enter new details and Accessory Status becomes Termed">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF22"/>
+        </classes>
+    </test>
+    <test name="TCPROF23 Ensuring that a user is able to display User details after clicking View button under the History tab">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF23"/>
+        </classes>
+    </test>
+    <test name="TCPROF24 Ensuring that a user is able to modify user details after clicking Modify button under the History tab">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF24"/>
+        </classes>
+    </test>
+    <test name="TCPROF25 Ensuring that a user is able to enter new details after clicking New button under the History tab">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF25"/>
+        </classes>
+    </test>
+    <test name="TCPROF26 Ensuring that a user is able to accessory movement history under the Movement tab">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Profile.TCPROF26"/>
+        </classes>
+    </test>
+</suite>
+

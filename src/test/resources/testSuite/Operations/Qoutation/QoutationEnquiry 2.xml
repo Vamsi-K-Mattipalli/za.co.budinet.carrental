@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QOUTATION ENQUIRY">
+    <test name="TCQUOENQ01  Accessing Budinet Page">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Enquiry.TCQUOENQ01"/>
+        </classes>
+    </test>
+    <test name="TCQUOEN02 Quoatation Reference">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Enquiry.TCQUOENQ02"/>
+        </classes>
+    </test>
+    <test name="TCQUOEN03 Renter Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Enquiry.TCQUOENQ03"/>
+        </classes>
+    </test>
+    <test name="TCQUOEN04 PickUp Branch">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Enquiry.TCQUOENQ04"/>
+        </classes>
+    </test>
+    <test name="TCQUOEN05 PickUp Date ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Enquiry.TCQUOENQ05"/>
+        </classes>
+    </test>
+    <test name="TCQUOEN06 PickUp Time">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Enquiry.TCQUOENQ06"/>
+        </classes>
+    </test>
+    <test name="TCQUOEN07 PickUp Date ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Enquiry.TCQUOENQ07"/>
+        </classes>
+    </test>
+    <test name="TCQUOEN08 Radio Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Enquiry.TCQUOENQ08"/>
+        </classes>
+    </test>
+    <test name="TCQUOEN09 Radio Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Enquiry.TCQUOENQ09"/>
+        </classes>
+    </test>
+    <test name="TCQUOEN10 Confirm RA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Enquiry.TCQUOENQ10"/>
+        </classes>
+    </test>
+</suite> 

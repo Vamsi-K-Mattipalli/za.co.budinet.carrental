@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="COLLECTIONS">
+    <test name="TCCOLL001">
+        <classes>
+            <class name="TestCases.Operations.Rental.Collections.TCCOLL001"/>
+        </classes>
+    </test>
+    <test name="TCCOLL002">
+        <classes>
+            <class name="TestCases.Operations.Rental.Collections.TCCOLL002"/>
+        </classes>
+    </test>
+    <test name="TCCOLL003">
+        <classes>
+            <class name="TestCases.Operations.Rental.Collections.TCCOLL003"/>
+        </classes>
+    </test>
+    </suite>

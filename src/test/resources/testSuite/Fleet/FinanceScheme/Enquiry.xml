@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FINANCE SCHEME ENQUIRY">
+    <test name="TCFFS004_To verify that user is able to Finance Scheme Enquiry using Finance House252525">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS004"/>
+        </classes>
+    </test>
+
+    <test name="TCFFS005_To verify that user is able to Finance Scheme Enquiry using Finance House">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS005"/>
+        </classes>
+    </test>
+    <test name="TCFFS0006_To verify that user is able to Finance Scheme Enquiry using Finance From">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS006"/>
+        </classes>
+    </test>
+    <test name="TCFFS007_To verify that user is able to Finance Scheme Enquiry using Finance To">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS007"/>
+        </classes>
+    </test>
+    <test name="TCFFS008_To verify New Bidvest Finance Scheme Profile Page is displayed when user click Reset button">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS008"/>
+        </classes>
+    </test>
+    <test name="TCFFS009_To verify that When a Finance Scheme exists the Profile automatically opens History Page">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS009"/>
+        </classes>
+    </test>
+    <test name="TCFFS010_To verify that user is able to view existing Finance Scheme details">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS010"/>
+        </classes>
+    </test>
+    <test name="TCFFS011_To verify that user is able to capture a new instance ">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS011"/>
+        </classes>
+    </test>
+    <test name="TCFFS012_To verify that the user is unable to edit Finance Scheme Description">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS012"/>
+        </classes>
+    </test>
+    <test name="TCFFS013_To verify that user is able to Add new Rate">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS013"/>
+        </classes>
+    </test>
+    <test name="TCFFS014_To verify that user is able to Delete History of Interest Rates">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS014"/>
+        </classes>
+    </test>
+    <test name="TCFFS015_To verify that user is able to view Interest Rates History">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS015"/>
+        </classes>
+    </test>
+    <test name="TCFFS016_To verify that user is able to view Interest Rates History on the Next page">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS016"/>
+        </classes>
+    </test>
+    <test name="TCFFS017_To verify that an error message is displayed when Effective Start Date is from the past">
+        <classes>
+            <class name="TestCases.Fleet.FinanceScheme.Enquiry.TCFFS017"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

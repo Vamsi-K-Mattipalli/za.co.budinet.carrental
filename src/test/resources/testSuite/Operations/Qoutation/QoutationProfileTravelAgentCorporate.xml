@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QOUTATION PROFILE TRAVEL AGENT CORPORATE">
+    <test name="TCTAfCR01_ Verify the contents of the Rental Agreement screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR01"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR02_Make a Reservation for Individual Renter by not changing any of the default quotation fields- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR02"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR03_Make a Reservation for Individual Renter by not changing any of the default quotation fields- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR03"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR04_Make a Reservation for Individual Renter by changing Title New -Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR04"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR05_Make a Reservation for Individual Renter by changing Initials -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR05"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR06_Make a Reservation for Individual Renter by changing Surname -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR06"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR07_Make a Reservation for Individual Renter by changing First Names -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR07"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR08_Make a Reservation for Individual Renter by changing Pickup Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR08"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR09_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR09"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR10_Make a Reservation for Individual Renter by changing Pickup Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR10"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR11_Make a Reservation for Individual Renter by changing Due Back Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR11"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR12_Make a Reservation for Individual Renter by changing Due Back Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR12"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR13_Make a Reservation for Individual Renter by changing Due Back Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR13"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR14_Make a Reservation for Individual Renter by changing Vehicle Group -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR14"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR15_Make a Reservation for Individual Renter by changing Pickup Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR15"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR16_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR16"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR17_Make a Reservation for Individual Renter by changing Pickup Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR17"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR18_Make a Reservation for Individual Renter by changing Due Back Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR18"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR19_Make a Reservation for Individual Renter by changing Due Back Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR19"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR20_Make a Reservation for Individual Renter by changing Due Back Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR20"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR21_Make a Reservation for Individual Renter by changing Vehicle Group -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR21"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR22_Make a Reservation for Individual Renter by changing Pickup Date-  Using Date Picker to select Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR22"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR23_Make a Reservation for Individual Renter by changing Pickup Date -  Using Date Picker to select Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR23"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR24_Make a Reservation for an Existing Individual Renter that is flagged as Blacklisted by not changing any of the default quotation fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR24"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR25_Make a Reservation for an Existing Individual Renter by Checking if the Vehicle is Fully booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR25"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR26_Make a Reservation for an Existing Individual Renter by  Overriding Fully Booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR26"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR27_Make a Reservation for an Existing Individual Renter by  Overriding Branch Time">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR27"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR28_View One way Fee on a Reservation screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR28"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR29_Make a Reservation for Individual Renter without Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR29"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR30_Make a Reservation for Individual Renter without Tel No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR30"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR31_Select Cell No on ID Type and  do not capture  Cell Number on Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR31"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR32_Make a Reservation for Individual Renter without Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR32"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR33_Verify the contents of the Core">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR33"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR34_Verify the Buttons of the Core  ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR34"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR35_Verify the functionality of Key Fields Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR35"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR36_Verify the functionality of Agents Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR36"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR37_Verify the functionality of View Damages Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR37"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR38_Verify the functionality of New RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR38"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR39_Verify the functionality of Print RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR39"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR40_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR40"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR41_Verify the functionality of Cancel Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR41"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR42_Verify the functionality of Allocate Etolls Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR42"/>
+        </classes>
+
+    </test>
+    <test name="TC43_Verify the functionality of SMS Notification Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR43"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR44_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR44"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR45_Make a Reservation for Individual Renter by capturing incorrect ID number- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR45"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR46_Make a Reservation for Individual Renter by capturing ID number that has 14 digits- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR46"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR47_Make a Reservation for Individual Renter by capturing ID number that has less than 13 digits -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR47"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR48_Make a Reservation for Individual Renter by capturing incorrect ID number- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR48"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR49_Make a Reservation for Individual Renter by capturing  ID number that has 14 characters- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR49"/>
+        </classes>
+
+    </test>
+    <test name="TCTAfCR50_Make a Reservation for Individual Renter by capturing  ID number that has less than 13 digits- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR50"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR51_Make a Reservation for Individual Renter by capturing valid  ID number and selecting Retrieve Renter Defaults">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR51"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR52_Make a Reservation for Individual Renter by selecting Passport as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR52"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR53_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR53"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR54_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR54"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR55_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR55"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR56_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR56"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR57_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR57"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR58_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR58"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR59_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR59"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR60_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR60"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR61_Perform a Identifying Surname Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR61"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR62_Perform Pickup Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR62"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR63_Perform Due Back Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR63"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR64_Perform Due Back Branch Lookup without selecting Due Back or Pickup Branch">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR64"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR65_Perform IATA No. Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR65"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR66_Perform Customer Account Name Lookup without capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR66"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR67_Perform Customer Account Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR67"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR68_Perform Referral Account Number Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR68"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR69_Perform Referral Account Number Lookup by capturing invalid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR69"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR70_Perform Referral Account Number Lookup by capturing Valid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR70"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR71_Perform Referral Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR71"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR72_Perform Referral Name Lookup by capturing invalid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR72"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR73_Perform Referral Name Lookup by capturing Valid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR73"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR74_Perform Referral Name Lookup by capturing Valid Referral Account Number and Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR74"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR75_Perform Referral Name Lookup by not capturing Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR75"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR76_Perform Referral Name Lookup by capturing invalid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR76"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR77_Perform Referral Name Lookup by capturing valid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR77"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR78_Reset Customer Details">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR78"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR79_Retrieve Customer Defaults without capturing any Customer Details fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR79"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR80_Retrieve Customer Defaults by capturing Customer Account No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR80"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR81_Retrieve Customer Defaults by capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR81"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR82_Perform Reserved Rate Lookup without capturing rate fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR82"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR83_Perform Reserved Rate Lookup by capturing Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR83"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR84_Perform Reserved Rate Lookup by capturing invalid Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR84"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR85_Calculate Credit  Card Auth when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR85"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR86_Calculate Credit  Card Auth and do not  select STD or SUPER when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR86"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR87_Calculate Credit  Card Auth and do not capture Reserved Rate when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR87"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR88_Select Pickup branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR88"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR89_Select Due Back branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR89"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR90_Make Reservation with same Details of existing Reservation and  Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR90"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR91_Make Reservation using same Details of existing Reservation and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR91"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR92_Make Reservation using same Details of existing Reservation and change and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR92"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR93_Make Reservation and do not capture Flight No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR93"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR94_Select Internationaly and capture Local Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR94"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR95_Select Local and capture International Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR95"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR96_Make Reservation and add SCDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR96"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR97_Make Reservation and add CDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR97"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR98_Make Reservation and add TLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR98"/>
+        </classes>
+    </test>
+    <test name="TC99_Make Reservation and add STLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR99"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR100_Select CDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR100"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR101_Select CDW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR101"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR102_Select TLW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR102"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR103_Select TLW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR103"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR104_Select TLW and CDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR104"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR105_Select SCDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR105"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR106_Select Vehicle Assist  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR106"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR107_Select Vehicle Assist  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR107"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR108_Select Tyre Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR108"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR109_Select Tyre Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR109"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR110_Select Tyre Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR110"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR111_Select Hail Damage Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR111"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR112_Select Hail Damage Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR112"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR113_Select Hail Damage Waiver  with standard Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR113"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR114_Select Glass Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR114"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR115_Select Glass Waiver  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR115"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR116_Select Glass Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR116"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR117_Select Additional Drives and  do not capture number of Additional Driver's when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR117"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR118_Make a Reservation selecting Credit Card as Payment Method.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR118"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR119_Make a Reservation selecting Credit Card as Payment Method without selecting Card Type.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR119"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR120_Make a Reservation selecting Credit Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR120"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR121_Make a Reservation selecting Bidvest Card as Payment Method">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR121"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR122_Make a Reservation selecting Bidvest Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR122"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR123_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR123"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR124">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR124"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR125">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR125"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR126">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR126"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR127">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR127"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR128">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR128"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR129">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR129"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR130">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR130"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR131">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR131"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR132">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR132"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR133">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR133"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR134">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR134"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR135">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR135"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR136">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR136"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR137">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR137"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR138">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR138"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR139">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR139"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR140">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR140"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR141">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR141"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR142">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR142"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR143">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR143"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR144">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR144"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR145">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR145"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR146">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR146"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR147">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR147"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR148">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR148"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR149">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR149"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR150">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR150"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR151">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR151"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR152">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR152"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR153">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR153"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR154">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR154"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR155">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR155"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR156">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR156"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR157">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR157"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR158">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR158"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR159">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR159"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR160">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR160"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR161">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR161"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR162">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR162"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR163">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR163"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR164">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR164"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR165">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR165"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR166">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR166"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR167">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR167"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR168">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR168"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR169">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR169"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR170">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR170"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR171">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR171"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR172">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR172"/>
+        </classes>
+    </test>
+    <test name="TCTAfCR173">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.TravelAgentCorporation.TCTAfCR173"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

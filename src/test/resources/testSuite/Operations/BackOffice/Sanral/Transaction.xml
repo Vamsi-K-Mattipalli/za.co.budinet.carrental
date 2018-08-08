@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BACKOFFICE SANRAL TRANSACTION">
+    <test name="TCFTRANS01  Accessing BudInet Page">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.Sanral.Transaction.TCFTRANS01"/>
+        </classes>
+    </test>
+    <test name="TCFTRANS02 Global ID">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.Sanral.Transaction.TCFTRANS02"/>
+        </classes>
+    </test>
+    <test name="TCFTRANS03 Global ID details">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.Sanral.Transaction.TCFTRANS03"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

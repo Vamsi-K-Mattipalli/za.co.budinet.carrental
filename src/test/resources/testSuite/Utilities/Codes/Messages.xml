@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES CODES - MESSAGES">
+    <test name="TCMSSG01 Verify if the user can navigate to the Messages">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Messages.TCMSSG001"/>
+        </classes>
+    </test>
+    <test name="TCMSSG02 Verify if the user can delete the Message">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Messages.TCMSSG002"/>
+        </classes>
+    </test>
+    <test name="TCMSSG03 Verify if the user can add the Message">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Messages.TCMSSG003"/>
+        </classes>
+    </test>
+    <test name="TCMSSG04 Verify if the user can not  add the Message without capturing the actual message">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Messages.TCMSSG004"/>
+        </classes>
+    </test>
+    <test name="TCMSSG05 Verify if the user can not  add the Message without selecting users">
+        <classes>
+            <class name="TestCases.Utilities.Codes.Messages.TCMSSG005"/>
+        </classes>
+    </test>
+</suite>

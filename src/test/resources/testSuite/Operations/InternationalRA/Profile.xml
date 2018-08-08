@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="INTERNATIONAL RA PROFILE">
+    <test name="RAPRO001">
+        <classes>
+            <class name="TestCases.Operations.InternationalRA.Profile.RAPRO001"/>
+        </classes>
+    </test>
+    <test name="RAPRO002">
+        <classes>
+            <class name="TestCases.Operations.InternationalRA.Profile.RAPRO002"/>
+        </classes>
+    </test>
+    <test name="RAPRO003">
+        <classes>
+            <class name="TestCases.Operations.InternationalRA.Profile.RAPRO003"/>
+        </classes>
+    </test>
+    <test name="RAPRO004">
+        <classes>
+            <class name="TestCases.Operations.InternationalRA.Profile.RAPRO004"/>
+        </classes>
+    </test>
+    <test name="RAPRO005">
+        <classes>
+            <class name="TestCases.Operations.InternationalRA.Profile.RAPRO005"/>
+        </classes>
+    </test>
+    <test name="RAPRO006">
+        <classes>
+            <class name="TestCases.Operations.InternationalRA.Profile.RAPRO006"/>
+        </classes>
+    </test>
+    <test name="RAPRO007">
+        <classes>
+            <class name="TestCases.Operations.InternationalRA.Profile.RAPRO007"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

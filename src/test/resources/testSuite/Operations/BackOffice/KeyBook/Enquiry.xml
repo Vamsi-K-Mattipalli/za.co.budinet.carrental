@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KEYBOOK ENQUIRY">
+    <test name="TCKEYENQ01">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Enquiry.TCKEYENQ01"/>
+        </classes>
+    </test>
+    <test name="TCKEYENQ02">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Enquiry.TCKEYENQ02"/>
+        </classes>
+    </test>
+    <test name="TCKEYENQ03">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Enquiry.TCKEYENQ03"/>
+        </classes>
+    </test>
+    <test name="TCKEYENQ04">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Enquiry.TCKEYENQ04"/>
+        </classes>
+    </test>
+    <test name="TCKEYENQ05">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Enquiry.TCKEYENQ05"/>
+        </classes>
+    </test>
+    <test name="TCKEYENQ06">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Enquiry.TCKEYENQ06"/>
+        </classes>
+    </test>
+    <test name="TCKEYENQ07">
+        <classes>
+            <class name="TestCases.Operations.BackOffice.KeyBook.Enquiry.TCKEYENQ07"/>
+        </classes>
+    </test>
+   </suite> <!-- Suite -->

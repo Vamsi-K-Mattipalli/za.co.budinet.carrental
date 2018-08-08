@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QOUTATION PROFILE CASUAL">
+    <test name="TCCR01_ Verify the contents of the Rental Agreement screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR01"/>
+        </classes>
+    </test>
+    <test name="TCCR02_Make a Reservation for Individual Renter by not changing any of the default quotation fields- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR02"/>
+        </classes>
+    </test>
+    <test name="TCCR03_Make a Reservation for Individual Renter by not changing any of the default quotation fields- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR03"/>
+        </classes>
+    </test>
+    <test name="TCCR04_Make a Reservation for Individual Renter by changing Title New -Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR04"/>
+        </classes>
+    </test>
+    <test name="TCCR05_Make a Reservation for Individual Renter by changing Initials -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR05"/>
+        </classes>
+    </test>
+    <test name="TCCR06_Make a Reservation for Individual Renter by changing Surname -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR06"/>
+        </classes>
+    </test>
+    <test name="TCCR07_Make a Reservation for Individual Renter by changing First Names -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR07"/>
+        </classes>
+    </test>
+    <test name="TCCR08_Make a Reservation for Individual Renter by changing Pickup Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR08"/>
+        </classes>
+    </test>
+    <test name="TCCR09_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR09"/>
+        </classes>
+    </test>
+    <test name="TCCR10_Make a Reservation for Individual Renter by changing Pickup Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR10"/>
+        </classes>
+    </test>
+    <test name="TCCR11_Make a Reservation for Individual Renter by changing Due Back Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR11"/>
+        </classes>
+    </test>
+    <test name="TCCR12_Make a Reservation for Individual Renter by changing Due Back Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR12"/>
+        </classes>
+
+    </test>
+    <test name="TCCR13_Make a Reservation for Individual Renter by changing Due Back Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR13"/>
+        </classes>
+
+    </test>
+    <test name="TCCR14_Make a Reservation for Individual Renter by changing Vehicle Group -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR14"/>
+        </classes>
+
+    </test>
+    <test name="TCCR15_Make a Reservation for Individual Renter by changing Pickup Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR15"/>
+        </classes>
+
+    </test>
+    <test name="TCCR16_Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR16"/>
+        </classes>
+
+    </test>
+    <test name="TCCR17_Make a Reservation for Individual Renter by changing Pickup Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR17"/>
+        </classes>
+
+    </test>
+    <test name="TCCR18_Make a Reservation for Individual Renter by changing Due Back Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR18"/>
+        </classes>
+
+    </test>
+    <test name="TCCR19_Make a Reservation for Individual Renter by changing Due Back Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR19"/>
+        </classes>
+
+    </test>
+    <test name="TCCR20_Make a Reservation for Individual Renter by changing Due Back Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR20"/>
+        </classes>
+
+    </test>
+    <test name="TCCR21_Make a Reservation for Individual Renter by changing Vehicle Group -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR21"/>
+        </classes>
+
+    </test>
+    <test name="TCCR22_Make a Reservation for Individual Renter by changing Pickup Date-  Using Date Picker to select Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR22"/>
+        </classes>
+
+    </test>
+    <test name="TCCR23_Make a Reservation for Individual Renter by changing Pickup Date -  Using Date Picker to select Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR23"/>
+        </classes>
+
+    </test>
+    <test name="TCCR24_Make a Reservation for an Existing Individual Renter that is flagged as Blacklisted by not changing any of the default quotation fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR24"/>
+        </classes>
+
+    </test>
+    <test name="TCCR25_Make a Reservation for an Existing Individual Renter by Checking if the Vehicle is Fully booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR25"/>
+        </classes>
+
+    </test>
+    <test name="TCCR26_Make a Reservation for an Existing Individual Renter by  Overriding Fully Booked">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR26"/>
+        </classes>
+
+    </test>
+    <test name="TCCR27_Make a Reservation for an Existing Individual Renter by  Overriding Branch Time">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR27"/>
+        </classes>
+
+    </test>
+    <test name="TCCR28_View One way Fee on a Reservation screen">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR28"/>
+        </classes>
+
+    </test>
+    <test name="TCCR29_Make a Reservation for Individual Renter without Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR29"/>
+        </classes>
+
+    </test>
+    <test name="TCCR30_Make a Reservation for Individual Renter without Tel No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR30"/>
+        </classes>
+
+    </test>
+    <test name="TCCR31_Select Cell No on ID Type and  do not capture  Cell Number on Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR31"/>
+        </classes>
+
+    </test>
+    <test name="TCCR32_Make a Reservation for Individual Renter without Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR32"/>
+        </classes>
+
+    </test>
+    <test name="TCCR33_Verify the contents of the Core">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR33"/>
+        </classes>
+
+    </test>
+    <test name="TCCR34_Verify the Buttons of the Core  ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR34"/>
+        </classes>
+
+    </test>
+    <test name="TCCR35_Verify the functionality of Key Fields Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR35"/>
+        </classes>
+
+    </test>
+    <test name="TCCR36_Verify the functionality of Agents Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR36"/>
+        </classes>
+
+    </test>
+    <test name="TCCR37_Verify the functionality of View Damages Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR37"/>
+        </classes>
+
+    </test>
+    <test name="TCCR38_Verify the functionality of New RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR38"/>
+        </classes>
+
+    </test>
+    <test name="TCCR39_Verify the functionality of Print RA Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR39"/>
+        </classes>
+
+    </test>
+    <test name="TCCR40_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR40"/>
+        </classes>
+
+    </test>
+    <test name="TCCR41_Verify the functionality of Cancel Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR41"/>
+        </classes>
+
+    </test>
+    <test name="TCCR42_Verify the functionality of Allocate Etolls Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR42"/>
+        </classes>
+
+    </test>
+    <test name="TC43_Verify the functionality of SMS Notification Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR43"/>
+        </classes>
+
+    </test>
+    <test name="TCCR44_Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR44"/>
+        </classes>
+
+    </test>
+    <test name="TCCR45_Make a Reservation for Individual Renter by capturing incorrect ID number- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR45"/>
+        </classes>
+
+    </test>
+    <test name="TCCR46_Make a Reservation for Individual Renter by capturing ID number that has 14 digits- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR46"/>
+        </classes>
+
+    </test>
+    <test name="TCCR47_Make a Reservation for Individual Renter by capturing ID number that has less than 13 digits -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR47"/>
+        </classes>
+
+    </test>
+    <test name="TCCR48_Make a Reservation for Individual Renter by capturing incorrect ID number- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR48"/>
+        </classes>
+
+    </test>
+    <test name="TCCR49_Make a Reservation for Individual Renter by capturing  ID number that has 14 characters- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR49"/>
+        </classes>
+
+    </test>
+    <test name="TCCR50_Make a Reservation for Individual Renter by capturing  ID number that has less than 13 digits- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR50"/>
+        </classes>
+    </test>
+    <test name="TCCR51_Make a Reservation for Individual Renter by capturing valid  ID number and selecting Retrieve Renter Defaults">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR51"/>
+        </classes>
+    </test>
+    <test name="TCCR52_Make a Reservation for Individual Renter by selecting Passport as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR52"/>
+        </classes>
+    </test>
+    <test name="TCCR53_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR53"/>
+        </classes>
+    </test>
+    <test name="TCCR54_Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR54"/>
+        </classes>
+    </test>
+    <test name="TCCR55_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR55"/>
+        </classes>
+    </test>
+    <test name="TCCR56_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR56"/>
+        </classes>
+    </test>
+    <test name="TCCR57_Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR57"/>
+        </classes>
+    </test>
+    <test name="TCCR58_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR58"/>
+        </classes>
+    </test>
+    <test name="TCCR59_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR59"/>
+        </classes>
+    </test>
+    <test name="TCCR60_Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR60"/>
+        </classes>
+    </test>
+    <test name="TCCR61_Perform a Identifying Surname Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR61"/>
+        </classes>
+    </test>
+    <test name="TCCR62_Perform Pickup Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR62"/>
+        </classes>
+    </test>
+    <test name="TCCR63_Perform Due Back Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR63"/>
+        </classes>
+    </test>
+    <test name="TCCR64_Perform Due Back Branch Lookup without selecting Due Back or Pickup Branch">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR64"/>
+        </classes>
+    </test>
+    <test name="TCCR65_Perform IATA No. Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR65"/>
+        </classes>
+    </test>
+    <test name="TCCR66_Perform Customer Account Name Lookup without capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR66"/>
+        </classes>
+    </test>
+    <test name="TCCR67_Perform Customer Account Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR67"/>
+        </classes>
+    </test>
+    <test name="TCCR68_Perform Referral Account Number Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR68"/>
+        </classes>
+    </test>
+    <test name="TCCR69_Perform Referral Account Number Lookup by capturing invalid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR69"/>
+        </classes>
+    </test>
+    <test name="TCCR70_Perform Referral Account Number Lookup by capturing Valid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR70"/>
+        </classes>
+    </test>
+    <test name="TCCR71_Perform Referral Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR71"/>
+        </classes>
+    </test>
+    <test name="TCCR72_Perform Referral Name Lookup by capturing invalid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR72"/>
+        </classes>
+    </test>
+    <test name="TCCR73_Perform Referral Name Lookup by capturing Valid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR73"/>
+        </classes>
+    </test>
+    <test name="TCCR74_Perform Referral Name Lookup by capturing Valid Referral Account Number and Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR74"/>
+        </classes>
+    </test>
+    <test name="TCCR75_Perform Referral Name Lookup by not capturing Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR75"/>
+        </classes>
+    </test>
+    <test name="TCCR76_Perform Referral Name Lookup by capturing invalid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR76"/>
+        </classes>
+    </test>
+    <test name="TCCR77_Perform Referral Name Lookup by capturing valid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR77"/>
+        </classes>
+    </test>
+    <test name="TCCR78_Reset Customer Details">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR78"/>
+        </classes>
+    </test>
+    <test name="TCCR79_Retrieve Customer Defaults without capturing any Customer Details fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR79"/>
+        </classes>
+    </test>
+    <test name="TCCR80_Retrieve Customer Defaults by capturing Customer Account No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR80"/>
+        </classes>
+    </test>
+    <test name="TCCR81_Retrieve Customer Defaults by capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR81"/>
+        </classes>
+    </test>
+    <test name="TCCR82_Perform Reserved Rate Lookup without capturing rate fields">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR82"/>
+        </classes>
+    </test>
+    <test name="TCCR83_Perform Reserved Rate Lookup by capturing Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR83"/>
+        </classes>
+    </test>
+    <test name="TCCR84_Perform Reserved Rate Lookup by capturing invalid Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR84"/>
+        </classes>
+    </test>
+    <test name="TCCR85_Calculate Credit  Card Auth when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR85"/>
+        </classes>
+    </test>
+    <test name="TCCR86_Calculate Credit  Card Auth and do not  select STD or SUPER when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR86"/>
+        </classes>
+    </test>
+    <test name="TCCR87_Calculate Credit  Card Auth and do not capture Reserved Rate when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR87"/>
+        </classes>
+    </test>
+    <test name="TCCR88_Select Pickup branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR88"/>
+        </classes>
+    </test>
+    <test name="TCCR89_Select Due Back branch that does operate after hours and Tick Override Branch Closed ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR89"/>
+        </classes>
+    </test>
+    <test name="TCCR90_Make Reservation with same Details of existing Reservation and  Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR90"/>
+        </classes>
+    </test>
+    <test name="TCCR91_Make Reservation using same Details of existing Reservation and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR91"/>
+        </classes>
+    </test>
+    <test name="TCCR92_Make Reservation using same Details of existing Reservation and change and do not   Tick Ignore Duplicate Check">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR92"/>
+        </classes>
+    </test>
+    <test name="TCCR93_Make Reservation and do not capture Flight No">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR93"/>
+        </classes>
+    </test>
+    <test name="TCCR94_Select Internationaly and capture Local Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR94"/>
+        </classes>
+    </test>
+    <test name="TCCR95_Select Local and capture International Rate Code when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR95"/>
+        </classes>
+    </test>
+    <test name="TCCR96_Make Reservation and add SCDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR96"/>
+        </classes>
+    </test>
+    <test name="TCCR97_Make Reservation and add CDW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR97"/>
+        </classes>
+    </test>
+    <test name="TCCR98_Make Reservation and add TLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR98"/>
+        </classes>
+    </test>
+    <test name="TC99_Make Reservation and add STLW Waiver">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR99"/>
+        </classes>
+    </test>
+    <test name="TCCR100_Select CDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR100"/>
+        </classes>
+    </test>
+    <test name="TCCR101_Select CDW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR101"/>
+        </classes>
+    </test>
+    <test name="TCCR102_Select TLW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR102"/>
+        </classes>
+    </test>
+    <test name="TCCR103_Select TLW and SCDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR103"/>
+        </classes>
+    </test>
+    <test name="TCCR104_Select TLW and CDW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR104"/>
+        </classes>
+    </test>
+    <test name="TCCR105_Select SCDW and STLW Waiver when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR105"/>
+        </classes>
+    </test>
+    <test name="TCCR106_Select Vehicle Assist  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR106"/>
+        </classes>
+    </test>
+    <test name="TCCR107_Select Vehicle Assist  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR107"/>
+        </classes>
+    </test>
+    <test name="TCCR108_Select Tyre Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR108"/>
+        </classes>
+    </test>
+    <test name="TCCR109_Select Tyre Waiver  with Super Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR109"/>
+        </classes>
+    </test>
+    <test name="TCCR110_Select Tyre Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR110"/>
+        </classes>
+    </test>
+    <test name="TCCR111_Select Hail Damage Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR111"/>
+        </classes>
+    </test>
+    <test name="TCCR112_Select Hail Damage Waiver  with Super Waivers when Making Reservation ">
+    <classes>
+        <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR112"/>
+    </classes>
+</test>
+    <test name="TCCR113_Select Hail Damage Waiver  with standard Waivers when Making Reservation ">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR113"/>
+        </classes>
+    </test>
+    <test name="TCCR114_Select Glass Waiver  without Super or Standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR114"/>
+        </classes>
+    </test>
+    <test name="TCCR115_Select Glass Waiver  with Super Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR115"/>
+        </classes>
+    </test>
+    <test name="TCCR116_Select Glass Waiver  with standard Waivers when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR116"/>
+        </classes>
+    </test>
+    <test name="TCCR117_Select Additional Drives and  do not capture number of Additional Driver's when Making Reservation">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR117"/>
+        </classes>
+    </test>
+    <test name="TCCR118_Make a Reservation selecting Credit Card as Payment Method.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR118"/>
+        </classes>
+    </test>
+    <test name="TCCR119_Make a Reservation selecting Credit Card as Payment Method without selecting Card Type.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR119"/>
+        </classes>
+    </test>
+    <test name="TCCR120_Make a Reservation selecting Credit Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR120"/>
+        </classes>
+    </test>
+    <test name="TCCR121_Make a Reservation selecting Bidvest Card as Payment Method">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR121"/>
+        </classes>
+    </test>
+    <test name="TCCR122_Make a Reservation selecting Bidvest Card as Payment Method without capturing Card Number.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR122"/>
+        </classes>
+    </test>
+    <test name="TCCR123_Make a Reservation selecting Bidvest Card as Payment Method without capturing  Expiry Date.">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR123"/>
+        </classes>
+    </test>
+    <test name="TCCR124">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR124"/>
+        </classes>
+    </test>
+    <test name="TCCR125">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR125"/>
+        </classes>
+    </test>
+    <test name="TCCR126">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR126"/>
+        </classes>
+    </test>
+    <test name="TCCR127">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR127"/>
+        </classes>
+    </test>
+    <test name="TCCR128">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR128"/>
+        </classes>
+    </test>
+    <test name="TCCR129">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR129"/>
+        </classes>
+    </test>
+    <test name="TCCR130">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR130"/>
+        </classes>
+    </test>
+    <test name="TCCR131">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR131"/>
+        </classes>
+    </test>
+    <test name="TCCR132">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR132"/>
+        </classes>
+    </test>
+    <test name="TCCR133">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR133"/>
+        </classes>
+    </test>
+    <test name="TCCR134">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR134"/>
+        </classes>
+    </test>
+    <test name="TCCR135">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR135"/>
+        </classes>
+    </test>
+    <test name="TCCR136">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR136"/>
+        </classes>
+    </test>
+    <test name="TCCR137">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR137"/>
+        </classes>
+    </test>
+    <test name="TCCR138">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR138"/>
+        </classes>
+    </test>
+    <test name="TCCR139">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR139"/>
+        </classes>
+    </test>
+    <test name="TCCR140">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR140"/>
+        </classes>
+    </test>
+    <test name="TCCR141">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR141"/>
+        </classes>
+    </test>
+    <test name="TCCR142">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR142"/>
+        </classes>
+    </test>
+    <test name="TCCR143">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR143"/>
+        </classes>
+    </test>
+    <test name="TCCR144">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR144"/>
+        </classes>
+    </test>
+    <test name="TCCR145">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR145"/>
+        </classes>
+    </test>
+    <test name="TCCR146">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR146"/>
+        </classes>
+    </test>
+    <test name="TCCR147">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR147"/>
+        </classes>
+    </test>
+    <test name="TCCR148">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR148"/>
+        </classes>
+    </test>
+    <test name="TCCR149">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR149"/>
+        </classes>
+    </test>
+    <test name="TCCR150">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR150"/>
+        </classes>
+    </test>
+    <test name="TCCR151">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR151"/>
+        </classes>
+    </test>
+    <test name="TCCR152">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR152"/>
+        </classes>
+    </test>
+    <test name="TCCR153">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR153"/>
+        </classes>
+    </test>
+    <test name="TCCR154">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR154"/>
+        </classes>
+    </test>
+    <test name="TCCR155">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR155"/>
+        </classes>
+    </test>
+    <test name="TCCR156">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR156"/>
+        </classes>
+    </test>
+    <test name="TCCR157">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR157"/>
+        </classes>
+    </test>
+    <test name="TCCR158">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR158"/>
+        </classes>
+    </test>
+    <test name="TCCR159">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR159"/>
+        </classes>
+    </test>
+    <test name="TCCR160">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR160"/>
+        </classes>
+    </test>
+    <test name="TCCR161">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR161"/>
+        </classes>
+    </test>
+    <test name="TCCR162">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR162"/>
+        </classes>
+    </test>
+    <test name="TCCR163">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR163"/>
+        </classes>
+    </test>
+    <test name="TCCR164">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR164"/>
+        </classes>
+    </test>
+    <test name="TCCR165">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR165"/>
+        </classes>
+    </test>
+    <test name="TCCR166">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR166"/>
+        </classes>
+    </test>
+    <test name="TCCR167">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR167"/>
+        </classes>
+    </test>
+    <test name="TCCR168">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR168"/>
+        </classes>
+    </test>
+    <test name="TCCR169">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR169"/>
+        </classes>
+    </test>
+    <test name="TCCR170">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR170"/>
+        </classes>
+    </test>
+    <test name="TCCR171">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR171"/>
+        </classes>
+    </test>
+    <test name="TCCR172">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR172"/>
+        </classes>
+    </test>
+    <test name="TCCR173">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR173"/>
+        </classes>
+    </test>
+    <test name="TCCR174">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR174"/>
+        </classes>
+    </test>
+    <test name="TCCR175">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR175"/>
+        </classes>
+    </test>
+    <test name="TCCR176">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR176"/>
+        </classes>
+    </test>
+    <test name="TCCR177">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR177"/>
+        </classes>
+    </test>
+    <test name="TCCR178">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR178"/>
+        </classes>
+    </test>
+    <test name="TCCR179">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR179"/>
+        </classes>
+    </test>
+    <test name="TCCR180">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR180"/>
+        </classes>
+    </test>
+    <test name="TCCR181">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR181"/>
+        </classes>
+    </test>
+    <test name="TCCR182">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR182"/>
+        </classes>
+    </test>
+    <test name="TCCR183">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR183"/>
+        </classes>
+    </test>
+    <test name="TCCR184">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR184"/>
+        </classes>
+    </test>
+    <test name="TCCR185">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR185"/>
+        </classes>
+    </test>
+    <test name="TCCR186">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR186"/>
+        </classes>
+    </test>
+    <test name="TCCR187">
+        <classes>
+            <class name="TestCases.Operations.Quotation.Profile.Casual.TCCR187"/>
+        </classes>
+    </test>
+
+</suite>

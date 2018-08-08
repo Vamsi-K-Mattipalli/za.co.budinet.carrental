@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MULTIPLE UTILITIES - LIST OF SOLD">
+    <test name="TCFMU015_Verify that User System will close the appropriate Damage ">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.ListOfSold.TCFMU015"/>
+        </classes>
+    </test>
+    <test name="TCFMU016_Verify that Historical damage can be viewed on the Vehicle Profile : Damage : History tab">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.ListOfSold.TCFMU016"/>
+        </classes>
+    </test>
+    <test name="TCFMU017_Verify that Historical damage can be viewed on the Vehicle Profile : Damage : History tab 2">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.ListOfSold.TCFMU017"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

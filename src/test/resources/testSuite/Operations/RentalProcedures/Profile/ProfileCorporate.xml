@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RESERVATIONS INDIVIDUAL">
+    <test name="TCTACORP001 Verify the contents of the Rental Agreement screen">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP001"/>
+        </classes>
+    </test>
+    <test name="TCTACORP002 Make a Reservation for Individual Renter by not changing any of the default quotation fields- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP002"/>
+        </classes>
+    </test>
+    <test name="TCTACORP003 Make a Reservation for Individual Renter by not changing any of the default quotation fields- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP003"/>
+        </classes>
+    </test>
+    <test name="TCTACORP004 Make a Reservation for Individual Renter by changing Title New -Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP004"/>
+        </classes>
+    </test>
+    <test name="TCTACORP005 Make a Reservation for Individual Renter by changing Initials -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP005"/>
+        </classes>
+    </test>
+    <test name="TCTACORP006 Make a Reservation for Individual Renter by changing Surname -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP006"/>
+        </classes>
+    </test>
+    <test name="TCTACORP007 Make a Reservation for Individual Renter by changing First Names -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP007"/>
+        </classes>
+    </test>
+    <test name="TCTACORP008 Make a Reservation for Individual Renter by changing Pickup Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP008"/>
+        </classes>
+    </test>
+    <test name="TCTACORP009 Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP009"/>
+        </classes>
+    </test>
+    <test name="TCTACORP010 Make a Reservation for Individual Renter by changing Pickup Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP010"/>
+        </classes>
+    </test>
+    <test name="TCTACORP011 Make a Reservation for Individual Renter by changing Due Back Branch -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP011"/>
+        </classes>
+    </test>
+    <test name="TCTACORP012 Make a Reservation for Individual Renter by changing Due Back Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP012"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP013 Make a Reservation for Individual Renter by changing Due Back Time -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP013"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP014 Make a Reservation for Individual Renter by changing Vehicle Group -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP014"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP015 Make a Reservation for Individual Renter by changing Pickup Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP015"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP016 Make a Reservation for Individual Renter by changing Pickup Date by manually capturing Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP016"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP017 Make a Reservation for Individual Renter by changing Pickup Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP017"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP018 Make a Reservation for Individual Renter by changing Due Back Branch -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP018"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP019 Make a Reservation for Individual Renter by changing Due Back Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP019"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP020 Make a Reservation for Individual Renter by changing Due Back Time -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP020"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP021 Make a Reservation for Individual Renter by changing Vehicle Group -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP021"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP022 Make a Reservation for Individual Renter by changing Pickup Date-  Using Date Picker to select Date -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP022"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP023 Make a Reservation for Individual Renter by changing Pickup Date -  Using Date Picker to select Date -Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP023"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP024 Make a Reservation for an Existing Individual Renter that is flagged as Blacklisted by not changing any of the default quotation fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP024"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP025 Make a Reservation for an Existing Individual Renter by Checking if the Vehicle is Fully booked">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP025"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP026 Make a Reservation for an Existing Individual Renter by  Overriding Fully Booked">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP026"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP027 Make a Reservation for an Existing Individual Renter by  Overriding Branch Time">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP027"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP028 View One way Fee on a Reservation screen">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP028"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP029 Make a Reservation for Individual Renter without Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP029"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP030 Make a Reservation for Individual Renter without Tel No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP030"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP031 Select Cell No on ID Type and  do not capture  Cell Number on Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP031"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP032 Make a Reservation for Individual Renter without Identifying No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP032"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP033 Verify the contents of the Core">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP033"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP034 Verify the Buttons of the Core  ">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP034"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP035 Verify the functionality of Key Fields Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP035"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP036 Verify the functionality of Agents Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP036"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP037 Verify the functionality of View Damages Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP037"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP038 Verify the functionality of New RA Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP038"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP039 Verify the functionality of Print RA Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP039"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP040 Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP040"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP041 Verify the functionality of Cancel Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP041"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP042 Verify the functionality of Allocate Etolls Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP042"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP043 Verify the functionality of SMS Notification Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP043"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP044 Verify the functionality of Breakdown Button">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP044"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP045 Make a Reservation for Individual Renter by capturing incorrect ID number- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP045"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP046 Make a Reservation for Individual Renter by capturing ID number that has 14 digits- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP046"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP047 Make a Reservation for Individual Renter by capturing ID number that has less than 13 digits -New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP047"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP048 Make a Reservation for Individual Renter by capturing incorrect ID number- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP048"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP049 Make a Reservation for Individual Renter by capturing  ID number that has 14 characters- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP049"/>
+        </classes>
+
+    </test>
+    <test name="TCTACORP050 Make a Reservation for Individual Renter by capturing  ID number that has less than 13 digits- Existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP050"/>
+        </classes>
+    </test>
+    <test name="TCTACORP051 Make a Reservation for Individual Renter by capturing valid  ID number and selecting Retrieve Renter Defaults">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP051"/>
+        </classes>
+    </test>
+    <test name="TCTACORP052 Make a Reservation for Individual Renter by selecting Passport as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP052"/>
+        </classes>
+    </test>
+    <test name="TCTACORP053 Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP053"/>
+        </classes>
+    </test>
+    <test name="TCTACORP054 Make a Reservation for Individual Renter by selecting Passport as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP054"/>
+        </classes>
+    </test>
+    <test name="TCTACORP055 Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP055"/>
+        </classes>
+    </test>
+    <test name="TCTACORP056 Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP056"/>
+        </classes>
+    </test>
+    <test name="TCTACORP057 Make a Reservation for Individual Renter by selecting Botswana ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP057"/>
+        </classes>
+    </test>
+    <test name="TCTACORP058 Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP058"/>
+        </classes>
+    </test>
+    <test name="TCTACORP059 Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults for existing Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP059"/>
+        </classes>
+    </test>
+    <test name="TCTACORP060 Make a Reservation for Individual Renter by selecting Namibian ID as Identification Type- Retrieve Renter Defaults- Renter not Existing">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP060"/>
+        </classes>
+    </test>
+    <test name="TCTACORP061 Perform a Identifying Surname Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP061"/>
+        </classes>
+    </test>
+    <test name="TCTACORP062 Perform Pickup Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP062"/>
+        </classes>
+    </test>
+    <test name="TCTACORP063 Perform Due Back Branch Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP063"/>
+        </classes>
+    </test>
+    <test name="TCTACORP064 Perform Due Back Branch Lookup without selecting Due Back or Pickup Branch">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP064"/>
+        </classes>
+    </test>
+    <test name="TCTACORP065 Perform IATA No. Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP065"/>
+        </classes>
+    </test>
+    <test name="TCTACORP066 Perform Customer Account Name Lookup without capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP066"/>
+        </classes>
+    </test>
+    <test name="TCTACORP067 Perform Customer Account Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP067"/>
+        </classes>
+    </test>
+    <test name="TCTACORP068 Perform Referral Account Number Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP068"/>
+        </classes>
+    </test>
+    <test name="TCTACORP069 Perform Referral Account Number Lookup by capturing invalid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP069"/>
+        </classes>
+    </test>
+    <test name="TCTACORP070 Perform Referral Account Number Lookup by capturing Valid Referral Account Number">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP070"/>
+        </classes>
+    </test>
+    <test name="TCTACORP071 Perform Referral Name Lookup">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP071"/>
+        </classes>
+    </test>
+    <test name="TCTACORP072 Perform Referral Name Lookup by capturing invalid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP072"/>
+        </classes>
+    </test>
+    <test name="TCTACORP073 Perform Referral Name Lookup by capturing Valid Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP073"/>
+        </classes>
+    </test>
+    <test name="TCTACORP074 Perform Referral Name Lookup by capturing Valid Referral Account Number and Referral Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP074"/>
+        </classes>
+    </test>
+    <test name="TCTACORP075 Perform Referral Name Lookup by not capturing Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP075"/>
+        </classes>
+    </test>
+    <test name="TCTACORP076 Perform Referral Name Lookup by capturing invalid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP076"/>
+        </classes>
+    </test>
+    <test name="TCTACORP077 Perform Referral Name Lookup by capturing valid  Referral IATA No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP077"/>
+        </classes>
+    </test>
+    <test name="TCTACORP078 Reset Customer Details">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP078"/>
+        </classes>
+    </test>
+    <test name="TCTACORP079 Retrieve Customer Defaults without capturing any Customer Details fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP079"/>
+        </classes>
+    </test>
+    <test name="TCTACORP080 Retrieve Customer Defaults by capturing Customer Account No">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP080"/>
+        </classes>
+    </test>
+    <test name="TCTACORP081 Retrieve Customer Defaults by capturing Customer Name">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP081"/>
+        </classes>
+    </test>
+    <test name="TCTACORP082 Perform Reserved Rate Lookup without capturing rate fields">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP082"/>
+        </classes>
+    </test>
+    <test name="TCTACORP083 Perform Reserved Rate Lookup by capturing Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP083"/>
+        </classes>
+    </test>
+    <test name="TCTACORP084 Perform Reserved Rate Lookup by capturing invalid Reserved Rate">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.Corporate.TCTACORP084"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

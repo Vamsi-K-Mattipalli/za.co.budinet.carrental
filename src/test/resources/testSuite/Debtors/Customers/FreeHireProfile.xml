@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CUSTOMER FREE HIRE PROFILE">
+    <test name="TCFH001">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH001"/>
+        </classes>
+    </test>
+    <test name="TCFH002">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH002"/>
+        </classes>
+    </test>
+    <test name="TCFH003">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH003"/>
+        </classes>
+    </test>
+    <test name="TCFH004">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH004"/>
+        </classes>
+    </test>
+    <test name="TCFH005">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH005"/>
+        </classes>
+    </test>
+    <test name="TCFH006">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH006"/>
+        </classes>
+    </test>
+    <test name="TCFH007">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH007"/>
+        </classes>
+    </test>
+    <test name="TCFH008">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH008"/>
+        </classes>
+    </test>
+    <test name="TCFH009">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH009"/>
+        </classes>
+    </test>
+    <test name="TCFH010">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH010"/>
+        </classes>
+    </test>
+    <test name="TCFH011">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH011"/>
+        </classes>
+    </test>
+    <test name="TCFH12">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH012"/>
+        </classes>
+    </test>
+    <test name="TCFH013">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH013"/>
+        </classes>
+    </test>
+    <test name="TCFH014">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH014"/>
+        </classes>
+    </test>
+    <test name="TCFH015">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH015"/>
+        </classes>
+    </test>
+    <test name="TCFH016">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH016"/>
+        </classes>
+    </test>
+    <test name="TCFH017">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH017"/>
+        </classes>
+    </test>
+    <test name="TCFH018">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH018"/>
+        </classes>
+    </test>
+    <test name="TCFH019">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH019"/>
+        </classes>
+    </test>
+    <test name="TCFH020">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH020"/>
+        </classes>
+    </test>
+    <test name="TCFH021">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH021"/>
+        </classes>
+    </test>
+    <test name="TCFH022">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH022"/>
+        </classes>
+    </test>
+    <test name="TCFH023">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH023"/>
+        </classes>
+    </test>
+    <test name="TCFH024">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH024"/>
+        </classes>
+    </test>
+    <test name="TCFH025">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH025"/>
+        </classes>
+    </test>
+    <test name="TCFH026">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH026"/>
+        </classes>
+    </test>
+    <test name="TCFH027">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH027"/>
+        </classes>
+    </test>
+    <test name="TCFH028">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH028"/>
+        </classes>
+    </test>
+    <test name="TCFH029">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH029"/>
+        </classes>
+    </test>
+    <test name="TCFH030">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH030"/>
+        </classes>
+    </test>
+    <test name="TCFH031">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH031"/>
+        </classes>
+    </test>
+    <test name="TCFH032">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH032"/>
+        </classes>
+    </test>
+    <test name="TCFH033">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH033"/>
+        </classes>
+    </test>
+    <test name="TCFH034">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH034"/>
+        </classes>
+    </test>
+    <test name="TCFH035">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH035"/>
+        </classes>
+    </test>
+    <test name="TCFH036">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH036"/>
+        </classes>
+    </test>
+    <test name="TCFH037">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH037"/>
+        </classes>
+    </test>
+    <test name="TCFH038">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH038"/>
+        </classes>
+    </test>
+    <test name="TCFH039">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH039"/>
+        </classes>
+    </test>
+    <test name="TCFH040">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH040"/>
+        </classes>
+    </test>
+    <test name="TCFH041">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH041"/>
+        </classes>
+    </test>
+    <test name="TCFH042">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH042"/>
+        </classes>
+    </test>
+    <test name="TCFH043">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH043"/>
+        </classes>
+    </test>
+    <test name="TCFH044">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH044"/>
+        </classes>
+    </test>
+    <test name="TCFH045">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH045"/>
+        </classes>
+    </test>
+    <test name="TCFH046">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH046"/>
+        </classes>
+    </test>
+    <test name="TCFH047">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH047"/>
+        </classes>
+    </test>
+    <test name="TCFH048">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH048"/>
+        </classes>
+    </test>
+    <test name="TCFH049">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH049"/>
+        </classes>
+    </test>
+    <test name="TCFH050">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH050"/>
+        </classes>
+    </test>
+    <test name="TCFH051">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH051"/>
+        </classes>
+    </test>
+    <test name="TCFH052">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH052"/>
+        </classes>
+    </test>
+    <test name="TCFH053">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH053"/>
+        </classes>
+    </test>
+    <test name="TCFH054">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH054"/>
+        </classes>
+    </test>
+    <test name="TCFH055">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH055"/>
+        </classes>
+    </test>
+    <test name="TCFH056">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH056"/>
+        </classes>
+    </test>
+    <test name="TCFH057">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH057"/>
+        </classes>
+    </test>
+    <test name="TCFH058">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH058"/>
+        </classes>
+    </test>
+    <test name="TCFH059">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH059"/>
+        </classes>
+    </test>
+    <test name="TCFH060">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH060"/>
+        </classes>
+    </test>
+    <test name="TCFH061">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH061"/>
+        </classes>
+    </test>
+    <test name="TCFH062">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH062"/>
+        </classes>
+    </test>
+    <test name="TCFH063">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH063"/>
+        </classes>
+    </test>
+    <test name="TCFH064">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH064"/>
+        </classes>
+    </test>
+    <test name="TCFH065">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH065"/>
+        </classes>
+    </test>
+    <test name="TCFH066">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH066"/>
+        </classes>
+    </test>
+    <test name="TCFH067">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH067"/>
+        </classes>
+    </test>
+    <test name="TCFH068">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH068"/>
+        </classes>
+    </test>
+    <test name="TCFH069">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH069"/>
+        </classes>
+    </test>
+    <test name="TCFH070">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH070"/>
+        </classes>
+    </test>
+    <test name="TCFH071">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH071"/>
+        </classes>
+    </test>
+    <test name="TCFH072">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH072"/>
+        </classes>
+    </test>
+    <test name="TCFH073">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH073"/>
+        </classes>
+    </test>
+    <test name="TCFH074">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH074"/>
+        </classes>
+    </test>
+    <test name="TCFH075">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH075"/>
+        </classes>
+    </test>
+    <test name="TCFH076">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH076"/>
+        </classes>
+    </test>
+    <test name="TCFH077">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH077"/>
+        </classes>
+    </test>
+    <test name="TCFH078">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH078"/>
+        </classes>
+    </test>
+    <test name="TCFH079">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH079"/>
+        </classes>
+    </test>
+    <test name="TCFH080">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH080"/>
+        </classes>
+    </test>
+    <test name="TCFH081">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH081"/>
+        </classes>
+    </test>
+    <test name="TCFH082">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH082"/>
+        </classes>
+    </test>
+    <test name="TCFH083">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH083"/>
+        </classes>
+    </test>
+    <test name="TCFH084">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH084"/>
+        </classes>
+    </test>
+    <test name="TCFH085">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH085"/>
+        </classes>
+    </test>
+    <test name="TCFH086">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH086"/>
+        </classes>
+    </test>
+    <test name="TCFH087">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH087"/>
+        </classes>
+    </test>
+    <test name="TCFH088">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH088"/>
+        </classes>
+    </test>
+    <test name="TCFH089">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH089"/>
+        </classes>
+    </test>
+    <test name="TCFH090">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH090"/>
+        </classes>
+    </test>
+    <test name="TCFH091">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH091"/>
+        </classes>
+    </test>
+    <test name="TCFH092">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH092"/>
+        </classes>
+    </test>
+    <test name="TCFH093">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH093"/>
+        </classes>
+    </test>
+    <test name="TCFH094">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH094"/>
+        </classes>
+    </test>
+    <test name="TCFH095">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH095"/>
+        </classes>
+    </test>
+    <test name="TCFH096">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH096"/>
+        </classes>
+    </test>
+    <test name="TCFH097">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH097"/>
+        </classes>
+    </test>
+    <test name="TCFH098">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH098"/>
+        </classes>
+    </test>
+    <test name="TCFH099">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH099"/>
+        </classes>
+    </test>
+    <test name="TCFH100">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH100"/>
+        </classes>
+    </test>
+    <test name="TCFH101">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.FreeHire.TCFH101"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UAT TESTING">
+    <test name="TCDENQ05 To verify that Claims Enquiry for Claim Number is complete successfully ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Enquiry.TCDENQ05"/>
+        </classes>
+    </test>
+    <test name="TCFV025_To verify that user is able to View Loaded vehicle">
+        <classes>
+            <class name="TestCases.Fleet.Vehicle.Profile.TCFV025"/>
+        </classes>
+    </test>
+    <test name="TC002_Make a Reservation for Individual Renter by not changing any of the default quotation fields- New Renter">
+        <classes>
+            <class name="TestCases.Operations.Rental.Profile.WalkUp.TCWU02"/>
+        </classes>
+    </test>
+    <test name="TCSV03 Enquiring voucher by using (Voucher Type )">
+        <classes>
+            <class name="TestCases.SalesMarketing.Voucher.TCSV03"/>
+        </classes>
+    </test>
+    <test name="PRNT003 Verity if the user can change the branch">
+        <classes>
+            <class name="TestCases.Utilities.Printing.Printer.PRNT003"/>
+        </classes>
+    </test>
+    <test name="REPSCH006 Verity if the user can change the branch">
+        <classes>
+            <class name="TestCases.Utilities.Printing.ReportScheduler.REPSCH006"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

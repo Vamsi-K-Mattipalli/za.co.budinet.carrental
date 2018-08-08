@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DOOR TO DOOR" parallel="methods">
+    <test name="TCD2D001">
+        <classes>
+            <class name="TestCases.Operations.Rental.Door2Door.TCD2D001"/>
+        </classes>
+    </test>
+    <test name="TCD2D002">
+        <classes>
+            <class name="TestCases.Operations.Rental.Door2Door.TCD2D002"/>
+        </classes>
+    </test>
+    <test name="TCD2D003">
+        <classes>
+            <class name="TestCases.Operations.Rental.Door2Door.TCD2D003"/>
+        </classes>
+    </test>
+    <test name="TCD2D004">
+        <classes>
+            <class name="TestCases.Operations.Rental.Door2Door.TCD2D004"/>
+        </classes>
+    </test>
+    <test name="TCD2D005">
+        <classes>
+            <class name="TestCases.Operations.Rental.Door2Door.TCD2D005"/>
+        </classes>
+    </test>
+    <test name="TCD2D006">
+        <classes>
+            <class name="TestCases.Operations.Rental.Door2Door.TCD2D006"/>
+        </classes>
+    </test>
+    <test name="TCD2D007">
+        <classes>
+            <class name="TestCases.Operations.Rental.Door2Door.TCD2D007"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES PRINTING PRINTER">
+    <test name="PRNT001">
+        <classes>
+            <class name="TestCases.Utilities.Printing.Printer.PRNT001"/>
+        </classes>
+    </test>
+    <test name="PRNT002">
+        <classes>
+            <class name="TestCases.Utilities.Printing.Printer.PRNT002"/>
+        </classes>
+    </test>
+    <test name="PRNT003">
+        <classes>
+            <class name="TestCases.Utilities.Printing.Printer.PRNT003"/>
+        </classes>
+    </test>
+    <test name="PRNT004">
+        <classes>
+            <class name="TestCases.Utilities.Printing.Printer.PRNT004"/>
+        </classes>
+    </test>
+    <test name="PRNT005">
+        <classes>
+            <class name="TestCases.Utilities.Printing.Printer.PRNT005"/>
+        </classes>
+    </test>
+    <test name="PRNT006">
+        <classes>
+            <class name="TestCases.Utilities.Printing.Printer.PRNT006"/>
+        </classes>
+    </test>
+    <test name="PRNT007">
+        <classes>
+            <class name="TestCases.Utilities.Printing.Printer.PRNT007"/>
+        </classes>
+    </test>
+    <test name="PRNT008">
+        <classes>
+            <class name="TestCases.Utilities.Printing.Printer.PRNT008"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

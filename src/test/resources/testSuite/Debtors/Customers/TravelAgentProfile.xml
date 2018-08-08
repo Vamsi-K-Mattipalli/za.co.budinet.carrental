@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CUSTOMER TRAVEL AGENT PROFILE">
+    <test name="TCTA001">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA001"/>
+        </classes>
+    </test>
+    <test name="TCTA002  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA002"/>
+        </classes>
+    </test>
+    <test name="TCTA003  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA003"/>
+        </classes>
+    </test>
+    <test name="TCTA004  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA004"/>
+        </classes>
+    </test>
+    <test name="TCTA005  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA005"/>
+        </classes>
+    </test>
+    <test name="TCTA006  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA006"/>
+        </classes>
+    </test>
+    <test name="TCTA007  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA007"/>
+        </classes>
+    </test>
+    <test name="TCTA008  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA008"/>
+        </classes>
+    </test>
+    <test name="TCTA009  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA009"/>
+        </classes>
+    </test>
+    <test name="TCTA010  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA010"/>
+        </classes>
+    </test>
+    <test name="TCTA011  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA011"/>
+        </classes>
+    </test>
+    <test name="TCTA012  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA012"/>
+        </classes>
+    </test>
+    <test name="TCTA013  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA013"/>
+        </classes>
+    </test>
+    <test name="TCTA014  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA014"/>
+        </classes>
+    </test>
+    <test name="TCTA015  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA015"/>
+        </classes>
+    </test>
+    <test name="TCTA016  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA016"/>
+        </classes>
+    </test>
+    <test name="TCTA017  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA017"/>
+        </classes>
+    </test>
+    <test name="TCTA018  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA018"/>
+        </classes>
+    </test>
+    <test name="TCTA019  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA019"/>
+        </classes>
+    </test>
+    <test name="TCTA020  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA020"/>
+        </classes>
+    </test>
+    <test name="TCTA021  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA021"/>
+        </classes>
+    </test>
+    <test name="TCTA22  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA022"/>
+        </classes>
+    </test>
+    <test name="TCTA023  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA023"/>
+        </classes>
+    </test>
+    <test name="TCTA024  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA024"/>
+        </classes>
+    </test>
+    <test name="TCTA025  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA025"/>
+        </classes>
+    </test>
+    <test name="TCTA026  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA026"/>
+        </classes>
+    </test>
+    <test name="TCTA027  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA027"/>
+        </classes>
+    </test>
+    <test name="TCTA028  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA028"/>
+        </classes>
+    </test>
+    <test name="TCTA029  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA029"/>
+        </classes>
+    </test>
+    <test name="TCTA030  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA030"/>
+        </classes>
+    </test>
+    <test name="TCTA031  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA031"/>
+        </classes>
+    </test>
+    <test name="TCTA032  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA032"/>
+        </classes>
+    </test>
+    <test name="TCTA033  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA033"/>
+        </classes>
+    </test>
+    <test name="TCTA034  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA034"/>
+        </classes>
+    </test>
+    <test name="TCTA035  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA035"/>
+        </classes>
+    </test>
+    <test name="TCTA036  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA036"/>
+        </classes>
+    </test>
+    <test name="TCTA037  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA037"/>
+        </classes>
+    </test>
+    <test name="TCTA038  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA038"/>
+        </classes>
+    </test>
+    <test name="TCTA039  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA039"/>
+        </classes>
+    </test>
+    <test name="TCTA040  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA040"/>
+        </classes>
+    </test>
+    <test name="TCTA041  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA041"/>
+        </classes>
+    </test>
+    <test name="TCTA042  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA042"/>
+        </classes>
+    </test>
+    <test name="TCTA43  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA043"/>
+        </classes>
+    </test>
+    <test name="TCTA044  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA044"/>
+        </classes>
+    </test>
+    <test name="TCTA045  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA045"/>
+        </classes>
+    </test>
+    <test name="TCTA046  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA046"/>
+        </classes>
+    </test>
+    <test name="TCTA047  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA047"/>
+        </classes>
+    </test>
+    <test name="TCTA048  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA048"/>
+        </classes>
+    </test>
+    <test name="TCTA049  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA049"/>
+        </classes>
+    </test>
+    <test name="TCTA050  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA050"/>
+        </classes>
+    </test>
+    <test name="TCTA051  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA051"/>
+        </classes>
+    </test>
+    <test name="TCTA052  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA052"/>
+        </classes>
+    </test>
+    <test name="TCTA053  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA053"/>
+        </classes>
+    </test>
+    <test name="TCTA054  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA054"/>
+        </classes>
+    </test>
+    <test name="TCTA055  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA055"/>
+        </classes>
+    </test>
+    <test name="TCTA056  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA056"/>
+        </classes>
+    </test>
+    <test name="TCTA057  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA057"/>
+        </classes>
+    </test>
+    <test name="TCTA058  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA058"/>
+        </classes>
+    </test>
+    <test name="TCTA059  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA059"/>
+        </classes>
+    </test>
+    <test name="TCTA060  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA060"/>
+        </classes>
+    </test>
+    <test name="TCTA061  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA061"/>
+        </classes>
+    </test>
+    <test name="TCTA062  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA062"/>
+        </classes>
+    </test>
+    <test name="TCTA063  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA063"/>
+        </classes>
+    </test>
+    <test name="TCTA064  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA064"/>
+        </classes>
+    </test>
+    <test name="TCTA065  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA065"/>
+        </classes>
+    </test>
+    <test name="TCTA066  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA066"/>
+        </classes>
+    </test>
+    <test name="TCTA067  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA067"/>
+        </classes>
+    </test>
+    <test name="TCTA068  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA068"/>
+        </classes>
+    </test>
+    <test name="TCTA069  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA069"/>
+        </classes>
+    </test>
+    <test name="TCTA070  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA070"/>
+        </classes>
+    </test>
+    <test name="TCTA071  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA071"/>
+        </classes>
+    </test>
+    <test name="TCTA072  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA072"/>
+        </classes>
+    </test>
+    <test name="TCTA073  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA073"/>
+        </classes>
+    </test>
+    <test name="TCTA074  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA074"/>
+        </classes>
+    </test>
+    <test name="TCTA075  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA075"/>
+        </classes>
+    </test>
+    <test name="TCTA076  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA076"/>
+        </classes>
+    </test>
+    <test name="TCTA077  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA077"/>
+        </classes>
+    </test>
+    <test name="TCTA078  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA078"/>
+        </classes>
+    </test>
+    <test name="TCTA079  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA079"/>
+        </classes>
+    </test>
+    <test name="TCTA080  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA080"/>
+        </classes>
+    </test>
+    <test name="TCTA081  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA081"/>
+        </classes>
+    </test>
+    <test name="TCTA082  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA082"/>
+        </classes>
+    </test>
+    <test name="TCTA083  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA083"/>
+        </classes>
+    </test>
+    <test name="TCTA084  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA084"/>
+        </classes>
+    </test>
+    <test name="TCTA085  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA085"/>
+        </classes>
+    </test>
+    <test name="TCTA086  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA086"/>
+        </classes>
+    </test>
+    <test name="TCTA087  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA087"/>
+        </classes>
+    </test>
+    <test name="TCTA088  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA088"/>
+        </classes>
+    </test>
+    <test name="TCTA089  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA089"/>
+        </classes>
+    </test>
+    <test name="TCTA090  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA090"/>
+        </classes>
+    </test>
+    <test name="TCTA091  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA091"/>
+        </classes>
+    </test>
+    <test name="TCTA092  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA092"/>
+        </classes>
+    </test>
+    <test name="TCTA093  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA093"/>
+        </classes>
+    </test>
+    <test name="TCTA094  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA094"/>
+        </classes>
+    </test>
+    <test name="TCTA095  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA095"/>
+        </classes>
+    </test>
+    <test name="TCTA096  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA096"/>
+        </classes>
+    </test>
+    <test name="TCTA097  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA097"/>
+        </classes>
+    </test>
+    <test name="TCTA098  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA098"/>
+        </classes>
+    </test>
+    <test name="TCTA099  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA099"/>
+        </classes>
+    </test>
+    <test name="TCTA100  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA100"/>
+        </classes>
+    </test>
+    <test name="TCTA101  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA101"/>
+        </classes>
+    </test>
+
+    <test name="TCTA102  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA102"/>
+        </classes>
+    </test>
+    <test name="TCTA103  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA103"/>
+        </classes>
+    </test>
+    <test name="TCTA104  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA104"/>
+        </classes>
+    </test>
+    <test name="TCTA105  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA105"/>
+        </classes>
+    </test>
+    <test name="TCTA106  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA106"/>
+        </classes>
+    </test>
+    <test name="TCTA107  ">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.TravelAgent.TCTA107"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

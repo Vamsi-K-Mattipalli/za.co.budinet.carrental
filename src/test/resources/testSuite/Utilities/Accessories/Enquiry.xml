@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UTILITIES ACCESSORIES ENQUIRY">
+    <test name="TCENQ01 Accessing Budinet Page">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ01"/>
+        </classes>
+    </test>
+    <test name="TCENQ02 Navigate to Accessory Enquires page">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ02"/>
+        </classes>
+    </test>
+    <test name="TCENQ03 Enquiring accessories using Owners Enquiry">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ03"/>
+        </classes>
+    </test>
+    <test name="TCENQ04 Enquiring accessories using Location Enquiry">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ04"/>
+        </classes>
+    </test>
+    <test name="TCENQ05 Enquiring accessories using Owners Enquiry without selecting Purchased by Region">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ05"/>
+        </classes>
+    </test>
+    <test name="TCENQ06 Enquiring accessories using Owners Enquiry without selecting Accessory Type">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ06"/>
+        </classes>
+    </test>
+    <test name="TCENQ07 Enquiring accessories using Owners Enquiry without selecting Accessory Status">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ07"/>
+        </classes>
+    </test>
+    <test name="TCENQ8 Enquiring accessories using Location Enquiry without selecting Located at Region">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ08"/>
+        </classes>
+    </test>
+    <test name="TCENQ09 Enquiring accessories using Location Enquiry without selecting Located at Branch">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ09"/>
+        </classes>
+    </test>
+    <test name="TCENQ10 Enquiring accessories using Location Enquiry without selecting Located at Branch and Accessory Type">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ10"/>
+        </classes>
+    </test>
+    <test name="TCENQ11 Enquiring accessories using Location Enquiry without selecting Located at Region and Accessory Type">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ11"/>
+        </classes>
+    </test>
+    <test name="TCENQ12 Enquiring accessories using Location Enquiry without selecting Located at Region and Accessory Status">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ12"/>
+        </classes>
+    </test>
+    <test name="TCENQ13 Enquiring accessories using Location Enquiry without selecting Located at Branch and Accessory Status">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ13"/>
+        </classes>
+    </test>
+    <test name="TCENQ14 Enquiring accessories using Date Enquiries capturing Date Purchased without Date Scrapped">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ14"/>
+        </classes>
+    </test>
+    <test name="TCENQ15 Enquiring accessories using Date Enquiries capturing Date Scrapped without Date Purchased">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ15"/>
+        </classes>
+    </test>
+    <test name="TCENQ16 Enquiring accessories using Date Enquiries capturing Date Scrapped without Date Purchased">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ16"/>
+        </classes>
+    </test>
+    <test name="TCENQ17 Enquiring accessories using Due Back Enquiry">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ17"/>
+        </classes>
+    </test>
+    <test name="TCENQ18 Enquiring accessories using Due Back Enquiry without capturing Due Back Branch">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ18"/>
+        </classes>
+    </test>
+    <test name="TCENQ19 Enquiring accessories using Due Back Enquiry without capturing Due Back Date">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ19"/>
+        </classes>
+    </test>
+    <test name="TCENQ20 Enquiring accessories using Due Back Enquiry without capturing Due Back Time">
+        <classes>
+            <class name="TestCases.Utilities.Accessories.Enquiry.TCENQ20"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

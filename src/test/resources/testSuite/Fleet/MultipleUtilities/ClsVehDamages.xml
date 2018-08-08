@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MULTIPLE UTILITIES - CLS VEHICLE DAMAGES">
+        <test name="TCFMU012_Verify that User can tick the Close box for Damage that has been fixed">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.ClsVehDamages.TCFMU012"/>
+        </classes>
+    </test>
+        <test name="TCFMU013_Verify that User can Call up Vehicle Reg No">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.ClsVehDamages.TCFMU013"/>
+        </classes>
+    </test>
+        <test name="TCFMU014_Verify that all outstanding damage on a Vehicle are Displayed">
+        <classes>
+            <class name="TestCases.Fleet.MultipleUtilities.ClsVehDamages.TCFMU014"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

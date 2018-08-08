@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CUSTOMER CREDIT CARD PROFILE">
+    <test name="TCCC001">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC001"/>
+        </classes>
+    </test>
+    <test name="TCCC002">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC002"/>
+        </classes>
+    </test>
+    <test name="TCCC003">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC003"/>
+        </classes>
+    </test>
+    <test name="TCCC004">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC004"/>
+        </classes>
+    </test>
+    <test name="TCCC005">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC005"/>
+        </classes>
+    </test>
+    <test name="TCCC006">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC006"/>
+        </classes>
+    </test>
+    <test name="TCCC007">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC007"/>
+        </classes>
+    </test>
+    <test name="TCCC008">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC008"/>
+        </classes>
+    </test>
+    <test name="TCCC009">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC009"/>
+        </classes>
+    </test>
+    <test name="TCCC010">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC010"/>
+        </classes>
+    </test>
+    <test name="TCCC011">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC011"/>
+        </classes>
+    </test>
+    <test name="TCCC012">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC012"/>
+        </classes>
+    </test>
+    <test name="TCCC013">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC013"/>
+        </classes>
+    </test>
+    <test name="TCCC014">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC014"/>
+        </classes>
+    </test>
+    <test name="TCCC015">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC015"/>
+        </classes>
+    </test>
+    <test name="TCCC016">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC016"/>
+        </classes>
+    </test>
+    <test name="TCCC017">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC017"/>
+        </classes>
+    </test>
+    <test name="TCCC018">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC018"/>
+        </classes>
+    </test>
+    <test name="TCCC019">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC019"/>
+        </classes>
+    </test>
+    <test name="TCCC020">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC020"/>
+        </classes>
+    </test>
+    <test name="TCCC021">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC021"/>
+        </classes>
+    </test>
+    <test name="TCCC022">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC022"/>
+        </classes>
+    </test>
+    <test name="TCCC023">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC023"/>
+        </classes>
+    </test>
+    <test name="TCCC024">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC024"/>
+        </classes>
+    </test>
+    <test name="TCCC025">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC025"/>
+        </classes>
+    </test>
+    <test name="TCCC026">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC026"/>
+        </classes>
+    </test>
+    <test name="TCCC027">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC027"/>
+        </classes>
+    </test>
+    <test name="TCCC028">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC028"/>
+        </classes>
+    </test>
+    <test name="TCCC029">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC029"/>
+        </classes>
+    </test>
+    <test name="TCCC030">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC030"/>
+        </classes>
+    </test>
+    <test name="TCCC031">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC031"/>
+        </classes>
+    </test>
+    <test name="TCCC032">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC032"/>
+        </classes>
+    </test>
+    <test name="TCCC033">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC033"/>
+        </classes>
+    </test>
+    <test name="TCCC034">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC034"/>
+        </classes>
+    </test>
+    <test name="TCCC035">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC035"/>
+        </classes>
+    </test>
+    <test name="TCCC036">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC036"/>
+        </classes>
+    </test>
+    <test name="TCCC037">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC037"/>
+        </classes>
+    </test>
+    <test name="TCCC038">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC038"/>
+        </classes>
+    </test>
+    <test name="TCCC039">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC039"/>
+        </classes>
+    </test>
+    <test name="TCCC040">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC040"/>
+        </classes>
+    </test>
+    <test name="TCCC041">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC041"/>
+        </classes>
+    </test>
+    <test name="TCCC42">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC042"/>
+        </classes>
+    </test>
+    <test name="TCCC043">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC043"/>
+        </classes>
+    </test>
+    <test name="TCCC044">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC044"/>
+        </classes>
+    </test>
+    <test name="TCCC045">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC045"/>
+        </classes>
+    </test>
+    <test name="TCCC046">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC046"/>
+        </classes>
+    </test>
+    <test name="TCCC047">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC047"/>
+        </classes>
+    </test>
+    <test name="TCCC048">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC048"/>
+        </classes>
+    </test>
+    <test name="TCCC049">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC049"/>
+        </classes>
+    </test>
+    <test name="TCCC050">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC050"/>
+        </classes>
+    </test>
+    <test name="TCCC051">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC051"/>
+        </classes>
+    </test>
+    <test name="TCCC052">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC052"/>
+        </classes>
+    </test>
+    <test name="TCCC053">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC053"/>
+        </classes>
+    </test>
+    <test name="TCCC054">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC054"/>
+        </classes>
+    </test>
+    <test name="TCCC055">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC055"/>
+        </classes>
+    </test>
+    <test name="TCCC056">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC056"/>
+        </classes>
+    </test>
+    <test name="TCCC057">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC057"/>
+        </classes>
+    </test>
+    <test name="TCCC058">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC058"/>
+        </classes>
+    </test>
+    <test name="TCCC059">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC059"/>
+        </classes>
+    </test>
+    <test name="TCCC060">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC060"/>
+        </classes>
+    </test>
+    <test name="TCCC061">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC061"/>
+        </classes>
+    </test>
+    <test name="TCCC062">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC062"/>
+        </classes>
+    </test>
+    <test name="TCCC063">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC063"/>
+        </classes>
+    </test>
+    <test name="TCCC064">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC064"/>
+        </classes>
+    </test>
+    <test name="TCCC065">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC065"/>
+        </classes>
+    </test>
+    <test name="TCCC066">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC066"/>
+        </classes>
+    </test>
+    <test name="TCCC067">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC067"/>
+        </classes>
+    </test>
+    <test name="TCCC068">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC068"/>
+        </classes>
+    </test>
+    <test name="TCCC069">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC069"/>
+        </classes>
+    </test>
+    <test name="TCCC070">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC070"/>
+        </classes>
+    </test>
+    <test name="TCCC071">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC071"/>
+        </classes>
+    </test>
+    <test name="TCCC072">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC072"/>
+        </classes>
+    </test>
+    <test name="TCCC073">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC073"/>
+        </classes>
+    </test>
+    <test name="TCCC074">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC074"/>
+        </classes>
+    </test>
+    <test name="TCCC075">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC075"/>
+        </classes>
+    </test>
+    <test name="TCCC076">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC076"/>
+        </classes>
+    </test>
+    <test name="TCCC077">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC077"/>
+        </classes>
+    </test>
+    <test name="TCCC078">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC078"/>
+        </classes>
+    </test>
+    <test name="TCCC079">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC079"/>
+        </classes>
+    </test>
+    <test name="TCCC080">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC080"/>
+        </classes>
+    </test>
+    <test name="TCCC081">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC081"/>
+        </classes>
+    </test>
+    <test name="TCCC082">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC082"/>
+        </classes>
+    </test>
+    <test name="TCCC083">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC083"/>
+        </classes>
+    </test>
+    <test name="TCCC084">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC084"/>
+        </classes>
+    </test>
+    <test name="TCCC085">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC085"/>
+        </classes>
+    </test>
+    <test name="TCCC086">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC086"/>
+        </classes>
+    </test>
+    <test name="TCCC087">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC087"/>
+        </classes>
+    </test>
+    <test name="TCCC088">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC088"/>
+        </classes>
+    </test>
+    <test name="TCCC089">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC089"/>
+        </classes>
+    </test>
+    <test name="TCCC090">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC090"/>
+        </classes>
+    </test>
+    <test name="TCCC091">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC091"/>
+        </classes>
+    </test>
+    <test name="TCCC092">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC092"/>
+        </classes>
+    </test>
+    <test name="TCCC093">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC093"/>
+        </classes>
+    </test>
+    <test name="TCCC094">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC094"/>
+        </classes>
+    </test>
+    <test name="TCCC095">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC095"/>
+        </classes>
+    </test>
+    <test name="TCCC096">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC096"/>
+        </classes>
+    </test>
+    <test name="TCCC097">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC097"/>
+        </classes>
+    </test>
+    <test name="TCCC098">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC098"/>
+        </classes>
+    </test>
+    <test name="TCCC099">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC099"/>
+        </classes>
+    </test>
+    <test name="TCCC100">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC100"/>
+        </classes>
+    </test>
+    <test name="TCCC101">
+        <classes>
+            <class name="TestCases.Debtors.Customer.Profile.CreditCard.TCCC101"/>
+        </classes>
+    </test>
+</suite>
